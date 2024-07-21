@@ -4,6 +4,7 @@
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Adityaingale333/DSA/tree/master/0001-two-sum) |
 | [0189-rotate-array](https://github.com/Adityaingale333/DSA/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/Adityaingale333/DSA/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Adityaingale333/DSA/tree/master/0283-move-zeroes) |
@@ -23,6 +24,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Adityaingale333/DSA/tree/master/0001-two-sum) |
 | [0268-missing-number](https://github.com/Adityaingale333/DSA/tree/master/0268-missing-number) |
 ## Binary Search
 |  |
