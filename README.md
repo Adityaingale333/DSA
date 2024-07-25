@@ -7,6 +7,7 @@
 | [0001-two-sum](https://github.com/Adityaingale333/DSA/tree/master/0001-two-sum) |
 | [0053-maximum-subarray](https://github.com/Adityaingale333/DSA/tree/master/0053-maximum-subarray) |
 | [0189-rotate-array](https://github.com/Adityaingale333/DSA/tree/master/0189-rotate-array) |
+| [0229-majority-element-ii](https://github.com/Adityaingale333/DSA/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/Adityaingale333/DSA/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Adityaingale333/DSA/tree/master/0283-move-zeroes) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/Adityaingale333/DSA/tree/master/0442-find-all-duplicates-in-an-array) |
@@ -30,6 +31,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Adityaingale333/DSA/tree/master/0001-two-sum) |
+| [0229-majority-element-ii](https://github.com/Adityaingale333/DSA/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/Adityaingale333/DSA/tree/master/0268-missing-number) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/Adityaingale333/DSA/tree/master/0442-find-all-duplicates-in-an-array) |
 ## Binary Search
@@ -43,6 +45,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0229-majority-element-ii](https://github.com/Adityaingale333/DSA/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/Adityaingale333/DSA/tree/master/0268-missing-number) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Adityaingale333/DSA/tree/master/1333-sort-the-jumbled-numbers) |
 ## Matrix
@@ -66,4 +69,8 @@
 |  |
 | ------- |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Adityaingale333/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
+## Counting
+|  |
+| ------- |
+| [0229-majority-element-ii](https://github.com/Adityaingale333/DSA/tree/master/0229-majority-element-ii) |
 <!---LeetCode Topics End-->
