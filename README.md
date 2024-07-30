@@ -27,6 +27,7 @@
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/Adityaingale333/DSA/tree/master/0125-valid-palindrome) |
+| [0151-reverse-words-in-a-string](https://github.com/Adityaingale333/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/Adityaingale333/DSA/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Adityaingale333/DSA/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/Adityaingale333/DSA/tree/master/0344-reverse-string) |
@@ -83,5 +84,6 @@
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/Adityaingale333/DSA/tree/master/0125-valid-palindrome) |
+| [0151-reverse-words-in-a-string](https://github.com/Adityaingale333/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0344-reverse-string](https://github.com/Adityaingale333/DSA/tree/master/0344-reverse-string) |
 <!---LeetCode Topics End-->
