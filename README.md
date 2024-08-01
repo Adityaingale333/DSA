@@ -90,6 +90,7 @@
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/Adityaingale333/DSA/tree/master/0014-longest-common-prefix) |
 | [0125-valid-palindrome](https://github.com/Adityaingale333/DSA/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/Adityaingale333/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0344-reverse-string](https://github.com/Adityaingale333/DSA/tree/master/0344-reverse-string) |
@@ -101,4 +102,8 @@
 |  |
 | ------- |
 | [1078-remove-outermost-parentheses](https://github.com/Adityaingale333/DSA/tree/master/1078-remove-outermost-parentheses) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/Adityaingale333/DSA/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
