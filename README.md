@@ -53,6 +53,7 @@
 | [0268-missing-number](https://github.com/Adityaingale333/DSA/tree/master/0268-missing-number) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/Adityaingale333/DSA/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0451-sort-characters-by-frequency](https://github.com/Adityaingale333/DSA/tree/master/0451-sort-characters-by-frequency) |
+| [1890-sum-of-beauty-of-all-substrings](https://github.com/Adityaingale333/DSA/tree/master/1890-sum-of-beauty-of-all-substrings) |
 ## Binary Search
 |  |
 | ------- |
@@ -104,6 +105,7 @@
 | ------- |
 | [0229-majority-element-ii](https://github.com/Adityaingale333/DSA/tree/master/0229-majority-element-ii) |
 | [0451-sort-characters-by-frequency](https://github.com/Adityaingale333/DSA/tree/master/0451-sort-characters-by-frequency) |
+| [1890-sum-of-beauty-of-all-substrings](https://github.com/Adityaingale333/DSA/tree/master/1890-sum-of-beauty-of-all-substrings) |
 ## String
 |  |
 | ------- |
@@ -119,6 +121,7 @@
 | [0812-rotate-string](https://github.com/Adityaingale333/DSA/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/Adityaingale333/DSA/tree/master/1078-remove-outermost-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Adityaingale333/DSA/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
+| [1890-sum-of-beauty-of-all-substrings](https://github.com/Adityaingale333/DSA/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Adityaingale333/DSA/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2032-largest-odd-number-in-string](https://github.com/Adityaingale333/DSA/tree/master/2032-largest-odd-number-in-string) |
 | [2727-number-of-senior-citizens](https://github.com/Adityaingale333/DSA/tree/master/2727-number-of-senior-citizens) |
