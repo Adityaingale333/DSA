@@ -31,6 +31,7 @@
 |  |
 | ------- |
 | [0012-integer-to-roman](https://github.com/Adityaingale333/DSA/tree/master/0012-integer-to-roman) |
+| [0013-roman-to-integer](https://github.com/Adityaingale333/DSA/tree/master/0013-roman-to-integer) |
 | [0189-rotate-array](https://github.com/Adityaingale333/DSA/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/Adityaingale333/DSA/tree/master/0268-missing-number) |
 | [2032-largest-odd-number-in-string](https://github.com/Adityaingale333/DSA/tree/master/2032-largest-odd-number-in-string) |
@@ -48,6 +49,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/Adityaingale333/DSA/tree/master/0001-two-sum) |
 | [0012-integer-to-roman](https://github.com/Adityaingale333/DSA/tree/master/0012-integer-to-roman) |
+| [0013-roman-to-integer](https://github.com/Adityaingale333/DSA/tree/master/0013-roman-to-integer) |
 | [0205-isomorphic-strings](https://github.com/Adityaingale333/DSA/tree/master/0205-isomorphic-strings) |
 | [0229-majority-element-ii](https://github.com/Adityaingale333/DSA/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Adityaingale333/DSA/tree/master/0242-valid-anagram) |
@@ -112,6 +114,7 @@
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/Adityaingale333/DSA/tree/master/0008-string-to-integer-atoi) |
 | [0012-integer-to-roman](https://github.com/Adityaingale333/DSA/tree/master/0012-integer-to-roman) |
+| [0013-roman-to-integer](https://github.com/Adityaingale333/DSA/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/Adityaingale333/DSA/tree/master/0014-longest-common-prefix) |
 | [0125-valid-palindrome](https://github.com/Adityaingale333/DSA/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/Adityaingale333/DSA/tree/master/0151-reverse-words-in-a-string) |
