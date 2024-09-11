@@ -79,6 +79,7 @@
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/Adityaingale333/DSA/tree/master/0268-missing-number) |
+| [2323-minimum-bit-flips-to-convert-number](https://github.com/Adityaingale333/DSA/tree/master/2323-minimum-bit-flips-to-convert-number) |
 ## Sorting
 |  |
 | ------- |
