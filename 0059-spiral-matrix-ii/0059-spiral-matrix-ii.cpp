@@ -10,32 +10,32 @@ public:
         int right = n-1;
 
         while(top<=down && left<=right){
-            // left to right
-            if(id == 0){
+            //go right
+            if(id==0){
                 for(int i=left; i<=right; i++){
                     matrix[top][i] = val;
                     val++;
                 }
                 top++;
             }
-            // top to down
-            if(id == 1){
+            //go down
+            if(id==1){
                 for(int i=top; i<=down; i++){
                     matrix[i][right] = val;
                     val++;
                 }
                 right--;
             }
-            // right to left
-            if(id == 2){
+            //go left
+            if(id==2){
                 for(int i=right; i>=left; i--){
                     matrix[down][i] = val;
                     val++;
                 }
                 down--;
             }
-            // down to top
-            if(id == 3){
+            //go top
+            if(id==3){
                 for(int i=down; i>=top; i--){
                     matrix[i][left] = val;
                     val++;
