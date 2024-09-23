@@ -42,6 +42,7 @@
 | [0012-integer-to-roman](https://github.com/Adityaingale333/DSA/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Adityaingale333/DSA/tree/master/0013-roman-to-integer) |
 | [0189-rotate-array](https://github.com/Adityaingale333/DSA/tree/master/0189-rotate-array) |
+| [0231-power-of-two](https://github.com/Adityaingale333/DSA/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Adityaingale333/DSA/tree/master/0241-different-ways-to-add-parentheses) |
 | [0268-missing-number](https://github.com/Adityaingale333/DSA/tree/master/0268-missing-number) |
 | [2032-largest-odd-number-in-string](https://github.com/Adityaingale333/DSA/tree/master/2032-largest-odd-number-in-string) |
@@ -84,6 +85,7 @@
 |  |
 | ------- |
 | [0136-single-number](https://github.com/Adityaingale333/DSA/tree/master/0136-single-number) |
+| [0231-power-of-two](https://github.com/Adityaingale333/DSA/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Adityaingale333/DSA/tree/master/0268-missing-number) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Adityaingale333/DSA/tree/master/1435-xor-queries-of-a-subarray) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/Adityaingale333/DSA/tree/master/2323-minimum-bit-flips-to-convert-number) |
@@ -210,6 +212,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0231-power-of-two](https://github.com/Adityaingale333/DSA/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Adityaingale333/DSA/tree/master/0241-different-ways-to-add-parentheses) |
 ## Memoization
 |  |
