@@ -208,6 +208,7 @@
 ## Linked List
 |  |
 | ------- |
+| [0237-delete-node-in-a-linked-list](https://github.com/Adityaingale333/DSA/tree/master/0237-delete-node-in-a-linked-list) |
 | [2411-spiral-matrix-iv](https://github.com/Adityaingale333/DSA/tree/master/2411-spiral-matrix-iv) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Adityaingale333/DSA/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Brainteaser
