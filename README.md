@@ -42,6 +42,7 @@
 | ------- |
 | [0012-integer-to-roman](https://github.com/Adityaingale333/DSA/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Adityaingale333/DSA/tree/master/0013-roman-to-integer) |
+| [0029-divide-two-integers](https://github.com/Adityaingale333/DSA/tree/master/0029-divide-two-integers) |
 | [0189-rotate-array](https://github.com/Adityaingale333/DSA/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/Adityaingale333/DSA/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Adityaingale333/DSA/tree/master/0241-different-ways-to-add-parentheses) |
@@ -86,6 +87,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/Adityaingale333/DSA/tree/master/0029-divide-two-integers) |
 | [0136-single-number](https://github.com/Adityaingale333/DSA/tree/master/0136-single-number) |
 | [0231-power-of-two](https://github.com/Adityaingale333/DSA/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Adityaingale333/DSA/tree/master/0268-missing-number) |
