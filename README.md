@@ -9,6 +9,7 @@
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Adityaingale333/DSA/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0053-maximum-subarray](https://github.com/Adityaingale333/DSA/tree/master/0053-maximum-subarray) |
 | [0059-spiral-matrix-ii](https://github.com/Adityaingale333/DSA/tree/master/0059-spiral-matrix-ii) |
+| [0078-subsets](https://github.com/Adityaingale333/DSA/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/Adityaingale333/DSA/tree/master/0136-single-number) |
 | [0162-find-peak-element](https://github.com/Adityaingale333/DSA/tree/master/0162-find-peak-element) |
 | [0179-largest-number](https://github.com/Adityaingale333/DSA/tree/master/0179-largest-number) |
@@ -88,6 +89,7 @@
 |  |
 | ------- |
 | [0029-divide-two-integers](https://github.com/Adityaingale333/DSA/tree/master/0029-divide-two-integers) |
+| [0078-subsets](https://github.com/Adityaingale333/DSA/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/Adityaingale333/DSA/tree/master/0136-single-number) |
 | [0231-power-of-two](https://github.com/Adityaingale333/DSA/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Adityaingale333/DSA/tree/master/0268-missing-number) |
@@ -234,4 +236,8 @@
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/Adityaingale333/DSA/tree/master/0214-shortest-palindrome) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/Adityaingale333/DSA/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
