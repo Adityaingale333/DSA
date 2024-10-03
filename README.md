@@ -54,6 +54,7 @@
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/Adityaingale333/DSA/tree/master/0125-valid-palindrome) |
+| [0142-linked-list-cycle-ii](https://github.com/Adityaingale333/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/Adityaingale333/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/Adityaingale333/DSA/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Adityaingale333/DSA/tree/master/0283-move-zeroes) |
@@ -65,6 +66,7 @@
 | [0001-two-sum](https://github.com/Adityaingale333/DSA/tree/master/0001-two-sum) |
 | [0012-integer-to-roman](https://github.com/Adityaingale333/DSA/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Adityaingale333/DSA/tree/master/0013-roman-to-integer) |
+| [0142-linked-list-cycle-ii](https://github.com/Adityaingale333/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0205-isomorphic-strings](https://github.com/Adityaingale333/DSA/tree/master/0205-isomorphic-strings) |
 | [0229-majority-element-ii](https://github.com/Adityaingale333/DSA/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Adityaingale333/DSA/tree/master/0242-valid-anagram) |
@@ -212,6 +214,7 @@
 ## Linked List
 |  |
 | ------- |
+| [0142-linked-list-cycle-ii](https://github.com/Adityaingale333/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Adityaingale333/DSA/tree/master/0237-delete-node-in-a-linked-list) |
 | [2411-spiral-matrix-iv](https://github.com/Adityaingale333/DSA/tree/master/2411-spiral-matrix-iv) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Adityaingale333/DSA/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
