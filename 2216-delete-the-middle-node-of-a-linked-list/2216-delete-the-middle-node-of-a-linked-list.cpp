@@ -13,25 +13,25 @@ public:
     ListNode* deleteMiddle(ListNode* head) {
         if(head==NULL || head->next==NULL) return NULL;
 
-        int count = 0;
         ListNode* temp = head;
+        int count = 0;
+        
         while(temp!=NULL){
-            count++;
             temp = temp->next;
+            count++;
         }
 
-        int mid = count/2;
+        int mid = (count/2);
         temp = head;
-        ListNode* front = head->next;
+        ListNode* front = head->next; 
+        
         while(mid>1){
             mid--;
             temp = temp->next;
-            front = front->next;
+            front = front->next; 
         }
-
         temp->next = temp->next->next;
         delete front;
-
         return head;
     }
 };
