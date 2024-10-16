@@ -1,35 +1,30 @@
 class Solution {
 public:
-    int getDivas(vector<int> weights, int mid){
-        int n = weights.size();
-        int divas = 1;
+    int DaysGivenCapacity(vector<int> weights, int mid){
+        int count = 1;
         int sum = 0;
-        for(int i=0; i<n; i++){
+        for(int i=0; i<weights.size(); i++){
             sum = sum + weights[i];
             if(sum > mid){
-                divas++;
+                count++;
                 sum = weights[i];
             }
         }
-        return divas;
+        return count;
     }
-
     int shipWithinDays(vector<int>& weights, int days) {
-        int n = weights.size();
         int largest = INT_MIN;
         int tsum = 0;
-        for(int i=0; i<n; i++){
+        for(int i=0; i<weights.size(); i++){
             largest = max(largest, weights[i]);
-            tsum += weights[i]; 
-        } 
-
+            tsum = tsum + weights[i];
+        }
+        int low = largest, high = tsum;
         int ans = 0;
-        int low = largest;
-        int high = tsum;
         while(low <= high){
             int mid = (low+high)/2;
-            int divas = getDivas(weights, mid);
-            if(divas <= days){
+            int Day = DaysGivenCapacity(weights, mid);
+            if(Day <= days){
                 ans = mid;
                 high = mid-1;
             }
