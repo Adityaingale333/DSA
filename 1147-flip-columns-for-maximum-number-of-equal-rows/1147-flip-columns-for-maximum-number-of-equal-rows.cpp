@@ -4,20 +4,21 @@ public:
         int m = matrix.size();
         int n = matrix[0].size();
 
-        int maxRow = 0;
+        unordered_map<string, int> mp;
 
-        for(auto& currRow : matrix){
-            vector<int> inverted(n);
+        for(auto& row:matrix){
+            string rowKaNature = "";
+            int firstVal = row[0];
+
             for(int col=0; col<n; col++){
-                inverted[col] = 1 - currRow[col];
+                rowKaNature += (row[col] == firstVal) ? "s" : "c" ; 
             }
-            int count = 0;
-            for(auto& row : matrix){
-                if(row == currRow || row == inverted){
-                    count++;
-                }
-            }
-            maxRow = max(maxRow, count);
+            mp[rowKaNature]++;                
+        }
+
+        int maxRow = 0;
+        for(auto& it:mp){
+            maxRow = max(maxRow, it.second);
         }
         return maxRow;
     }
