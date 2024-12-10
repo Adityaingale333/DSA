@@ -39,6 +39,7 @@
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Adityaingale333/DSA/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Adityaingale333/DSA/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Adityaingale333/DSA/tree/master/1333-sort-the-jumbled-numbers) |
+| [1370-count-number-of-nice-subarrays](https://github.com/Adityaingale333/DSA/tree/master/1370-count-number-of-nice-subarrays) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Adityaingale333/DSA/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Adityaingale333/DSA/tree/master/1435-xor-queries-of-a-subarray) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Adityaingale333/DSA/tree/master/1496-lucky-numbers-in-a-matrix) |
@@ -64,6 +65,7 @@
 | [0231-power-of-two](https://github.com/Adityaingale333/DSA/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Adityaingale333/DSA/tree/master/0241-different-ways-to-add-parentheses) |
 | [0268-missing-number](https://github.com/Adityaingale333/DSA/tree/master/0268-missing-number) |
+| [1370-count-number-of-nice-subarrays](https://github.com/Adityaingale333/DSA/tree/master/1370-count-number-of-nice-subarrays) |
 | [2032-largest-odd-number-in-string](https://github.com/Adityaingale333/DSA/tree/master/2032-largest-odd-number-in-string) |
 | [2155-find-missing-observations](https://github.com/Adityaingale333/DSA/tree/master/2155-find-missing-observations) |
 ## Two Pointers
@@ -103,6 +105,7 @@
 | [0496-next-greater-element-i](https://github.com/Adityaingale333/DSA/tree/master/0496-next-greater-element-i) |
 | [0966-binary-subarrays-with-sum](https://github.com/Adityaingale333/DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Adityaingale333/DSA/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
+| [1370-count-number-of-nice-subarrays](https://github.com/Adityaingale333/DSA/tree/master/1370-count-number-of-nice-subarrays) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Adityaingale333/DSA/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Adityaingale333/DSA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/Adityaingale333/DSA/tree/master/2599-take-k-of-each-character-from-left-and-right) |
@@ -246,6 +249,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/Adityaingale333/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0966-binary-subarrays-with-sum](https://github.com/Adityaingale333/DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Adityaingale333/DSA/tree/master/1046-max-consecutive-ones-iii) |
+| [1370-count-number-of-nice-subarrays](https://github.com/Adityaingale333/DSA/tree/master/1370-count-number-of-nice-subarrays) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Adityaingale333/DSA/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Adityaingale333/DSA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/Adityaingale333/DSA/tree/master/2599-take-k-of-each-character-from-left-and-right) |
@@ -270,6 +274,7 @@
 | [0724-find-pivot-index](https://github.com/Adityaingale333/DSA/tree/master/0724-find-pivot-index) |
 | [0966-binary-subarrays-with-sum](https://github.com/Adityaingale333/DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Adityaingale333/DSA/tree/master/1046-max-consecutive-ones-iii) |
+| [1370-count-number-of-nice-subarrays](https://github.com/Adityaingale333/DSA/tree/master/1370-count-number-of-nice-subarrays) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Adityaingale333/DSA/tree/master/1435-xor-queries-of-a-subarray) |
 ## Linked List
 |  |
