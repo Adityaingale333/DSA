@@ -1,33 +1,35 @@
 class Solution {
 public:
-    bool allZero(vector<int>& counter){
-        for(auto& i:counter){
-            if(i != 0) return false;
+  //  Here we are passing the map by reference bcz this makes the code efficient
+  //  and does not create a copy of the map freq every time the function is called
+  //  and to avoid te changes to be done in this function, we use "const" which does 
+  //  does not aloow changes to be made  
+    bool allZero(const unordered_map<char,int>& freq){
+        for(auto& [ch,count] :freq){
+            if(count!=0) return 0;
         }
-        return true;
+        return 1;
     }
     vector<int> findAnagrams(string s, string p) {
         int n = s.size();
-        vector<int> freq(26,0);
+        unordered_map<char,int> freq;
 
         for(int i=0; i<p.size(); i++){
-            char ch = p[i];
-            freq[ch-'a']++;
+            freq[p[i]]++;
         }
 
-        int i=0, j=0;
+        int l=0, r=0;
         vector<int> ans;
-
-        while(j<n){
-            freq[s[j]-'a']--;
-            if(j-i+1 == p.size()){
+        while(r<n){
+            freq[s[r]]--;
+            if(r-l+1 == p.size()){
                 if(allZero(freq)){
-                    ans.push_back(i);
+                    ans.push_back(l);
                 }
-                freq[s[i]-'a']++;
-                i++;
+                freq[s[l]]++;
+                l++;
             }
-            j++;
+            r++;
         }
         return ans;
     }
