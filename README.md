@@ -49,6 +49,7 @@
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Adityaingale333/DSA/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Adityaingale333/DSA/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Adityaingale333/DSA/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Adityaingale333/DSA/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1972-rotating-the-box](https://github.com/Adityaingale333/DSA/tree/master/1972-rotating-the-box) |
 | [2155-find-missing-observations](https://github.com/Adityaingale333/DSA/tree/master/2155-find-missing-observations) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Adityaingale333/DSA/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
@@ -236,6 +237,7 @@
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Adityaingale333/DSA/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Adityaingale333/DSA/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Adityaingale333/DSA/tree/master/1890-sum-of-beauty-of-all-substrings) |
+| [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Adityaingale333/DSA/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1967-longest-substring-of-all-vowels-in-order](https://github.com/Adityaingale333/DSA/tree/master/1967-longest-substring-of-all-vowels-in-order) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Adityaingale333/DSA/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2032-largest-odd-number-in-string](https://github.com/Adityaingale333/DSA/tree/master/2032-largest-odd-number-in-string) |
@@ -306,6 +308,7 @@
 | [1370-count-number-of-nice-subarrays](https://github.com/Adityaingale333/DSA/tree/master/1370-count-number-of-nice-subarrays) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Adityaingale333/DSA/tree/master/1435-xor-queries-of-a-subarray) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Adityaingale333/DSA/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Adityaingale333/DSA/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 ## Linked List
 |  |
 | ------- |
