@@ -2,19 +2,24 @@ class Solution {
 public:
     vector<int> minOperations(string boxes) {
         int n = boxes.size();
-        vector<int> ans;
-        vector<int> ball_index;
+        vector<int> ans(n,0);
+        int cumValue = 0;
+        int cumValueSum = 0;
 
+        // moves for all left ball to index i
         for(int i=0; i<n; i++){
-            if(boxes[i] == '1')ball_index.push_back(i);
+            ans[i] = cumValueSum;
+            cumValue = cumValue + (boxes[i]=='0' ? 0 : 1) ;
+            cumValueSum = cumValueSum + cumValue; 
         }
 
-        for(int i=0; i<n; i++){
-            int steps = 0;
-            for(int j=0; j<ball_index.size(); j++){
-                steps = steps + abs(i - ball_index[j]);
-            }
-            ans.push_back(steps);
+        cumValue = 0;
+        cumValueSum = 0;
+        // moves for all right ball to index i
+        for(int i=n-1; i>=0; i--){
+            ans[i] = ans[i] + cumValueSum;
+            cumValue = cumValue + (boxes[i]=='0' ? 0 : 1) ;
+            cumValueSum = cumValueSum + cumValue; 
         }
         return ans;
     }
