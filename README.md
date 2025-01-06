@@ -132,6 +132,7 @@
 | [0907-koko-eating-bananas](https://github.com/Adityaingale333/DSA/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/Adityaingale333/DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Adityaingale333/DSA/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1321-get-equal-substrings-within-budget](https://github.com/Adityaingale333/DSA/tree/master/1321-get-equal-substrings-within-budget) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Adityaingale333/DSA/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 ## Bit Manipulation
 |  |
@@ -231,6 +232,7 @@
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Adityaingale333/DSA/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1078-remove-outermost-parentheses](https://github.com/Adityaingale333/DSA/tree/master/1078-remove-outermost-parentheses) |
 | [1261-swap-for-longest-repeated-character-substring](https://github.com/Adityaingale333/DSA/tree/master/1261-swap-for-longest-repeated-character-substring) |
+| [1321-get-equal-substrings-within-budget](https://github.com/Adityaingale333/DSA/tree/master/1321-get-equal-substrings-within-budget) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Adityaingale333/DSA/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Adityaingale333/DSA/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Adityaingale333/DSA/tree/master/1890-sum-of-beauty-of-all-substrings) |
@@ -271,6 +273,7 @@
 | [0966-binary-subarrays-with-sum](https://github.com/Adityaingale333/DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Adityaingale333/DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1261-swap-for-longest-repeated-character-substring](https://github.com/Adityaingale333/DSA/tree/master/1261-swap-for-longest-repeated-character-substring) |
+| [1321-get-equal-substrings-within-budget](https://github.com/Adityaingale333/DSA/tree/master/1321-get-equal-substrings-within-budget) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Adityaingale333/DSA/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Adityaingale333/DSA/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Adityaingale333/DSA/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
@@ -299,6 +302,7 @@
 | [0724-find-pivot-index](https://github.com/Adityaingale333/DSA/tree/master/0724-find-pivot-index) |
 | [0966-binary-subarrays-with-sum](https://github.com/Adityaingale333/DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Adityaingale333/DSA/tree/master/1046-max-consecutive-ones-iii) |
+| [1321-get-equal-substrings-within-budget](https://github.com/Adityaingale333/DSA/tree/master/1321-get-equal-substrings-within-budget) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Adityaingale333/DSA/tree/master/1370-count-number-of-nice-subarrays) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Adityaingale333/DSA/tree/master/1435-xor-queries-of-a-subarray) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Adityaingale333/DSA/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
