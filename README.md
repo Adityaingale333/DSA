@@ -118,6 +118,7 @@
 | [1370-count-number-of-nice-subarrays](https://github.com/Adityaingale333/DSA/tree/master/1370-count-number-of-nice-subarrays) |
 | [1423-maximum-number-of-occurrences-of-a-substring](https://github.com/Adityaingale333/DSA/tree/master/1423-maximum-number-of-occurrences-of-a-substring) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Adityaingale333/DSA/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1873-longest-nice-substring](https://github.com/Adityaingale333/DSA/tree/master/1873-longest-nice-substring) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Adityaingale333/DSA/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Adityaingale333/DSA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/Adityaingale333/DSA/tree/master/2599-take-k-of-each-character-from-left-and-right) |
@@ -145,6 +146,7 @@
 | [0231-power-of-two](https://github.com/Adityaingale333/DSA/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Adityaingale333/DSA/tree/master/0268-missing-number) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Adityaingale333/DSA/tree/master/1435-xor-queries-of-a-subarray) |
+| [1873-longest-nice-substring](https://github.com/Adityaingale333/DSA/tree/master/1873-longest-nice-substring) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/Adityaingale333/DSA/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Adityaingale333/DSA/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 ## Sorting
@@ -183,6 +185,7 @@
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Adityaingale333/DSA/tree/master/0053-maximum-subarray) |
+| [1873-longest-nice-substring](https://github.com/Adityaingale333/DSA/tree/master/1873-longest-nice-substring) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -240,6 +243,7 @@
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Adityaingale333/DSA/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Adityaingale333/DSA/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Adityaingale333/DSA/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
+| [1873-longest-nice-substring](https://github.com/Adityaingale333/DSA/tree/master/1873-longest-nice-substring) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Adityaingale333/DSA/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Adityaingale333/DSA/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1967-longest-substring-of-all-vowels-in-order](https://github.com/Adityaingale333/DSA/tree/master/1967-longest-substring-of-all-vowels-in-order) |
@@ -286,6 +290,7 @@
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Adityaingale333/DSA/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Adityaingale333/DSA/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Adityaingale333/DSA/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1873-longest-nice-substring](https://github.com/Adityaingale333/DSA/tree/master/1873-longest-nice-substring) |
 | [1967-longest-substring-of-all-vowels-in-order](https://github.com/Adityaingale333/DSA/tree/master/1967-longest-substring-of-all-vowels-in-order) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Adityaingale333/DSA/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Adityaingale333/DSA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
