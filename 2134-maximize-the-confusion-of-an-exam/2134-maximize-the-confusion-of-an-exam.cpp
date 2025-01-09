@@ -4,41 +4,28 @@ public:
         int n = answerKey.size();
         int i=0, j=0;
         int maxlen = 0;
-        int flip_Count = 0;
+        int T_count = 0;
+        int F_count = 0;
 
-        char var = 'T';
         while(j<n){
-            if(answerKey[j] != var){
-                flip_Count++;
+            if(answerKey[j] == 'T'){
+                T_count++;
+            }
+            else{
+                F_count++;
             }
 
-            while(flip_Count > k){
-                if(answerKey[i] != var){
-                    flip_Count--;
+            while(min(T_count, F_count) > k){
+                if(answerKey[i]=='T'){
+                    T_count--;
+                }
+                else{
+                    F_count--;
                 }
                 i++;
             }
 
-            maxlen = max(maxlen,j-i+1);
-            j++;
-        }
-
-        var = 'F';
-        i = 0, j = 0;
-        flip_Count = 0;
-        while(j<n){
-            if(answerKey[j] != var){
-                flip_Count++;
-            }
-
-            while(flip_Count > k){
-                if(answerKey[i] != var){
-                    flip_Count--;
-                }
-                i++;
-            }
-
-            maxlen = max(maxlen,j-i+1);
+            maxlen = max(maxlen, j-i+1);
             j++;
         }
         return maxlen;
