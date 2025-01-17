@@ -60,6 +60,7 @@
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Adityaingale333/DSA/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Adityaingale333/DSA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2727-number-of-senior-citizens](https://github.com/Adityaingale333/DSA/tree/master/2727-number-of-senior-citizens) |
+| [2792-neighboring-bitwise-xor](https://github.com/Adityaingale333/DSA/tree/master/2792-neighboring-bitwise-xor) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Adityaingale333/DSA/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Math
 |  |
@@ -155,6 +156,7 @@
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/Adityaingale333/DSA/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Adityaingale333/DSA/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Adityaingale333/DSA/tree/master/2533-bitwise-xor-of-all-pairings) |
+| [2792-neighboring-bitwise-xor](https://github.com/Adityaingale333/DSA/tree/master/2792-neighboring-bitwise-xor) |
 ## Sorting
 |  |
 | ------- |
