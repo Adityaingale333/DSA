@@ -1,32 +1,18 @@
 class Solution {
 public:
     bool doesValidArrayExist(vector<int>& derived) {
+        // original = {a,b,c,d,e}
+        // derived = {0,1,0,1,1}
+        // derived = {a^b, b^c, c^d, d^e, e^a} 
+        // if we xor all elements of derived it should come 0, if original exist bcz every
+        // element occurs twice otherwise return false
         int n = derived.size();
+        int ans = 0;
 
-        vector<int> original(n);
-        // first try with original[0] = 0
-        original[0] = 0;
-
-        for(int i=0; i<n-1; i++){
-            original[i+1] = original[i] ^ derived[i];
+        for(int i=0; i<n; i++){
+            ans  = ans ^ derived[i];
         }
 
-        if(original[n-1] ^ original[0] == derived[n-1]){
-            return true;
-        }
-
-        // now try with original[0] = 1
-        original[0] = 1;
-
-        for(int i=0; i<n-1; i++){
-            original[i+1] = original[i] ^ derived[i];
-        }
-        
-        if(original[n-1] ^ original[0] == derived[n-1]){
-            return true;
-        }
-
-        return false;
-
+        return ans==0 ? true : false ;
     }
 };
