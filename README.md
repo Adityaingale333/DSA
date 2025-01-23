@@ -55,6 +55,7 @@
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Adityaingale333/DSA/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Adityaingale333/DSA/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1972-rotating-the-box](https://github.com/Adityaingale333/DSA/tree/master/1972-rotating-the-box) |
+| [2094-remove-stones-to-minimize-the-total](https://github.com/Adityaingale333/DSA/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2155-find-missing-observations](https://github.com/Adityaingale333/DSA/tree/master/2155-find-missing-observations) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Adityaingale333/DSA/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Adityaingale333/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -200,6 +201,7 @@
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Adityaingale333/DSA/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Adityaingale333/DSA/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2032-largest-odd-number-in-string](https://github.com/Adityaingale333/DSA/tree/master/2032-largest-odd-number-in-string) |
+| [2094-remove-stones-to-minimize-the-total](https://github.com/Adityaingale333/DSA/tree/master/2094-remove-stones-to-minimize-the-total) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -336,6 +338,7 @@
 | [0347-top-k-frequent-elements](https://github.com/Adityaingale333/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Adityaingale333/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Adityaingale333/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
+| [2094-remove-stones-to-minimize-the-total](https://github.com/Adityaingale333/DSA/tree/master/2094-remove-stones-to-minimize-the-total) |
 ## Bucket Sort
 |  |
 | ------- |
