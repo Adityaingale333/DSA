@@ -1,31 +1,37 @@
 class Solution {
 public:
+    //               BUCKET SORT
     vector<int> topKFrequent(vector<int>& nums, int k) {
         int n = nums.size();
-        using pi = pair<int,int> ;
 
-        priority_queue<pi, vector<pi>, greater<pi>> minh;
-        unordered_map<int, int> mp;
-
-        for(int i=0; i<n; i++){
-            mp[nums[i]]++;
+        unordered_map<int,int> mp;
+        for(auto& it : nums){
+            mp[it]++;
         }
 
+        vector<vector<int>> bucket(n+1);
+        // index = frequency
+        // value = elements
+        // bucket[i] = elements having (i) frequency
         for(auto& it : mp){
-            minh.push({it.second, it.first});
+            int element = it.first;
+            int freq = it.second;
 
-            if(minh.size() > k){
-                minh.pop();
+            bucket[freq].push_back(element);
+        }
+
+        // result
+        vector<int> ans;
+        // pick element from right to left
+        for(int i=n; i>=0; i--){
+            if(bucket[i].size() == 0) continue;
+
+            while(bucket[i].size() > 0 && k > 0){
+                ans.push_back(bucket[i].back());
+                bucket[i].pop_back();
+                k--;
             }
         }
-
-        vector<int> ans;
-
-        while(!minh.empty()){
-            ans.push_back(minh.top().second);
-            minh.pop();
-        }
-
         return ans;
     }
 };
