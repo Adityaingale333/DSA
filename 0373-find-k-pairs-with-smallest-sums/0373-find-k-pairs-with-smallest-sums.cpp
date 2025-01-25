@@ -1,34 +1,38 @@
 class Solution {
 public:
+typedef pair<int, pair<int,int>> P;
     vector<vector<int>> kSmallestPairs(vector<int>& nums1, vector<int>& nums2, int k) {
+        priority_queue<P, vector<P>, greater<P>> minh;
         int n = nums1.size();
         int m = nums2.size();
 
-        using pi = pair<int,int>;
-        priority_queue<pair<int, pair<int,int>>> maxh;
+        int sum = nums1[0] + nums2[0];
+        set<pair<int,int>> visited;
 
-        for(int i=0; i<n; i++){
-            for(int j=0; j<m; j++){
-                long long sum = nums1[i]+nums2[j];
-                if(maxh.size() < k){
-                    maxh.push({sum, {nums1[i], nums2[j]}});
-                }
-                else if(maxh.top().first > sum){
-                    maxh.pop();
-                    maxh.push({sum, {nums1[i], nums2[j]}});
-                }
-                else{
-                    break; //  maxh.top().first < sum hai to matlab j ke aage ke saare elements jyada hi honge
-                }
-            }
-        }
+        minh.push({sum, {0,0}});
+        visited.insert({0,0});
 
         vector<vector<int>> ans;
-        while(!maxh.empty()){
-            ans.push_back({maxh.top().second.first, maxh.top().second.second});
-            maxh.pop();
+
+        while(k-- && !minh.empty()){
+            auto temp = minh.top();
+            minh.pop();
+
+            int i = temp.second.first;
+            int j = temp.second.second;
+
+            ans.push_back({nums1[i], nums2[j]});
+
+            if(j+1 < m && visited.find({i, j+1}) == visited.end()){
+                minh.push({nums1[i] + nums2[j+1], {i, j+1}});
+                visited.insert({i, j+1});
+            }
+
+            if(i+1 < n && visited.find({i+1, j}) == visited.end()){
+                minh.push({nums1[i+1] + nums2[j], {i+1, j}});
+                visited.insert({i+1, j});
+            }
         }
-        //reverse(ans.begin(), ans.end());
         return ans;
     }
 };
