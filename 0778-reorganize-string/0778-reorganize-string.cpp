@@ -4,41 +4,40 @@ public:
         int n = s.size();
         vector<int> count(26,0);
 
-        for(int i=0; i<n; i++){
-            count[s[i]-'a']++;
+        int maxFreq = 0;
+        int maxFreqChar;
+        for(auto& ch : s){
+            count[ch-'a']++;
 
-            if(count[s[i]-'a'] > (n+1)/2){
+            if(count[ch-'a'] > maxFreq){
+                maxFreq = count[ch-'a'];
+                maxFreqChar = ch;
+            }
+
+            if(count[ch-'a'] > (n+1)/2){
                 return "";
             }
         }
 
-        priority_queue<pair<int,char>> maxh;
+        string ans = s;
+        int i = 0;
 
-        for(int i=0; i<26; i++){
-            if(count[i] > 0){
-                maxh.push({count[i], i+'a'});
-            }
+        while(count[maxFreqChar - 'a'] > 0){
+            ans[i] = maxFreqChar;
+            i = i+2;
+            count[maxFreqChar - 'a']--;
         }
 
-        string ans = "";
-        while(maxh.size() >= 2){
-            auto ch1 = maxh.top();
-            maxh.pop();
-            auto ch2 = maxh.top();
-            maxh.pop();
+        for(char ch='a'; ch<='z'; ch++){
+            while(count[ch-'a'] > 0){
+                if(i >= n){
+                    i = 1;
+                }
 
-            ans.push_back(ch1.second); ch1.first--; 
-            ans.push_back(ch2.second); ch2.first--;
-
-            if(ch1.first > 0){
-                maxh.push(ch1);
+                ans[i] = ch;
+                i = i+2 ;
+                count[ch-'a']--;
             }
-            if(ch2.first > 0){
-                maxh.push(ch2);
-            }
-        }
-        if(!maxh.empty()){
-            ans.push_back(maxh.top().second);
         }
         return ans;
     }
