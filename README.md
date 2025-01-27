@@ -126,6 +126,7 @@
 | [0451-sort-characters-by-frequency](https://github.com/Adityaingale333/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0460-lfu-cache](https://github.com/Adityaingale333/DSA/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/Adityaingale333/DSA/tree/master/0496-next-greater-element-i) |
+| [0778-reorganize-string](https://github.com/Adityaingale333/DSA/tree/master/0778-reorganize-string) |
 | [0876-hand-of-straights](https://github.com/Adityaingale333/DSA/tree/master/0876-hand-of-straights) |
 | [0952-word-subsets](https://github.com/Adityaingale333/DSA/tree/master/0952-word-subsets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Adityaingale333/DSA/tree/master/0966-binary-subarrays-with-sum) |
@@ -180,6 +181,7 @@
 | [0295-find-median-from-data-stream](https://github.com/Adityaingale333/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Adityaingale333/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Adityaingale333/DSA/tree/master/0451-sort-characters-by-frequency) |
+| [0778-reorganize-string](https://github.com/Adityaingale333/DSA/tree/master/0778-reorganize-string) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Adityaingale333/DSA/tree/master/0780-max-chunks-to-make-sorted) |
 | [0876-hand-of-straights](https://github.com/Adityaingale333/DSA/tree/master/0876-hand-of-straights) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Adityaingale333/DSA/tree/master/1333-sort-the-jumbled-numbers) |
@@ -202,6 +204,7 @@
 | [0410-split-array-largest-sum](https://github.com/Adityaingale333/DSA/tree/master/0410-split-array-largest-sum) |
 | [0624-maximum-distance-in-arrays](https://github.com/Adityaingale333/DSA/tree/master/0624-maximum-distance-in-arrays) |
 | [0678-valid-parenthesis-string](https://github.com/Adityaingale333/DSA/tree/master/0678-valid-parenthesis-string) |
+| [0778-reorganize-string](https://github.com/Adityaingale333/DSA/tree/master/0778-reorganize-string) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Adityaingale333/DSA/tree/master/0780-max-chunks-to-make-sorted) |
 | [0876-hand-of-straights](https://github.com/Adityaingale333/DSA/tree/master/0876-hand-of-straights) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Adityaingale333/DSA/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -241,6 +244,7 @@
 | [0229-majority-element-ii](https://github.com/Adityaingale333/DSA/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Adityaingale333/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Adityaingale333/DSA/tree/master/0451-sort-characters-by-frequency) |
+| [0778-reorganize-string](https://github.com/Adityaingale333/DSA/tree/master/0778-reorganize-string) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Adityaingale333/DSA/tree/master/1890-sum-of-beauty-of-all-substrings) |
 ## String
 |  |
@@ -264,6 +268,7 @@
 | [0438-find-all-anagrams-in-a-string](https://github.com/Adityaingale333/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/Adityaingale333/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0678-valid-parenthesis-string](https://github.com/Adityaingale333/DSA/tree/master/0678-valid-parenthesis-string) |
+| [0778-reorganize-string](https://github.com/Adityaingale333/DSA/tree/master/0778-reorganize-string) |
 | [0812-rotate-string](https://github.com/Adityaingale333/DSA/tree/master/0812-rotate-string) |
 | [0952-word-subsets](https://github.com/Adityaingale333/DSA/tree/master/0952-word-subsets) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Adityaingale333/DSA/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -345,6 +350,7 @@
 | [0347-top-k-frequent-elements](https://github.com/Adityaingale333/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/Adityaingale333/DSA/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0451-sort-characters-by-frequency](https://github.com/Adityaingale333/DSA/tree/master/0451-sort-characters-by-frequency) |
+| [0778-reorganize-string](https://github.com/Adityaingale333/DSA/tree/master/0778-reorganize-string) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Adityaingale333/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1127-last-stone-weight](https://github.com/Adityaingale333/DSA/tree/master/1127-last-stone-weight) |
 | [1962-single-threaded-cpu](https://github.com/Adityaingale333/DSA/tree/master/1962-single-threaded-cpu) |
