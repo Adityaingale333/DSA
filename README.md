@@ -37,6 +37,7 @@
 | [0735-asteroid-collision](https://github.com/Adityaingale333/DSA/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Adityaingale333/DSA/tree/master/0739-daily-temperatures) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Adityaingale333/DSA/tree/master/0780-max-chunks-to-make-sorted) |
+| [0802-k-th-smallest-prime-fraction](https://github.com/Adityaingale333/DSA/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0876-hand-of-straights](https://github.com/Adityaingale333/DSA/tree/master/0876-hand-of-straights) |
 | [0907-koko-eating-bananas](https://github.com/Adityaingale333/DSA/tree/master/0907-koko-eating-bananas) |
 | [0921-spiral-matrix-iii](https://github.com/Adityaingale333/DSA/tree/master/0921-spiral-matrix-iii) |
@@ -100,6 +101,7 @@
 | [0283-move-zeroes](https://github.com/Adityaingale333/DSA/tree/master/0283-move-zeroes) |
 | [0295-find-median-from-data-stream](https://github.com/Adityaingale333/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0344-reverse-string](https://github.com/Adityaingale333/DSA/tree/master/0344-reverse-string) |
+| [0802-k-th-smallest-prime-fraction](https://github.com/Adityaingale333/DSA/tree/master/0802-k-th-smallest-prime-fraction) |
 | [1972-rotating-the-box](https://github.com/Adityaingale333/DSA/tree/master/1972-rotating-the-box) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Adityaingale333/DSA/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Adityaingale333/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -150,6 +152,7 @@
 | [0268-missing-number](https://github.com/Adityaingale333/DSA/tree/master/0268-missing-number) |
 | [0410-split-array-largest-sum](https://github.com/Adityaingale333/DSA/tree/master/0410-split-array-largest-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Adityaingale333/DSA/tree/master/0540-single-element-in-a-sorted-array) |
+| [0802-k-th-smallest-prime-fraction](https://github.com/Adityaingale333/DSA/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0907-koko-eating-bananas](https://github.com/Adityaingale333/DSA/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/Adityaingale333/DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Adityaingale333/DSA/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -183,6 +186,7 @@
 | [0451-sort-characters-by-frequency](https://github.com/Adityaingale333/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0778-reorganize-string](https://github.com/Adityaingale333/DSA/tree/master/0778-reorganize-string) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Adityaingale333/DSA/tree/master/0780-max-chunks-to-make-sorted) |
+| [0802-k-th-smallest-prime-fraction](https://github.com/Adityaingale333/DSA/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0876-hand-of-straights](https://github.com/Adityaingale333/DSA/tree/master/0876-hand-of-straights) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Adityaingale333/DSA/tree/master/1333-sort-the-jumbled-numbers) |
 | [1962-single-threaded-cpu](https://github.com/Adityaingale333/DSA/tree/master/1962-single-threaded-cpu) |
@@ -352,6 +356,7 @@
 | [0451-sort-characters-by-frequency](https://github.com/Adityaingale333/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0778-reorganize-string](https://github.com/Adityaingale333/DSA/tree/master/0778-reorganize-string) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Adityaingale333/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0802-k-th-smallest-prime-fraction](https://github.com/Adityaingale333/DSA/tree/master/0802-k-th-smallest-prime-fraction) |
 | [1127-last-stone-weight](https://github.com/Adityaingale333/DSA/tree/master/1127-last-stone-weight) |
 | [1962-single-threaded-cpu](https://github.com/Adityaingale333/DSA/tree/master/1962-single-threaded-cpu) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/Adityaingale333/DSA/tree/master/2094-remove-stones-to-minimize-the-total) |
