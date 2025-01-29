@@ -30,6 +30,7 @@
 | [0442-find-all-duplicates-in-an-array](https://github.com/Adityaingale333/DSA/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0485-max-consecutive-ones](https://github.com/Adityaingale333/DSA/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/Adityaingale333/DSA/tree/master/0496-next-greater-element-i) |
+| [0502-ipo](https://github.com/Adityaingale333/DSA/tree/master/0502-ipo) |
 | [0503-next-greater-element-ii](https://github.com/Adityaingale333/DSA/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Adityaingale333/DSA/tree/master/0540-single-element-in-a-sorted-array) |
 | [0624-maximum-distance-in-arrays](https://github.com/Adityaingale333/DSA/tree/master/0624-maximum-distance-in-arrays) |
@@ -185,6 +186,7 @@
 | [0295-find-median-from-data-stream](https://github.com/Adityaingale333/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Adityaingale333/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Adityaingale333/DSA/tree/master/0451-sort-characters-by-frequency) |
+| [0502-ipo](https://github.com/Adityaingale333/DSA/tree/master/0502-ipo) |
 | [0778-reorganize-string](https://github.com/Adityaingale333/DSA/tree/master/0778-reorganize-string) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Adityaingale333/DSA/tree/master/0780-max-chunks-to-make-sorted) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/Adityaingale333/DSA/tree/master/0802-k-th-smallest-prime-fraction) |
@@ -207,6 +209,7 @@
 | ------- |
 | [0179-largest-number](https://github.com/Adityaingale333/DSA/tree/master/0179-largest-number) |
 | [0410-split-array-largest-sum](https://github.com/Adityaingale333/DSA/tree/master/0410-split-array-largest-sum) |
+| [0502-ipo](https://github.com/Adityaingale333/DSA/tree/master/0502-ipo) |
 | [0624-maximum-distance-in-arrays](https://github.com/Adityaingale333/DSA/tree/master/0624-maximum-distance-in-arrays) |
 | [0678-valid-parenthesis-string](https://github.com/Adityaingale333/DSA/tree/master/0678-valid-parenthesis-string) |
 | [0778-reorganize-string](https://github.com/Adityaingale333/DSA/tree/master/0778-reorganize-string) |
@@ -358,6 +361,7 @@
 | [0347-top-k-frequent-elements](https://github.com/Adityaingale333/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/Adityaingale333/DSA/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0451-sort-characters-by-frequency](https://github.com/Adityaingale333/DSA/tree/master/0451-sort-characters-by-frequency) |
+| [0502-ipo](https://github.com/Adityaingale333/DSA/tree/master/0502-ipo) |
 | [0778-reorganize-string](https://github.com/Adityaingale333/DSA/tree/master/0778-reorganize-string) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Adityaingale333/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/Adityaingale333/DSA/tree/master/0802-k-th-smallest-prime-fraction) |
