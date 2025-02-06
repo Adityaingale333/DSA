@@ -3,7 +3,7 @@ public:
     // if a*b == c*d then either a or b has to be smaller or bigger than c and d
     // it is not possible that both a and b are smaller or larger than c and d
     // so we sort the array and then put i at start ang j at end and then take,
-    // k=i+1 and l=j-1, also l>k to avoid duplicate  
+    // k=i+1 and then find the value of d and check in set if we can find the pair 
     int tupleSameProduct(vector<int>& nums) {
         int n = nums.size();
         int tuple = 0;
