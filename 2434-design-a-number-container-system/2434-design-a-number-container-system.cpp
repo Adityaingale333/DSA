@@ -1,32 +1,35 @@
 class NumberContainers {
 public:
-    unordered_map<int,int> idxToNum; // index -> number   1, 10
-    unordered_map<int,set<int>> numToIndices; // num -> indices 10, {1,2,3,5} 
-    NumberContainers() {
+    unordered_map<int,int> idxToNum; // index -> number   1, 10 
+    unordered_map<int, priority_queue<int, vector<int>, greater<int>> > numToIndices;  
+    NumberContainers() { 
         
     }
     
     void change(int index, int number) {
-        // If the index already has a number, remove it from numToIndices
-        if(idxToNum.count(index)){
-            int prevNum = idxToNum[index];
-            numToIndices[prevNum].erase(index);
-
-            // If there are no indices left for this number, erase it from the map
-            if(numToIndices[prevNum].empty()){
-                numToIndices.erase(prevNum);
-            }
-        }
-
-        // Update the new number at this index
         idxToNum[index] = number;
-        numToIndices[number].insert(index);
+
+        numToIndices[number].push(index);
     }
     
     int find(int number) {
-        if(numToIndices.count(number)){
-            return *numToIndices[number].begin(); // Get smallest index
+        if(!numToIndices.count(number)){ // If the number is not present
+            return -1;
         }
+
+        auto& minh = numToIndices[number]; // Reference to min-heap
+
+        while(!minh.empty()){
+            int idx = minh.top();
+
+            // If the index is still valid (i.e., idxToNum[idx] is still `number`), return it
+            if(idxToNum[idx] == number){
+                return idx;
+            }
+
+            minh.pop(); // Remove outdated indices
+        }
+
         return -1;
     }
 };
