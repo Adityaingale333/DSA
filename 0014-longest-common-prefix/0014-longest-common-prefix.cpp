@@ -2,29 +2,21 @@ class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
         int n = strs.size();
-        string ans = "";
+        string prefix = strs[0];
 
-        for(int i=0; i<strs[0].length(); i++){ //loop first string ke length brabar chalega
-            char ch = strs[0][i]; // first string ka i character pakad ke baki saare string ke i 
-                                  // wale character ko check kro  
-            bool match = true;
+        for(int i=1; i<n; i++){
+            int j=0;
 
-            for(int j=1; j<n; j++){
-                // string ka length first string jitna hona chahiye OR
-                // ch match hona chahiye, nahi to false krkr break out.
-                if(strs[j].size()<i || ch != strs[j][i]){ 
+            // j < prefix and j < word we are comparing with and jab tak letters equal hai
+            while(j < prefix.size() && j < strs[i].size() && prefix[j] == strs[i][j]){
+                j++;
+            }
 
-                    match = false;
-                    break;
-                }
-            }
-            if(match == false){
-                break;
-            }
-            else{
-                ans.push_back(ch);  // uss ch ko saare stirng me check kr liya agar true to pushback
-            }
+            prefix = prefix.substr(0,j);
+
+            if(prefix.empty()) break;
         }
-        return ans;
+
+        return prefix;
     }
 };
