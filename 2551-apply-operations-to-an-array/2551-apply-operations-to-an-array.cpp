@@ -10,14 +10,18 @@ public:
             }
         }
 
-        vector<int> ans(n,0);
         int j=0;
         for(int i=0; i<n; i++){
             if(nums[i] != 0){
-                ans[j] = nums[i];
+                nums[j] = nums[i];
                 j++;
             }
         }
-        return ans;
+
+        while(j<n){
+            nums[j] = 0;
+            j++;
+        }
+        return nums;
     }
 };
