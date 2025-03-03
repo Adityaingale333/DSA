@@ -69,6 +69,7 @@
 | [2107-find-unique-binary-string](https://github.com/Adityaingale333/DSA/tree/master/2107-find-unique-binary-string) |
 | [2155-find-missing-observations](https://github.com/Adityaingale333/DSA/tree/master/2155-find-missing-observations) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Adityaingale333/DSA/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
+| [2265-partition-array-according-to-given-pivot](https://github.com/Adityaingale333/DSA/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Adityaingale333/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2411-spiral-matrix-iv](https://github.com/Adityaingale333/DSA/tree/master/2411-spiral-matrix-iv) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Adityaingale333/DSA/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
@@ -113,6 +114,7 @@
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Adityaingale333/DSA/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1972-rotating-the-box](https://github.com/Adityaingale333/DSA/tree/master/1972-rotating-the-box) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Adityaingale333/DSA/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
+| [2265-partition-array-according-to-given-pivot](https://github.com/Adityaingale333/DSA/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Adityaingale333/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2551-apply-operations-to-an-array](https://github.com/Adityaingale333/DSA/tree/master/2551-apply-operations-to-an-array) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/Adityaingale333/DSA/tree/master/2553-total-cost-to-hire-k-workers) |
@@ -263,6 +265,7 @@
 | [0921-spiral-matrix-iii](https://github.com/Adityaingale333/DSA/tree/master/0921-spiral-matrix-iii) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Adityaingale333/DSA/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2155-find-missing-observations](https://github.com/Adityaingale333/DSA/tree/master/2155-find-missing-observations) |
+| [2265-partition-array-according-to-given-pivot](https://github.com/Adityaingale333/DSA/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Adityaingale333/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2411-spiral-matrix-iv](https://github.com/Adityaingale333/DSA/tree/master/2411-spiral-matrix-iv) |
 | [2551-apply-operations-to-an-array](https://github.com/Adityaingale333/DSA/tree/master/2551-apply-operations-to-an-array) |
