@@ -1,17 +1,12 @@
 class Solution {
 public:
     int maximumCount(vector<int>& nums) {
-        auto lambdaP = [](int num){
-            return num > 0;
-        };
+        int n = nums.size();
+        
+        int firstP = lower_bound(nums.begin(), nums.end(), 1) - nums.begin();
 
-        auto lambdaN = [](int num){
-            return num < 0;
-        };
+        int firstZero = lower_bound(nums.begin(), nums.end(), 0) - nums.begin();
 
-        int P = count_if(nums.begin(), nums.end(), lambdaP);
-        int N = count_if(nums.begin(), nums.end(), lambdaN);
-
-        return max(P, N);
+        return max(n-firstP, firstZero);
     }
 };
