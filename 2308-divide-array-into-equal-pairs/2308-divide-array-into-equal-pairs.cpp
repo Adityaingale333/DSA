@@ -1,17 +1,17 @@
 class Solution {
 public:
     bool divideArray(vector<int>& nums) {
-        unordered_map<int, int> mp;
+        int n = nums.size();
 
+        unordered_set<int> st;
         for(auto& it : nums){
-            mp[it]++;
-        }
-
-        for(int i=0; i<mp.size(); i++){
-            if(mp[i]%2 != 0){
-                return false;
+            if(st.count(it)){
+                st.erase(it);
+            }
+            else{
+                st.insert(it);
             }
         }
-        return true;
+        return st.empty();
     }
 };
