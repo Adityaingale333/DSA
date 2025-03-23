@@ -3,15 +3,16 @@ public:
     bool divideArray(vector<int>& nums) {
         int n = nums.size();
 
-        unordered_set<int> st;
+        vector<bool> paired(501, true);
         for(auto& it : nums){
-            if(st.count(it)){
-                st.erase(it);
-            }
-            else{
-                st.insert(it);
+            paired[it] = !paired[it];
+        }
+
+        for(int i=0; i<501; i++){
+            if(paired[i] == false){
+                return false;
             }
         }
-        return st.empty();
+        return true;
     }
 };
