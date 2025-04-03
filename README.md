@@ -34,6 +34,7 @@
 | [0500-keyboard-row](https://github.com/Adityaingale333/DSA/tree/master/0500-keyboard-row) |
 | [0502-ipo](https://github.com/Adityaingale333/DSA/tree/master/0502-ipo) |
 | [0503-next-greater-element-ii](https://github.com/Adityaingale333/DSA/tree/master/0503-next-greater-element-ii) |
+| [0525-contiguous-array](https://github.com/Adityaingale333/DSA/tree/master/0525-contiguous-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Adityaingale333/DSA/tree/master/0540-single-element-in-a-sorted-array) |
 | [0624-maximum-distance-in-arrays](https://github.com/Adityaingale333/DSA/tree/master/0624-maximum-distance-in-arrays) |
 | [0724-find-pivot-index](https://github.com/Adityaingale333/DSA/tree/master/0724-find-pivot-index) |
@@ -156,6 +157,7 @@
 | [0460-lfu-cache](https://github.com/Adityaingale333/DSA/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/Adityaingale333/DSA/tree/master/0496-next-greater-element-i) |
 | [0500-keyboard-row](https://github.com/Adityaingale333/DSA/tree/master/0500-keyboard-row) |
+| [0525-contiguous-array](https://github.com/Adityaingale333/DSA/tree/master/0525-contiguous-array) |
 | [0778-reorganize-string](https://github.com/Adityaingale333/DSA/tree/master/0778-reorganize-string) |
 | [0822-unique-morse-code-words](https://github.com/Adityaingale333/DSA/tree/master/0822-unique-morse-code-words) |
 | [0876-hand-of-straights](https://github.com/Adityaingale333/DSA/tree/master/0876-hand-of-straights) |
@@ -443,6 +445,7 @@
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/Adityaingale333/DSA/tree/master/0410-split-array-largest-sum) |
+| [0525-contiguous-array](https://github.com/Adityaingale333/DSA/tree/master/0525-contiguous-array) |
 | [0724-find-pivot-index](https://github.com/Adityaingale333/DSA/tree/master/0724-find-pivot-index) |
 | [0966-binary-subarrays-with-sum](https://github.com/Adityaingale333/DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Adityaingale333/DSA/tree/master/1046-max-consecutive-ones-iii) |
