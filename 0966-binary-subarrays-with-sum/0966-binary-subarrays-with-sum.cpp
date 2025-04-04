@@ -2,29 +2,20 @@ class Solution {
 public:
     int numSubarraysWithSum(vector<int>& nums, int goal) {
         int n = nums.size();
-        int l = 0;
-        int r = 0;
-        int count_pre0 = 0;
-        int windowsum = 0;
-        int result = 0;
+        unordered_map<int, int> mp;
+        int sum = 0;
+        int ans = 0;
+        mp[0] = 1;
 
-        while(r<n){
-            windowsum += nums[r];
+        for(int i=0; i<n; i++){
+            sum += nums[i];
 
-            while(l<r && (nums[l] == 0 || windowsum > goal)){
-                if(nums[l] == 0){
-                    count_pre0++;
-                }
-                else{
-                    count_pre0 = 0;
-                }
-                windowsum = windowsum - nums[l];
-                l++;
+            int rem = sum - goal;
+            if(mp.find(rem) != mp.end()){
+                ans += mp[rem];
             }
-
-            if(windowsum == goal) {result = result + 1 + count_pre0;}
-            r++;
+            mp[sum]++;
         }
-        return result;
+        return ans;
     }
 };
