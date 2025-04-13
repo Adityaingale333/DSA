@@ -112,6 +112,7 @@
 | [1370-count-number-of-nice-subarrays](https://github.com/Adityaingale333/DSA/tree/master/1370-count-number-of-nice-subarrays) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Adityaingale333/DSA/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2032-largest-odd-number-in-string](https://github.com/Adityaingale333/DSA/tree/master/2032-largest-odd-number-in-string) |
+| [2050-count-good-numbers](https://github.com/Adityaingale333/DSA/tree/master/2050-count-good-numbers) |
 | [2155-find-missing-observations](https://github.com/Adityaingale333/DSA/tree/master/2155-find-missing-observations) |
 | [2610-closest-prime-numbers-in-range](https://github.com/Adityaingale333/DSA/tree/master/2610-closest-prime-numbers-in-range) |
 | [2649-count-total-number-of-colored-cells](https://github.com/Adityaingale333/DSA/tree/master/2649-count-total-number-of-colored-cells) |
@@ -492,6 +493,7 @@
 | [0050-powx-n](https://github.com/Adityaingale333/DSA/tree/master/0050-powx-n) |
 | [0231-power-of-two](https://github.com/Adityaingale333/DSA/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Adityaingale333/DSA/tree/master/0241-different-ways-to-add-parentheses) |
+| [2050-count-good-numbers](https://github.com/Adityaingale333/DSA/tree/master/2050-count-good-numbers) |
 ## Memoization
 |  |
 | ------- |
