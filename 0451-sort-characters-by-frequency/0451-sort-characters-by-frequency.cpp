@@ -1,23 +1,33 @@
 class Solution {
 public:
     string frequencySort(string s) {
-        int n = s.length();
+        int n = s.size();
 
-        priority_queue<pair<int, char>> maxh; // {freq, char}
-        unordered_map<char, int> freq; // char -> freq
+        // Count frequencies
+        unordered_map<char, int> freq;
 
-        for(auto& it:s){
-            freq[it]++;
+        for (auto c : s) {
+            freq[c]++;
         }
 
-        for(auto& it:freq){
-            maxh.push({it.second, it.first});
+        //tranfer frequency to vector pair, because we need to sort frequency in descending order
+
+        vector<pair<int, char>> freqVec; // int ko char ke pehle isliye liya kyuki descending me krna tha
+                                         // using first element easy hai, compared to second element
+
+        for (auto num : freq) {
+            freqVec.push_back({num.second, num.first});
         }
 
+        //***NEW FUNCTION GREATER IS USED TO SORT IN DESCENDING ORDER***
+        sort(freqVec.begin(), freqVec.end(), greater<pair<int, char>>());
+
+        // construct result
         string result;
-        while(!maxh.empty()){
-            result.append(maxh.top().first, maxh.top().second); // result.append(no of times, char)
-            maxh.pop();
+
+        for (auto c : freqVec) {
+            result.append(c.first, c.second);// pehla paramter frequency hai, dusra character
+                                             // ex : (3,a) "aaa" 
         }
         return result;
     }
