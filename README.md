@@ -119,6 +119,7 @@
 | [2649-count-total-number-of-colored-cells](https://github.com/Adityaingale333/DSA/tree/master/2649-count-total-number-of-colored-cells) |
 | [2998-count-symmetric-integers](https://github.com/Adityaingale333/DSA/tree/master/2998-count-symmetric-integers) |
 | [3227-find-missing-and-repeated-values](https://github.com/Adityaingale333/DSA/tree/master/3227-find-missing-and-repeated-values) |
+| [3830-find-closest-person](https://github.com/Adityaingale333/DSA/tree/master/3830-find-closest-person) |
 ## Two Pointers
 |  |
 | ------- |
