@@ -2,49 +2,50 @@ class Solution {
 public:
     string reorganizeString(string s) {
         int n = s.length();
+        vector<int> freq(26,0);
 
-        vector<int> freq(26,0); // store the frequency of all char
-        for(int i=0; i<n; i++){
-            freq[s[i] - 'a']++;
-// *** if any char appears more than half the size then it's not possible to construct the result
-            if(freq[s[i]-'a'] > (n+1)/2){ 
+// we keep track of most frequent char, and its frequency
+// while constructing result we will first fill up this char alternately
+// and then other characters
+        int maxFreq = 0;
+        char maxFreqChar;
+        for(auto& it:s){
+            freq[it-'a']++;
+
+            if(freq[it-'a'] > maxFreq){
+                maxFreq = freq[it-'a'];
+                maxFreqChar = it;
+            }
+
+            if(freq[it-'a'] > (n+1)/2){
                 return "";
             }
         }
 
-// to get the freq in required order we are using pq 
-        priority_queue<pair<int, char>> maxh;
-        for(int i=0; i<26; i++){
-            if(freq[i] > 0){
-                maxh.push({freq[i], i+'a'});
-            }
+        string ans(n, ' ');
+        int i = 0;
+
+// filling thew most frequent character (0, 2, 4, ...)
+        while(freq[maxFreqChar - 'a'] > 0){
+            ans[i] = maxFreqChar;
+            freq[maxFreqChar - 'a']--;
+            i = i+2;
         }
 
-        string result = "";
-        while(maxh.size() >= 2){  // doing this bcz if the size is 1, then we do not need to visit pq while loop
-                                // we can directly pop it using the below if statement 
-            auto temp1 = maxh.top();
-            maxh.pop();             // since we are checking the size >= 2, means it safer and faster
-                                    // to pop 2 elements each time
-            auto temp2 = maxh.top();
-            maxh.pop();
+        for(int j=0; j<26; j++){
+            while(freq[j] > 0){
+    // we have filled the result from 0 in alternate ways, so if it goes out of bound
+    //then we start filling from 1
+    // Switch to odd indices if even ones are full
+                if(i >= n){                      
+                    i = 1; 
+                }
 
-            result.push_back(temp1.second);
-            temp1.first--;
-            result.push_back(temp2.second);
-            temp2.first--;
-
-            if(temp1.first > 0){
-                maxh.push(temp1);
-            }
-            if(temp2.first > 0){
-                maxh.push(temp2);
+                ans[i] = j+'a';
+                freq[j]--;
+                i += 2;
             }
         }
-        if(!maxh.empty()){ // if it contains only single element, then we can simply use it to save time
-            result.push_back(maxh.top().second);
-            maxh.pop();
-        }
-        return result;
+        return ans;
     }
 };
