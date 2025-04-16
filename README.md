@@ -116,6 +116,7 @@
 | [2032-largest-odd-number-in-string](https://github.com/Adityaingale333/DSA/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/Adityaingale333/DSA/tree/master/2050-count-good-numbers) |
 | [2155-find-missing-observations](https://github.com/Adityaingale333/DSA/tree/master/2155-find-missing-observations) |
+| [2284-smallest-value-of-the-rearranged-number](https://github.com/Adityaingale333/DSA/tree/master/2284-smallest-value-of-the-rearranged-number) |
 | [2610-closest-prime-numbers-in-range](https://github.com/Adityaingale333/DSA/tree/master/2610-closest-prime-numbers-in-range) |
 | [2649-count-total-number-of-colored-cells](https://github.com/Adityaingale333/DSA/tree/master/2649-count-total-number-of-colored-cells) |
 | [2998-count-symmetric-integers](https://github.com/Adityaingale333/DSA/tree/master/2998-count-symmetric-integers) |
@@ -253,6 +254,7 @@
 | [1333-sort-the-jumbled-numbers](https://github.com/Adityaingale333/DSA/tree/master/1333-sort-the-jumbled-numbers) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Adityaingale333/DSA/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1962-single-threaded-cpu](https://github.com/Adityaingale333/DSA/tree/master/1962-single-threaded-cpu) |
+| [2284-smallest-value-of-the-rearranged-number](https://github.com/Adityaingale333/DSA/tree/master/2284-smallest-value-of-the-rearranged-number) |
 | [3430-count-days-without-meetings](https://github.com/Adityaingale333/DSA/tree/master/3430-count-days-without-meetings) |
 | [3812-smallest-palindromic-rearrangement-i](https://github.com/Adityaingale333/DSA/tree/master/3812-smallest-palindromic-rearrangement-i) |
 ## Matrix
