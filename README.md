@@ -45,6 +45,7 @@
 | [0735-asteroid-collision](https://github.com/Adityaingale333/DSA/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Adityaingale333/DSA/tree/master/0739-daily-temperatures) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Adityaingale333/DSA/tree/master/0780-max-chunks-to-make-sorted) |
+| [0797-rabbits-in-forest](https://github.com/Adityaingale333/DSA/tree/master/0797-rabbits-in-forest) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/Adityaingale333/DSA/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0822-unique-morse-code-words](https://github.com/Adityaingale333/DSA/tree/master/0822-unique-morse-code-words) |
 | [0876-hand-of-straights](https://github.com/Adityaingale333/DSA/tree/master/0876-hand-of-straights) |
@@ -115,6 +116,7 @@
 | [0231-power-of-two](https://github.com/Adityaingale333/DSA/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Adityaingale333/DSA/tree/master/0241-different-ways-to-add-parentheses) |
 | [0268-missing-number](https://github.com/Adityaingale333/DSA/tree/master/0268-missing-number) |
+| [0797-rabbits-in-forest](https://github.com/Adityaingale333/DSA/tree/master/0797-rabbits-in-forest) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Adityaingale333/DSA/tree/master/1370-count-number-of-nice-subarrays) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Adityaingale333/DSA/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2032-largest-odd-number-in-string](https://github.com/Adityaingale333/DSA/tree/master/2032-largest-odd-number-in-string) |
@@ -177,6 +179,7 @@
 | [0525-contiguous-array](https://github.com/Adityaingale333/DSA/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Adityaingale333/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0778-reorganize-string](https://github.com/Adityaingale333/DSA/tree/master/0778-reorganize-string) |
+| [0797-rabbits-in-forest](https://github.com/Adityaingale333/DSA/tree/master/0797-rabbits-in-forest) |
 | [0822-unique-morse-code-words](https://github.com/Adityaingale333/DSA/tree/master/0822-unique-morse-code-words) |
 | [0876-hand-of-straights](https://github.com/Adityaingale333/DSA/tree/master/0876-hand-of-straights) |
 | [0952-word-subsets](https://github.com/Adityaingale333/DSA/tree/master/0952-word-subsets) |
@@ -286,6 +289,7 @@
 | [0678-valid-parenthesis-string](https://github.com/Adityaingale333/DSA/tree/master/0678-valid-parenthesis-string) |
 | [0778-reorganize-string](https://github.com/Adityaingale333/DSA/tree/master/0778-reorganize-string) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Adityaingale333/DSA/tree/master/0780-max-chunks-to-make-sorted) |
+| [0797-rabbits-in-forest](https://github.com/Adityaingale333/DSA/tree/master/0797-rabbits-in-forest) |
 | [0876-hand-of-straights](https://github.com/Adityaingale333/DSA/tree/master/0876-hand-of-straights) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Adityaingale333/DSA/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Adityaingale333/DSA/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
