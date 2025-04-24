@@ -1,7 +1,7 @@
 class Solution {
 public:
     int countLargestGroup(int n) {
-        unordered_map<int,int> mp; // sum, total numbers of that sum
+        int sumCount[37] = {0}; //// Maximum digit sum for n <= 10000 is 36
         int maxSize = INT_MIN;
         int count = 0;
 
@@ -12,12 +12,12 @@ public:
                 sum = sum + x%10 ;
                 x = x/10;
             }
-            mp[sum]++;
-            maxSize = max(maxSize, mp[sum]);
+            sumCount[sum]++;
+            maxSize = max(maxSize, sumCount[sum]);
         } 
 
-        for(auto& it:mp){
-            if(it.second == maxSize){
+        for(int i=1; i<=36; i++){
+            if(sumCount[i] == maxSize){
                 count++;
             }
         }
