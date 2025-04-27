@@ -1,17 +1,13 @@
 class Solution {
 public:
+// using multiplication bcz division is more costly operation
     int countSubarrays(vector<int>& nums) {
         int n = nums.size();
-        int i=0;
-        int j=2;
         int count = 0;
-
-        while(j<n){
-            if(nums[i] + nums[j] == (float)nums[j-1]/2){
+        for(int i=1; i<n-1; i++){
+            if(2*(nums[i-1]+nums[i+1]) == nums[i]){
                 count++;
             }
-            i++;
-            j++;
         }
         return count;
     }
