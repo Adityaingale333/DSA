@@ -1,22 +1,22 @@
 class Solution {
 public:
-    vector<vector<int>> subsets(vector<int>& nums) {
-       vector<vector<int>> ans;
-       int n = nums.size();
-       int subset = 1<<n;      // Total number of subsets = 2^n 
-
-       // Iterate over all possible subsets (from 0 to 2^n - 1)
-       for(int i=0; i<=subset-1; i++){
-            vector<int> result;   // Current subset
-
-             // Check which elements are included in the current subset
-            for(int j=0; j<n; j++){
-                if(i&(1<<j)){
-                    result.push_back(nums[j]);    // If j-th bit in i is set, include nums[j] in the subset
-                }
-            } 
-            ans.push_back(result);
+    void getallSubsets(vector<int>& nums, vector<int> ans, int i, vector<vector<int>>& allSubsets){
+        if(i == nums.size()){
+            allSubsets.push_back({ans});
+            return;
         }
-        return ans; 
+
+        ans.push_back(nums[i]);
+        getallSubsets(nums, ans, i+1, allSubsets);
+
+        ans.pop_back();
+        getallSubsets(nums, ans, i+1, allSubsets);
+    }
+    vector<vector<int>> subsets(vector<int>& nums) {
+        vector<vector<int>> allSubsets;
+        vector<int> ans;
+
+        getallSubsets(nums, ans, 0, allSubsets);
+        return allSubsets;
     }
 };
