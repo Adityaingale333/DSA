@@ -103,6 +103,7 @@
 | [2727-number-of-senior-citizens](https://github.com/Adityaingale333/DSA/tree/master/2727-number-of-senior-citizens) |
 | [2792-neighboring-bitwise-xor](https://github.com/Adityaingale333/DSA/tree/master/2792-neighboring-bitwise-xor) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/Adityaingale333/DSA/tree/master/2856-count-complete-subarrays-in-an-array) |
+| [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Adityaingale333/DSA/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3152-maximum-value-of-an-ordered-triplet-ii](https://github.com/Adityaingale333/DSA/tree/master/3152-maximum-value-of-an-ordered-triplet-ii) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/Adityaingale333/DSA/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/Adityaingale333/DSA/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
@@ -318,6 +319,7 @@
 | [2032-largest-odd-number-in-string](https://github.com/Adityaingale333/DSA/tree/master/2032-largest-odd-number-in-string) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/Adityaingale333/DSA/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Adityaingale333/DSA/tree/master/2456-construct-smallest-number-from-di-string) |
+| [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Adityaingale333/DSA/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/Adityaingale333/DSA/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Adityaingale333/DSA/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Divide and Conquer
@@ -340,6 +342,7 @@
 | [0678-valid-parenthesis-string](https://github.com/Adityaingale333/DSA/tree/master/0678-valid-parenthesis-string) |
 | [1013-fibonacci-number](https://github.com/Adityaingale333/DSA/tree/master/1013-fibonacci-number) |
 | [1063-best-sightseeing-pair](https://github.com/Adityaingale333/DSA/tree/master/1063-best-sightseeing-pair) |
+| [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Adityaingale333/DSA/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Adityaingale333/DSA/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Simulation
 |  |
@@ -415,6 +418,7 @@
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Adityaingale333/DSA/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/Adityaingale333/DSA/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2727-number-of-senior-citizens](https://github.com/Adityaingale333/DSA/tree/master/2727-number-of-senior-citizens) |
+| [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Adityaingale333/DSA/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3223-count-complete-substrings](https://github.com/Adityaingale333/DSA/tree/master/3223-count-complete-substrings) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Adityaingale333/DSA/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Adityaingale333/DSA/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
