@@ -2,6 +2,9 @@ class Solution {
 public:
     int M = 1e9+7;
     vector<vector<int>> t;
+
+    // Function to generate all valid colorings of a single column
+    // No two adjacent cells in a column can have the same color
     void generateStates(string temp, char prevChar, int l, int m, vector<string>& columnStates){
         if(l == m){
             columnStates.push_back(temp);
@@ -16,6 +19,8 @@ public:
         }
     }
 
+    // Recursive function to count the number of ways to color remaining columns
+    // while ensuring adjacent columns have no same color in the same row
     int solve(int remainCol, int prevStateIdx, int m, vector<string>& columnStates){
         if(remainCol == 0){
             return 1;
@@ -28,10 +33,12 @@ public:
         int ways = 0;
         string prevState = columnStates[prevStateIdx];
 
+        // Try all valid next column colorings
         for(int i=0; i<columnStates.size(); i++){
             if(prevStateIdx == i) continue;
             string tryState = columnStates[i];
             bool valid = true;
+            // Check if no row in this column has same color as previous column
             for(int j=0; j<m; j++){
                 if(prevState[j] == tryState[j]){
                     valid = false;
