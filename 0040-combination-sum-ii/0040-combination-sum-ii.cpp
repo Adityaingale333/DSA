@@ -1,13 +1,12 @@
 class Solution {
 public:
     void solve(int i, vector<int>& temp, int sum, int target, vector<vector<int>>& ans, vector<int>& candidates){
-        if(i == candidates.size()){
-            if(sum == target){
-                ans.push_back(temp);
-            }
+        if(sum == target){
+            ans.push_back(temp);
             return;
         }
-        if(sum > target) return;
+            
+        if(sum > target || i == candidates.size()) return;
         temp.push_back(candidates[i]);
         sum += candidates[i];
         solve(i+1, temp, sum, target, ans, candidates);
