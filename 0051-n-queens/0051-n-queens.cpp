@@ -1,29 +1,10 @@
 class Solution {
 public:
     int N;
-    bool isValid(vector<string>& board, int row, int col){
-        // attack from vertically upward
-        for(int i=row-1; i>=0; i--){
-            if(board[i][col] == 'Q'){
-                return false;
-            }
-        }
-
-        // attack from diagonally upward right
-        for(int i=row-1, j=col+1; i>=0 && j<N; i--, j++){
-                if(board[i][j] == 'Q'){
-                    return false;
-                }
-        }
-
-        // attack from diagonally upward left
-        for(int i=row-1, j=col-1; i>=0 && j>=0; i--, j--){
-                if(board[i][j] == 'Q'){
-                    return false;
-                }
-        }
-        return true;
-    }
+    unordered_set<int> cols;
+    unordered_set<int> diag;
+    unordered_set<int> antiDiag;
+    
     void solve(vector<string>& board, int row, vector<vector<string>>& ans){
         if(row == N){
             ans.push_back(board);
@@ -31,11 +12,30 @@ public:
         }
 
         for(int col=0; col<N; col++){
-            if(isValid(board, row, col)){
-                board[row][col] = 'Q';
-                solve(board, row+1, ans);
-                board[row][col] = '.';
+            int constDiag = row+col;
+            int constAntiDiag = row-col;
+
+            if(cols.find(col) != cols.end() || 
+               diag.find(constDiag) != diag.end() ||
+               antiDiag.find(constAntiDiag) != antiDiag.end()){
+                continue;
             }
+            // place Q
+            board[row][col] = 'Q';
+            // places where we can not put Q in future after putting a Q in above position
+            cols.insert(col);
+            diag.insert(constDiag);
+            antiDiag.insert(constAntiDiag);
+            
+            solve(board, row+1, ans);
+
+            // remove Q
+            board[row][col] = '.';
+            // places (avialable) where we can put Q in future after not putting a Q in above position
+            cols.erase(col);
+            diag.erase(constDiag);
+            antiDiag.erase(constAntiDiag);
+            
         }
     }
     vector<vector<string>> solveNQueens(int n) {
