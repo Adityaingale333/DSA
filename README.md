@@ -8,6 +8,7 @@
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Adityaingale333/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Adityaingale333/DSA/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Adityaingale333/DSA/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0037-sudoku-solver](https://github.com/Adityaingale333/DSA/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/Adityaingale333/DSA/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Adityaingale333/DSA/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/Adityaingale333/DSA/tree/master/0042-trapping-rain-water) |
@@ -186,6 +187,7 @@
 | [0012-integer-to-roman](https://github.com/Adityaingale333/DSA/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Adityaingale333/DSA/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Adityaingale333/DSA/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0037-sudoku-solver](https://github.com/Adityaingale333/DSA/tree/master/0037-sudoku-solver) |
 | [0076-minimum-window-substring](https://github.com/Adityaingale333/DSA/tree/master/0076-minimum-window-substring) |
 | [0139-word-break](https://github.com/Adityaingale333/DSA/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/Adityaingale333/DSA/tree/master/0141-linked-list-cycle) |
@@ -308,6 +310,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/Adityaingale333/DSA/tree/master/0037-sudoku-solver) |
 | [0059-spiral-matrix-ii](https://github.com/Adityaingale333/DSA/tree/master/0059-spiral-matrix-ii) |
 | [0085-maximal-rectangle](https://github.com/Adityaingale333/DSA/tree/master/0085-maximal-rectangle) |
 | [0921-spiral-matrix-iii](https://github.com/Adityaingale333/DSA/tree/master/0921-spiral-matrix-iii) |
@@ -597,6 +600,7 @@
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Adityaingale333/DSA/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/Adityaingale333/DSA/tree/master/0022-generate-parentheses) |
+| [0037-sudoku-solver](https://github.com/Adityaingale333/DSA/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/Adityaingale333/DSA/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Adityaingale333/DSA/tree/master/0040-combination-sum-ii) |
 | [0051-n-queens](https://github.com/Adityaingale333/DSA/tree/master/0051-n-queens) |
