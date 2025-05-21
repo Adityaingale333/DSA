@@ -15,6 +15,7 @@
 | [0051-n-queens](https://github.com/Adityaingale333/DSA/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/Adityaingale333/DSA/tree/master/0053-maximum-subarray) |
 | [0059-spiral-matrix-ii](https://github.com/Adityaingale333/DSA/tree/master/0059-spiral-matrix-ii) |
+| [0073-set-matrix-zeroes](https://github.com/Adityaingale333/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/Adityaingale333/DSA/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/Adityaingale333/DSA/tree/master/0078-subsets) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Adityaingale333/DSA/tree/master/0084-largest-rectangle-in-histogram) |
@@ -188,6 +189,7 @@
 | [0013-roman-to-integer](https://github.com/Adityaingale333/DSA/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Adityaingale333/DSA/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0037-sudoku-solver](https://github.com/Adityaingale333/DSA/tree/master/0037-sudoku-solver) |
+| [0073-set-matrix-zeroes](https://github.com/Adityaingale333/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/Adityaingale333/DSA/tree/master/0076-minimum-window-substring) |
 | [0139-word-break](https://github.com/Adityaingale333/DSA/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/Adityaingale333/DSA/tree/master/0141-linked-list-cycle) |
@@ -312,6 +314,7 @@
 | ------- |
 | [0037-sudoku-solver](https://github.com/Adityaingale333/DSA/tree/master/0037-sudoku-solver) |
 | [0059-spiral-matrix-ii](https://github.com/Adityaingale333/DSA/tree/master/0059-spiral-matrix-ii) |
+| [0073-set-matrix-zeroes](https://github.com/Adityaingale333/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0085-maximal-rectangle](https://github.com/Adityaingale333/DSA/tree/master/0085-maximal-rectangle) |
 | [0921-spiral-matrix-iii](https://github.com/Adityaingale333/DSA/tree/master/0921-spiral-matrix-iii) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Adityaingale333/DSA/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
