@@ -18,6 +18,7 @@
 | [0073-set-matrix-zeroes](https://github.com/Adityaingale333/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/Adityaingale333/DSA/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/Adityaingale333/DSA/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Adityaingale333/DSA/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Adityaingale333/DSA/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/Adityaingale333/DSA/tree/master/0085-maximal-rectangle) |
 | [0088-merge-sorted-array](https://github.com/Adityaingale333/DSA/tree/master/0088-merge-sorted-array) |
@@ -315,6 +316,7 @@
 | [0037-sudoku-solver](https://github.com/Adityaingale333/DSA/tree/master/0037-sudoku-solver) |
 | [0059-spiral-matrix-ii](https://github.com/Adityaingale333/DSA/tree/master/0059-spiral-matrix-ii) |
 | [0073-set-matrix-zeroes](https://github.com/Adityaingale333/DSA/tree/master/0073-set-matrix-zeroes) |
+| [0079-word-search](https://github.com/Adityaingale333/DSA/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/Adityaingale333/DSA/tree/master/0085-maximal-rectangle) |
 | [0921-spiral-matrix-iii](https://github.com/Adityaingale333/DSA/tree/master/0921-spiral-matrix-iii) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Adityaingale333/DSA/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
@@ -407,6 +409,7 @@
 | [0022-generate-parentheses](https://github.com/Adityaingale333/DSA/tree/master/0022-generate-parentheses) |
 | [0038-count-and-say](https://github.com/Adityaingale333/DSA/tree/master/0038-count-and-say) |
 | [0076-minimum-window-substring](https://github.com/Adityaingale333/DSA/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/Adityaingale333/DSA/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/Adityaingale333/DSA/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/Adityaingale333/DSA/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/Adityaingale333/DSA/tree/master/0139-word-break) |
@@ -608,6 +611,7 @@
 | [0040-combination-sum-ii](https://github.com/Adityaingale333/DSA/tree/master/0040-combination-sum-ii) |
 | [0051-n-queens](https://github.com/Adityaingale333/DSA/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/Adityaingale333/DSA/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Adityaingale333/DSA/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Adityaingale333/DSA/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/Adityaingale333/DSA/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/Adityaingale333/DSA/tree/master/0216-combination-sum-iii) |
@@ -699,6 +703,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/Adityaingale333/DSA/tree/master/0079-word-search) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0104-maximum-depth-of-binary-tree) |
 ## Breadth-First Search
 |  |
