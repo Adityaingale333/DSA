@@ -118,6 +118,7 @@
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/Adityaingale333/DSA/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Adityaingale333/DSA/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3227-find-missing-and-repeated-values](https://github.com/Adityaingale333/DSA/tree/master/3227-find-missing-and-repeated-values) |
+| [3307-find-the-maximum-sum-of-node-values](https://github.com/Adityaingale333/DSA/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3321-type-of-triangle](https://github.com/Adityaingale333/DSA/tree/master/3321-type-of-triangle) |
 | [3430-count-days-without-meetings](https://github.com/Adityaingale333/DSA/tree/master/3430-count-days-without-meetings) |
 | [3483-alternating-groups-ii](https://github.com/Adityaingale333/DSA/tree/master/3483-alternating-groups-ii) |
@@ -284,6 +285,7 @@
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Adityaingale333/DSA/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Adityaingale333/DSA/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2792-neighboring-bitwise-xor](https://github.com/Adityaingale333/DSA/tree/master/2792-neighboring-bitwise-xor) |
+| [3307-find-the-maximum-sum-of-node-values](https://github.com/Adityaingale333/DSA/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/Adityaingale333/DSA/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 ## Sorting
 |  |
@@ -309,6 +311,7 @@
 | [2215-finding-3-digit-even-numbers](https://github.com/Adityaingale333/DSA/tree/master/2215-finding-3-digit-even-numbers) |
 | [2284-smallest-value-of-the-rearranged-number](https://github.com/Adityaingale333/DSA/tree/master/2284-smallest-value-of-the-rearranged-number) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Adityaingale333/DSA/tree/master/2699-count-the-number-of-fair-pairs) |
+| [3307-find-the-maximum-sum-of-node-values](https://github.com/Adityaingale333/DSA/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3321-type-of-triangle](https://github.com/Adityaingale333/DSA/tree/master/3321-type-of-triangle) |
 | [3430-count-days-without-meetings](https://github.com/Adityaingale333/DSA/tree/master/3430-count-days-without-meetings) |
 | [3647-zero-array-transformation-iii](https://github.com/Adityaingale333/DSA/tree/master/3647-zero-array-transformation-iii) |
@@ -347,6 +350,7 @@
 | [2456-construct-smallest-number-from-di-string](https://github.com/Adityaingale333/DSA/tree/master/2456-construct-smallest-number-from-di-string) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Adityaingale333/DSA/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/Adityaingale333/DSA/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
+| [3307-find-the-maximum-sum-of-node-values](https://github.com/Adityaingale333/DSA/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Adityaingale333/DSA/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3647-zero-array-transformation-iii](https://github.com/Adityaingale333/DSA/tree/master/3647-zero-array-transformation-iii) |
 ## Divide and Conquer
@@ -375,6 +379,7 @@
 | [1063-best-sightseeing-pair](https://github.com/Adityaingale333/DSA/tree/master/1063-best-sightseeing-pair) |
 | [2061-painting-a-grid-with-three-different-colors](https://github.com/Adityaingale333/DSA/tree/master/2061-painting-a-grid-with-three-different-colors) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Adityaingale333/DSA/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
+| [3307-find-the-maximum-sum-of-node-values](https://github.com/Adityaingale333/DSA/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Adityaingale333/DSA/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Simulation
 |  |
@@ -687,6 +692,7 @@
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Adityaingale333/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
+| [3307-find-the-maximum-sum-of-node-values](https://github.com/Adityaingale333/DSA/tree/master/3307-find-the-maximum-sum-of-node-values) |
 ## Binary Search Tree
 |  |
 | ------- |
