@@ -31,6 +31,7 @@
 | [0189-rotate-array](https://github.com/Adityaingale333/DSA/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/Adityaingale333/DSA/tree/master/0198-house-robber) |
 | [0204-count-primes](https://github.com/Adityaingale333/DSA/tree/master/0204-count-primes) |
+| [0213-house-robber-ii](https://github.com/Adityaingale333/DSA/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Adityaingale333/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/Adityaingale333/DSA/tree/master/0216-combination-sum-iii) |
 | [0229-majority-element-ii](https://github.com/Adityaingale333/DSA/tree/master/0229-majority-element-ii) |
@@ -373,6 +374,7 @@
 | [0139-word-break](https://github.com/Adityaingale333/DSA/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/Adityaingale333/DSA/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/Adityaingale333/DSA/tree/master/0198-house-robber) |
+| [0213-house-robber-ii](https://github.com/Adityaingale333/DSA/tree/master/0213-house-robber-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Adityaingale333/DSA/tree/master/0241-different-ways-to-add-parentheses) |
 | [0410-split-array-largest-sum](https://github.com/Adityaingale333/DSA/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/Adityaingale333/DSA/tree/master/0416-partition-equal-subset-sum) |
