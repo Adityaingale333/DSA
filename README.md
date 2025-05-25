@@ -145,6 +145,7 @@
 | [0231-power-of-two](https://github.com/Adityaingale333/DSA/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Adityaingale333/DSA/tree/master/0241-different-ways-to-add-parentheses) |
 | [0268-missing-number](https://github.com/Adityaingale333/DSA/tree/master/0268-missing-number) |
+| [0564-find-the-closest-palindrome](https://github.com/Adityaingale333/DSA/tree/master/0564-find-the-closest-palindrome) |
 | [0797-rabbits-in-forest](https://github.com/Adityaingale333/DSA/tree/master/0797-rabbits-in-forest) |
 | [1013-fibonacci-number](https://github.com/Adityaingale333/DSA/tree/master/1013-fibonacci-number) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Adityaingale333/DSA/tree/master/1370-count-number-of-nice-subarrays) |
@@ -441,6 +442,7 @@
 | [0438-find-all-anagrams-in-a-string](https://github.com/Adityaingale333/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/Adityaingale333/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0500-keyboard-row](https://github.com/Adityaingale333/DSA/tree/master/0500-keyboard-row) |
+| [0564-find-the-closest-palindrome](https://github.com/Adityaingale333/DSA/tree/master/0564-find-the-closest-palindrome) |
 | [0678-valid-parenthesis-string](https://github.com/Adityaingale333/DSA/tree/master/0678-valid-parenthesis-string) |
 | [0778-reorganize-string](https://github.com/Adityaingale333/DSA/tree/master/0778-reorganize-string) |
 | [0812-rotate-string](https://github.com/Adityaingale333/DSA/tree/master/0812-rotate-string) |
