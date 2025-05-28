@@ -1,29 +1,31 @@
 class Solution {
 public:
-    int solve(int i, int amount, vector<int>& coins,  vector<vector<int>>& t){
-        if(i == 0){
-            if(amount % coins[0] == 0) return amount/coins[0];
-            return 1e9;
-        }
-
-        if(t[i][amount] != -1){
-            return t[i][amount];
-        }
-
-        int notTake = solve(i-1, amount, coins, t);
-
-        int take = INT_MAX;
-        if(coins[i] <= amount){
-            take = 1 + solve(i, amount-coins[i], coins, t);
-        }
-        return t[i][amount] = min(take, notTake);
-    }
     int coinChange(vector<int>& coins, int amount) {
         int n = coins.size();
 
-        vector<vector<int>> t(n, vector<int>(amount+1, -1));
+        vector<vector<int>> dp(n, vector<int>(amount+1, 0));
 
-        int ans = solve(n-1, amount, coins, t);
+        for(int T=0; T<=amount; T++){
+            if(T % coins[0] == 0){
+                dp[0][T] = T/coins[0];
+            }
+            else{
+                dp[0][T] = 1e9; 
+            }
+        }
+
+        for(int i=1; i<n; i++){
+            for(int j=0; j<amount+1; j++){
+                int notTake = dp[i-1][j];
+                int take = INT_MAX;
+                if(coins[i] <= j){
+                    take = 1 + dp[i][j-coins[i]];
+                }
+                dp[i][j] = min(take, notTake);
+            }
+        }
+
+        int ans = dp[n-1][amount];
         if(ans >= 1e9) return -1;
         return ans;
     }
