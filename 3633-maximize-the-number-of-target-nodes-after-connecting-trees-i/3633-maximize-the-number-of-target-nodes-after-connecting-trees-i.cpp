@@ -1,29 +1,16 @@
 class Solution {
 public:
-    int bfs(int curr, unordered_map<int, vector<int>>& adj, int d, int N){
-        queue<pair<int, int>> que;
-        que.push({curr, 0});
-        vector<bool> visited(N, false);
-        visited[curr] = true;
+    int dfs(int curr, unordered_map<int, vector<int>>& adj, int d, int currNodeKaParent){
+        if(d < 0){
+            return 0;
+        }
 
-        int count = 0; // count target nodes
-        while(!que.empty()){
-            int currNode = que.front().first;
-            int dist = que.front().second;
-            que.pop();
+        int count = 1; // counting current node as 1
 
-            if(dist > d){
-                continue;
+        for(int& ngbr : adj[curr]){
+            if(ngbr != currNodeKaParent){
+                count += dfs(ngbr, adj, d-1, curr);
             }
-
-            count++; // include current node in targetnodes
-            // visit neighbour of curr nodes
-            for(auto& ngbr : adj[currNode]){
-                if(!visited[ngbr]){
-                    visited[ngbr] = true;
-                    que.push({ngbr, dist+1});
-                }
-            } 
         }
         return count;
     }
@@ -43,7 +30,7 @@ public:
 
         vector<int> result(N);
         for(int i=0; i<N; i++){
-            result[i] = bfs(i, adj, d, N);
+            result[i] = dfs(i, adj, d, -1);
         }
 
         return result;
