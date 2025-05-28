@@ -1,32 +1,40 @@
 class Solution {
-public: 
+public:
     int findTargetSumWays(vector<int>& nums, int target) {
         int n = nums.size();
+        
         int sum = 0;
         for(int i=0; i<n; i++){
             sum += nums[i];
         }
 
-        // s1 - s2 = target -> s1 + s2 = sum
-        // s1 - (sum - s1) = target -> s1 = (target + sum)/2
-        int s1 = (target + sum)/2;
+        int s1 = (sum + target)/2;
 
-        if(sum < abs(target) || (target+sum)%2 != 0) return 0;
+        if(abs(target) > sum || (target+sum)%2 != 0) return 0;
 
-        vector<vector<int>> t(n+1, vector<int>(s1+1, 0));
+        vector<vector<int>> t(n, vector<int>(s1+1, 0));
 
-        t[0][0] = 1;
 
-        for(int i=1; i<n+1; i++){
+        if(nums[0] == 0){
+            t[0][0] = 2;
+        }
+        else{
+            t[0][0] = 1;
+        }
+
+        if(nums[0]!=0 && nums[0]<=s1) t[0][nums[0]] = 1;
+
+        for(int i=1; i<n; i++){
             for(int j=0; j<s1+1; j++){
-                if(nums[i-1] <= j){
-                    t[i][j] = t[i-1][j-nums[i-1]] + t[i-1][j];
-                }
-                else{
-                    t[i][j] = t[i-1][j];
-                }
+                int notTake = t[i-1][j];
+                int take = 0;
+                if(nums[i] <= j){
+                    take = t[i-1][j-nums[i]];
+                } 
+                t[i][j] = take + notTake;
             }
         }
-        return t[n][s1];
+
+        return t[n-1][s1];
     }
 };
