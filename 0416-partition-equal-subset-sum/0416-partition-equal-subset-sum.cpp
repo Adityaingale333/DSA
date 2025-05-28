@@ -1,51 +1,36 @@
 class Solution {
 public:
-    int t[201][20001];
-    bool solve(vector<int>& nums, int i, int x){
-        // Base case: if we've formed the required sum, return true
-        if(x == 0){
+    bool solve(int i, int s1, vector<int>& nums, vector<vector<int>>& t){
+        if(s1 == 0){
             return true;
         }
+        if(i == 0) return nums[0] == s1 ? 1 : 0;
 
-        // If we've exhausted the array, and haven't formed the sum, return false
-        if(i >= nums.size()){
-            return false;
+        if(t[i][s1] != -1){
+            return t[i][s1];
         }
 
-        if(t[i][x] != -1){
-            return t[i][x];
-        }
+        bool notTake = solve(i-1, s1, nums, t);
 
-        // Option 1: take nums[i] if it doesn't exceed the remaining sum
         bool take = false;
-        if(nums[i] <= x){
-            take = solve(nums, i+1, x-nums[i]);
+        if(nums[i] <= s1){
+            take = solve(i-1, s1-nums[i], nums, t);
         }
-
-        // Option 2: skip nums[i]
-        bool not_take = solve(nums, i+1, x);
-
-        // Store and return the result of either taking or skipping the current element
-        return t[i][x] = take || not_take;
+        
+        return t[i][s1] = take | notTake;
     }
-
     bool canPartition(vector<int>& nums) {
         int n = nums.size();
-
-        // total sum
-        int S = accumulate(nums.begin(), nums.end(), 0);
-
-        // If total is odd, it cannot be split into two equal subsets
-        if(S % 2 != 0){
-            return false;
+        int sum = 0;
+        for(int i=0; i<n; i++){
+            sum += nums[i];
         }
+        int s1 = sum/2;
 
-        memset(t, -1, sizeof(t));
+        if(sum%2 != 0) return false;
 
-        // We need to find a subset with sum equal to total/2
-        int x = S/2;
+        vector<vector<int>> t(n, vector<int>(s1+1, -1));
 
-        return solve(nums, 0, x);
-
+        return solve(n-1, s1, nums, t);
     }
 };
