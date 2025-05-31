@@ -353,6 +353,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/Adityaingale333/DSA/tree/master/0044-wildcard-matching) |
 | [0179-largest-number](https://github.com/Adityaingale333/DSA/tree/master/0179-largest-number) |
 | [0410-split-array-largest-sum](https://github.com/Adityaingale333/DSA/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/Adityaingale333/DSA/tree/master/0455-assign-cookies) |
@@ -387,6 +388,7 @@
 | [0005-longest-palindromic-substring](https://github.com/Adityaingale333/DSA/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/Adityaingale333/DSA/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Adityaingale333/DSA/tree/master/0042-trapping-rain-water) |
+| [0044-wildcard-matching](https://github.com/Adityaingale333/DSA/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/Adityaingale333/DSA/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/Adityaingale333/DSA/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/Adityaingale333/DSA/tree/master/0072-edit-distance) |
@@ -455,6 +457,7 @@
 | [0020-valid-parentheses](https://github.com/Adityaingale333/DSA/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Adityaingale333/DSA/tree/master/0022-generate-parentheses) |
 | [0038-count-and-say](https://github.com/Adityaingale333/DSA/tree/master/0038-count-and-say) |
+| [0044-wildcard-matching](https://github.com/Adityaingale333/DSA/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/Adityaingale333/DSA/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/Adityaingale333/DSA/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/Adityaingale333/DSA/tree/master/0079-word-search) |
@@ -642,6 +645,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/Adityaingale333/DSA/tree/master/0044-wildcard-matching) |
 | [0050-powx-n](https://github.com/Adityaingale333/DSA/tree/master/0050-powx-n) |
 | [0231-power-of-two](https://github.com/Adityaingale333/DSA/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Adityaingale333/DSA/tree/master/0241-different-ways-to-add-parentheses) |
