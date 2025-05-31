@@ -406,6 +406,7 @@
 | [0678-valid-parenthesis-string](https://github.com/Adityaingale333/DSA/tree/master/0678-valid-parenthesis-string) |
 | [1013-fibonacci-number](https://github.com/Adityaingale333/DSA/tree/master/1013-fibonacci-number) |
 | [1063-best-sightseeing-pair](https://github.com/Adityaingale333/DSA/tree/master/1063-best-sightseeing-pair) |
+| [1170-shortest-common-supersequence](https://github.com/Adityaingale333/DSA/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/Adityaingale333/DSA/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Adityaingale333/DSA/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [2022-maximum-alternating-subsequence-sum](https://github.com/Adityaingale333/DSA/tree/master/2022-maximum-alternating-subsequence-sum) |
@@ -478,6 +479,7 @@
 | [0952-word-subsets](https://github.com/Adityaingale333/DSA/tree/master/0952-word-subsets) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Adityaingale333/DSA/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1078-remove-outermost-parentheses](https://github.com/Adityaingale333/DSA/tree/master/1078-remove-outermost-parentheses) |
+| [1170-shortest-common-supersequence](https://github.com/Adityaingale333/DSA/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/Adityaingale333/DSA/tree/master/1250-longest-common-subsequence) |
 | [1261-swap-for-longest-repeated-character-substring](https://github.com/Adityaingale333/DSA/tree/master/1261-swap-for-longest-repeated-character-substring) |
 | [1321-get-equal-substrings-within-budget](https://github.com/Adityaingale333/DSA/tree/master/1321-get-equal-substrings-within-budget) |
