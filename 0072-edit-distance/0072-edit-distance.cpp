@@ -1,6 +1,6 @@
 class Solution {
 public:
-    // using lcs we can only compute insert and delete operations
+   /* // using lcs we can only compute insert and delete operations
     // to compute all 3 insert delete and replace, we need to write recurssion of match - notMatch
     int solve(int i, string&word1, int j, string& word2, vector<vector<int>>& t){
         if(j < 0){
@@ -24,12 +24,33 @@ public:
         int replace = 1 + solve(i-1, word1, j-1, word2, t); // both will move
 
         return t[i][j] = min(insert, min(remove, replace));
-    }
+    }*/
     int minDistance(string word1, string word2) {
         int m = word1.size();
         int n = word2.size();
 
-        vector<vector<int>> t(m, vector<int>(n, -1));
-        return solve(m-1, word1, n-1, word2, t);
+        vector<vector<int>> t(m+1, vector<int>(n+1, 0));
+
+        for(int i=0; i<m+1; i++){
+            t[i][0] = i; // i+1 but here indexing changes so, i -> i-1, so i+1 = (i-1) + 1
+        }
+        for(int j=0; j<n+1; j++){
+            t[0][j] = j;
+        }
+
+        for(int i=1; i<m+1; i++){
+            for(int j=1; j<n+1; j++){
+                if(word1[i-1] == word2[j-1]){
+                    t[i][j] = t[i-1][j-1];
+                }
+                else{
+                   int insert = 1 + t[i][j-1];
+                   int remove = 1 + t[i-1][j];
+                   int replace = 1 + t[i-1][j-1];
+                   t[i][j] = min(insert, min(remove, replace)); 
+                }
+            }
+        }
+        return t[m][n] ;
     }
 };
