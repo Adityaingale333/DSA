@@ -1,26 +1,20 @@
 class Solution {
 public:
-    int solve(int i, int j, int m, int n, vector<vector<int>>& t){
-        if(i == m-1 && j == n-1){
-            return 1;
-        }
-        if(i<0 || i>=m || j<0 || j>=n){
-            return 0;
-        }
-
-        if(t[i][j] != -1){
-            return t[i][j];
-        }
-
-        int down = solve(i+1, j, m, n, t);
-
-        int right = solve(i, j+1, m, n, t);
-
-        return t[i][j] = down + right;
-    }
     int uniquePaths(int m, int n) {
-        int i = 0, j = 0;
-        vector<vector<int>> t(m, vector<int>(n, -1));
-        return solve(i, j, m, n, t);
+        vector<vector<int>> t(m, vector<int>(n, 0));
+
+        for(int i=0; i<m; i++){
+            for(int j=0; j<n; j++){
+                if(i==0 && j==0) t[0][0] = 1;
+                else{
+                    int up = 0;
+                    int left = 0;
+                    if(i>0) up = t[i-1][j];
+                    if(j>0) left = t[i][j-1];
+                    t[i][j] = up + left;
+                }
+            }
+        }
+        return t[m-1][n-1];
     }
 };
