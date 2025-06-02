@@ -76,6 +76,7 @@
 | [0945-snakes-and-ladders](https://github.com/Adityaingale333/DSA/tree/master/0945-snakes-and-ladders) |
 | [0952-word-subsets](https://github.com/Adityaingale333/DSA/tree/master/0952-word-subsets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Adityaingale333/DSA/tree/master/0966-binary-subarrays-with-sum) |
+| [0967-minimum-falling-path-sum](https://github.com/Adityaingale333/DSA/tree/master/0967-minimum-falling-path-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Adityaingale333/DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Adityaingale333/DSA/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1063-best-sightseeing-pair](https://github.com/Adityaingale333/DSA/tree/master/1063-best-sightseeing-pair) |
@@ -353,6 +354,7 @@
 | [0085-maximal-rectangle](https://github.com/Adityaingale333/DSA/tree/master/0085-maximal-rectangle) |
 | [0921-spiral-matrix-iii](https://github.com/Adityaingale333/DSA/tree/master/0921-spiral-matrix-iii) |
 | [0945-snakes-and-ladders](https://github.com/Adityaingale333/DSA/tree/master/0945-snakes-and-ladders) |
+| [0967-minimum-falling-path-sum](https://github.com/Adityaingale333/DSA/tree/master/0967-minimum-falling-path-sum) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Adityaingale333/DSA/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Adityaingale333/DSA/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Adityaingale333/DSA/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
@@ -421,6 +423,7 @@
 | [0518-coin-change-ii](https://github.com/Adityaingale333/DSA/tree/master/0518-coin-change-ii) |
 | [0583-delete-operation-for-two-strings](https://github.com/Adityaingale333/DSA/tree/master/0583-delete-operation-for-two-strings) |
 | [0678-valid-parenthesis-string](https://github.com/Adityaingale333/DSA/tree/master/0678-valid-parenthesis-string) |
+| [0967-minimum-falling-path-sum](https://github.com/Adityaingale333/DSA/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/Adityaingale333/DSA/tree/master/1013-fibonacci-number) |
 | [1063-best-sightseeing-pair](https://github.com/Adityaingale333/DSA/tree/master/1063-best-sightseeing-pair) |
 | [1170-shortest-common-supersequence](https://github.com/Adityaingale333/DSA/tree/master/1170-shortest-common-supersequence) |
