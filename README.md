@@ -26,6 +26,7 @@
 | [0085-maximal-rectangle](https://github.com/Adityaingale333/DSA/tree/master/0085-maximal-rectangle) |
 | [0088-merge-sorted-array](https://github.com/Adityaingale333/DSA/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/Adityaingale333/DSA/tree/master/0090-subsets-ii) |
+| [0120-triangle](https://github.com/Adityaingale333/DSA/tree/master/0120-triangle) |
 | [0136-single-number](https://github.com/Adityaingale333/DSA/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/Adityaingale333/DSA/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/Adityaingale333/DSA/tree/master/0152-maximum-product-subarray) |
@@ -405,6 +406,7 @@
 | [0072-edit-distance](https://github.com/Adityaingale333/DSA/tree/master/0072-edit-distance) |
 | [0085-maximal-rectangle](https://github.com/Adityaingale333/DSA/tree/master/0085-maximal-rectangle) |
 | [0115-distinct-subsequences](https://github.com/Adityaingale333/DSA/tree/master/0115-distinct-subsequences) |
+| [0120-triangle](https://github.com/Adityaingale333/DSA/tree/master/0120-triangle) |
 | [0131-palindrome-partitioning](https://github.com/Adityaingale333/DSA/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/Adityaingale333/DSA/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/Adityaingale333/DSA/tree/master/0152-maximum-product-subarray) |
