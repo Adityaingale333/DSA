@@ -1,48 +1,39 @@
 class Solution {
 public:
     int N;
-    unordered_set<int> cols;
-    unordered_set<int> diag;
-    unordered_set<int> antiDiag;
-    
-    void solve(vector<string>& board, int row, vector<vector<string>>& ans){
-        if(row == N){
-            ans.push_back(board);
+    bool isPossible(int row, int col, vector<string>& temp){
+        for(int i=row-1; i>=0; i--){
+            if(temp[i][col] == 'Q') return false;
+        }
+
+        for(int i=row-1, j=col+1; i>=0 && j<N; i--, j++){
+            if(temp[i][j] == 'Q') return false;
+        }
+
+        for(int i=row-1, j=col-1; i>=0 && j>=0; i--, j--){
+            if(temp[i][j] == 'Q') return false;
+        }
+        return true;
+    }
+    void solve(int i, vector<string>& temp, vector<vector<string>>& ans){
+        if(i == N){
+            ans.push_back(temp);
             return;
         }
 
         for(int col=0; col<N; col++){
-            int constDiag = row+col;
-            int constAntiDiag = row-col;
-
-            if(cols.find(col) != cols.end() || 
-               diag.find(constDiag) != diag.end() ||
-               antiDiag.find(constAntiDiag) != antiDiag.end()){
-                continue;
+            if(isPossible(i, col, temp)){
+                temp[i][col] = 'Q';
+                solve(i+1, temp, ans);
+                temp[i][col] = '.';
             }
-            // place Q
-            board[row][col] = 'Q';
-            // places where we can not put Q in future after putting a Q in above position
-            cols.insert(col);
-            diag.insert(constDiag);
-            antiDiag.insert(constAntiDiag);
-            
-            solve(board, row+1, ans);
-
-            // remove Q
-            board[row][col] = '.';
-            // places (avialable) where we can put Q in future after not putting a Q in above position
-            cols.erase(col);
-            diag.erase(constDiag);
-            antiDiag.erase(constAntiDiag);
-            
         }
     }
     vector<vector<string>> solveNQueens(int n) {
         N = n;
-        vector<string> board(n, string(n, '.')); // n=3 -> {"...", "...", "..."}
         vector<vector<string>> ans;
-        solve(board, 0, ans);
+        vector<string> temp(n, string(n, '.'));
+        solve(0, temp, ans);
         return ans;
     }
 };
