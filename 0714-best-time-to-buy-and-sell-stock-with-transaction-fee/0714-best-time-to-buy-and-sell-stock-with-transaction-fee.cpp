@@ -21,24 +21,33 @@ public:
     int maxProfit(vector<int>& prices, int fee) {
         int n = prices.size();
 
-        vector<vector<int>> t(n+1, vector<int>(2, 0));
+       /* vector<vector<int>> t(n+1, vector<int>(2, 0));
 
         for(int buy=0; buy<2; buy++){
             t[n][buy] = 0;
+        }*/
+
+        // space optimization, use vector to save next state, as we have base case of n and not 0
+        vector<int> after(2, 0);
+        vector<int> curr(2, 0);
+
+        for(int buy=0; buy<2; buy++){
+            after[buy] = 0;
         }
 
         for(int i=n-1; i>=0; i--){
             for(int buy=0; buy<2; buy++){
                 int profit = 0;
                 if(buy){
-                    profit = max( -prices[i] + t[i+1][0], t[i+1][1] );
+                    profit = max( -prices[i] + after[0], after[1] );
                 }
                 else{
-                    profit = max( prices[i] - fee + t[i+1][1], t[i+1][0] );
+                    profit = max( prices[i] - fee + after[1], after[0] );
                 }
-                t[i][buy] = profit;
+                curr[buy] = profit;
             }
+            after = curr;
         }
-        return t[0][1] ;
+        return after[1] ;
     }
 };
