@@ -24,8 +24,7 @@ public:
     }*/
     int maxProfit(vector<int>& prices) {
         int n = prices.size();
-
-        vector<vector<vector<int>>> t(n+1, vector<vector<int>>(2, vector<int>(3, -1)));
+       /* //vector<vector<vector<int>>> t(n+1, vector<vector<int>>(2, vector<int>(3, -1)));
         // base case -> transaction == 2
         for(int i=0; i<n; i++){
             for(int buy=0; buy<=1; buy++){
@@ -37,23 +36,28 @@ public:
             for(int transaction=0; transaction<=2; transaction++){
                 t[n][buy][transaction] = 0;
             }
-        }
+        }*/
+
+        // space optimize it, we will do something like memoization
+        vector<vector<int>> after(2, vector<int>(3, 0));
+        vector<vector<int>> curr(2, vector<int>(3, 0));
 
         for(int i=n-1; i>=0; i--){
             for(int buy=0; buy<=1; buy++){
                 for(int transaction=2-1; transaction>=0; transaction--){
                     int profit = 0;
                     if(buy){
-                        profit = max(-prices[i] + t[i+1][0][transaction], t[i+1][1][transaction]);
+                        profit = max(-prices[i] + after[0][transaction], after[1][transaction]);
                     }
                     else{
-                        profit = max(prices[i] + t[i+1][1][transaction+1], t[i+1][0][transaction] );
+                        profit = max(prices[i] + after[1][transaction+1], after[0][transaction] );
                     }
 
-                    t[i][buy][transaction] = profit;
+                    curr[buy][transaction] = profit;
                 }
             }
+            after = curr;
         }
-        return t[0][1][0] ;
+        return after[1][0] ;
     }
 };
