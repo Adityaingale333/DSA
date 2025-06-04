@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int solve(int i, vector<int>& prices, int buy, int transaction, vector<vector<vector<int>>>& t){
+    /*int solve(int i, vector<int>& prices, int buy, int transaction, vector<vector<vector<int>>>& t){
         if(transaction == 2){
             return 0;
         }
@@ -21,11 +21,39 @@ public:
         }
 
         return t[i][buy][transaction] = profit;
-    }
+    }*/
     int maxProfit(vector<int>& prices) {
         int n = prices.size();
 
-        vector<vector<vector<int>>> t(n, vector<vector<int>>(2, vector<int>(3, -1)));
-        return solve(0, prices, 1, 0, t);
+        vector<vector<vector<int>>> t(n+1, vector<vector<int>>(2, vector<int>(3, -1)));
+        // base case -> transaction == 2
+        for(int i=0; i<n; i++){
+            for(int buy=0; buy<=1; buy++){
+                t[i][buy][2] = 0;
+            }
+        }
+        // base case -> i == n
+        for(int buy=0; buy<=1; buy++){
+            for(int transaction=0; transaction<=2; transaction++){
+                t[n][buy][transaction] = 0;
+            }
+        }
+
+        for(int i=n-1; i>=0; i--){
+            for(int buy=0; buy<=1; buy++){
+                for(int transaction=2-1; transaction>=0; transaction--){
+                    int profit = 0;
+                    if(buy){
+                        profit = max(-prices[i] + t[i+1][0][transaction], t[i+1][1][transaction]);
+                    }
+                    else{
+                        profit = max(prices[i] + t[i+1][1][transaction+1], t[i+1][0][transaction] );
+                    }
+
+                    t[i][buy][transaction] = profit;
+                }
+            }
+        }
+        return t[0][1][0] ;
     }
 };
