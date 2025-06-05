@@ -69,6 +69,7 @@
 | [0540-single-element-in-a-sorted-array](https://github.com/Adityaingale333/DSA/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Adityaingale333/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0624-maximum-distance-in-arrays](https://github.com/Adityaingale333/DSA/tree/master/0624-maximum-distance-in-arrays) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/Adityaingale333/DSA/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Adityaingale333/DSA/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0724-find-pivot-index](https://github.com/Adityaingale333/DSA/tree/master/0724-find-pivot-index) |
 | [0735-asteroid-collision](https://github.com/Adityaingale333/DSA/tree/master/0735-asteroid-collision) |
@@ -443,6 +444,7 @@
 | [0516-longest-palindromic-subsequence](https://github.com/Adityaingale333/DSA/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/Adityaingale333/DSA/tree/master/0518-coin-change-ii) |
 | [0583-delete-operation-for-two-strings](https://github.com/Adityaingale333/DSA/tree/master/0583-delete-operation-for-two-strings) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/Adityaingale333/DSA/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0678-valid-parenthesis-string](https://github.com/Adityaingale333/DSA/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Adityaingale333/DSA/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0967-minimum-falling-path-sum](https://github.com/Adityaingale333/DSA/tree/master/0967-minimum-falling-path-sum) |
@@ -834,4 +836,12 @@
 | ------- |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/Adityaingale333/DSA/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/Adityaingale333/DSA/tree/master/2438-find-closest-node-to-given-two-nodes) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/Adityaingale333/DSA/tree/master/0673-number-of-longest-increasing-subsequence) |
+## Segment Tree
+|  |
+| ------- |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/Adityaingale333/DSA/tree/master/0673-number-of-longest-increasing-subsequence) |
 <!---LeetCode Topics End-->
