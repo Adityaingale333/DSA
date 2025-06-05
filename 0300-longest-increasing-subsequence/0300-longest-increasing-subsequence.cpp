@@ -19,17 +19,19 @@ public:
     int lengthOfLIS(vector<int>& nums) {
         int n = nums.size();
 
-        vector<vector<int>> t(n+1, vector<int>(n+1, 0));
+        vector<int> after(n+1, 0);
+        vector<int> curr(n+1, 0);
 
         for(int i=n-1; i>=0; i--){
             for(int prevIdx = i-1; prevIdx>=-1; prevIdx--){
-                int len = t[i+1][prevIdx+1];
+                int len = after[prevIdx+1];
                 if(prevIdx == -1 || nums[i] > nums[prevIdx]){
-                    len = max(len, 1 + t[i+1][i+1]);
+                    len = max(len, 1 + after[i+1]);
                 }
-                t[i][prevIdx+1] = len;
+                curr[prevIdx+1] = len;
             }
+            after = curr;
         }
-        return t[0][-1+1];  
+        return after[-1+1];  
     }
 };
