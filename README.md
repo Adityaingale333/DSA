@@ -526,6 +526,7 @@
 | [0822-unique-morse-code-words](https://github.com/Adityaingale333/DSA/tree/master/0822-unique-morse-code-words) |
 | [0952-word-subsets](https://github.com/Adityaingale333/DSA/tree/master/0952-word-subsets) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Adityaingale333/DSA/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1058-lexicographically-smallest-equivalent-string](https://github.com/Adityaingale333/DSA/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1078-remove-outermost-parentheses](https://github.com/Adityaingale333/DSA/tree/master/1078-remove-outermost-parentheses) |
 | [1129-longest-string-chain](https://github.com/Adityaingale333/DSA/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/Adityaingale333/DSA/tree/master/1170-shortest-common-supersequence) |
@@ -844,4 +845,8 @@
 |  |
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Adityaingale333/DSA/tree/master/0673-number-of-longest-increasing-subsequence) |
+## Union Find
+|  |
+| ------- |
+| [1058-lexicographically-smallest-equivalent-string](https://github.com/Adityaingale333/DSA/tree/master/1058-lexicographically-smallest-equivalent-string) |
 <!---LeetCode Topics End-->
