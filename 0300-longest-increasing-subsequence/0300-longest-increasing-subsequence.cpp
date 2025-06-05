@@ -1,27 +1,25 @@
 class Solution {
 public:
-    int solve(int i, int lastIdx, vector<int>& nums, vector<vector<int>>& t){
-        if(i < 0){
+    int solve(int i, int prevIdx, vector<int>& nums, vector<vector<int>>& t){
+        if(i == nums.size()){
             return 0;
         }
-        
-        if(t[i][lastIdx] != -1){
-            return t[i][lastIdx];
+
+        if(t[i][prevIdx+1] != -1){
+            return t[i][prevIdx+1];
         }
 
-        int take = 0;
-        if(lastIdx == nums.size() || nums[i] < nums[lastIdx]){
-            take = 1 + solve(i-1, i, nums, t);
+        int len = solve(i+1, prevIdx, nums, t);
+
+        if(prevIdx == -1 || nums[i] > nums[prevIdx]){
+            len = max(len, 1 + solve(i+1, i, nums, t));
         }
-
-        int notTake = solve(i-1, lastIdx, nums, t);
-
-        return t[i][lastIdx] = max(take, notTake);
+        return t[i][prevIdx+1] = len;
     }
     int lengthOfLIS(vector<int>& nums) {
         int n = nums.size();
 
         vector<vector<int>> t(n, vector<int>(n+1, -1));
-        return solve(n-1, n, nums, t);
+        return solve(0, -1, nums, t);  
     }
 };
