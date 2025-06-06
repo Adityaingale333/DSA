@@ -270,6 +270,7 @@
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Adityaingale333/DSA/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Adityaingale333/DSA/tree/master/2308-divide-array-into-equal-pairs) |
 | [2434-design-a-number-container-system](https://github.com/Adityaingale333/DSA/tree/master/2434-design-a-number-container-system) |
+| [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Adityaingale333/DSA/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Adityaingale333/DSA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/Adityaingale333/DSA/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Adityaingale333/DSA/tree/master/2626-count-the-number-of-good-subarrays) |
@@ -398,6 +399,7 @@
 | [2094-remove-stones-to-minimize-the-total](https://github.com/Adityaingale333/DSA/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Adityaingale333/DSA/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Adityaingale333/DSA/tree/master/2456-construct-smallest-number-from-di-string) |
+| [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Adityaingale333/DSA/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Adityaingale333/DSA/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/Adityaingale333/DSA/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/Adityaingale333/DSA/tree/master/3307-find-the-maximum-sum-of-node-values) |
@@ -550,6 +552,7 @@
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Adityaingale333/DSA/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Adityaingale333/DSA/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Adityaingale333/DSA/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
+| [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Adityaingale333/DSA/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/Adityaingale333/DSA/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2727-number-of-senior-citizens](https://github.com/Adityaingale333/DSA/tree/master/2727-number-of-senior-citizens) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Adityaingale333/DSA/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
@@ -579,6 +582,7 @@
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Adityaingale333/DSA/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Adityaingale333/DSA/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Adityaingale333/DSA/tree/master/2456-construct-smallest-number-from-di-string) |
+| [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Adityaingale333/DSA/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Adityaingale333/DSA/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Trie
 |  |
