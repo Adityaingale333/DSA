@@ -29,6 +29,7 @@
 | [0120-triangle](https://github.com/Adityaingale333/DSA/tree/master/0120-triangle) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Adityaingale333/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Adityaingale333/DSA/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
+| [0128-longest-consecutive-sequence](https://github.com/Adityaingale333/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0135-candy](https://github.com/Adityaingale333/DSA/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/Adityaingale333/DSA/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/Adityaingale333/DSA/tree/master/0139-word-break) |
@@ -230,6 +231,7 @@
 | [0037-sudoku-solver](https://github.com/Adityaingale333/DSA/tree/master/0037-sudoku-solver) |
 | [0073-set-matrix-zeroes](https://github.com/Adityaingale333/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/Adityaingale333/DSA/tree/master/0076-minimum-window-substring) |
+| [0128-longest-consecutive-sequence](https://github.com/Adityaingale333/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/Adityaingale333/DSA/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/Adityaingale333/DSA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Adityaingale333/DSA/tree/master/0142-linked-list-cycle-ii) |
@@ -855,5 +857,6 @@
 ## Union Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Adityaingale333/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Adityaingale333/DSA/tree/master/1058-lexicographically-smallest-equivalent-string) |
 <!---LeetCode Topics End-->
