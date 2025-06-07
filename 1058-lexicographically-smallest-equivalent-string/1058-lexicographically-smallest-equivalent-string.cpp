@@ -1,43 +1,32 @@
 class Solution {
 public:
-    char dfs(unordered_map<char, vector<char>>& adj, char curr_ch, vector<int>& visited){
-        visited[curr_ch-'a'] = 1;
-
-        char minChar = curr_ch;
-
-        for(char &v : adj[curr_ch]){
-            if(visited[v-'a'] == 0){
-                minChar = min(minChar, dfs(adj, v, visited));
-            }
+    int parent(int x, vector<int>& P){
+        if(P[x] == x){
+            return x;
         }
-        return minChar;
+
+        return P[x] = parent(P[x], P);
     }
     string smallestEquivalentString(string s1, string s2, string baseStr) {
-        int n = s1.length();
+        int n = s1.size();
 
-        int m = baseStr.length();
+        vector<int> P(26, 0);
 
-        unordered_map<char, vector<char>> adj;
+        for(int i=0; i<26; i++){
+            P[i] = i;
+        }
 
         for(int i=0; i<n; i++){
-            char u = s1[i];
-            char v = s2[i];
-
-            adj[u].push_back(v);
-            adj[v].push_back(u);
-        }        
-
-        string result;
-
-        for(int i=0; i<m; i++){
-            char ch = baseStr[i];
-
-            vector<int> visited(26, 0);
-
-            char minChar = dfs(adj, ch, visited);
-
-            result.push_back(minChar);
+            int pa = parent(s1[i] - 'a', P);
+            int pb = parent(s2[i] - 'a', P);
+            if(pa < pb) P[pb] = pa;
+            else P[pa] = pb;
         }
-        return result;
+        string ans;
+        for(int i=0; i<baseStr.size(); i++){
+            char ch = parent(baseStr[i]-'a', P) + 'a';
+            ans.push_back(ch);
+        }
+        return ans;
     }
 };
