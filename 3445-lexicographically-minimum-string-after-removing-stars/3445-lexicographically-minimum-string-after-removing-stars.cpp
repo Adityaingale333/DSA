@@ -1,32 +1,31 @@
 class Solution {
 public:
-    typedef pair<char,int> P; 
-    struct comp{
-        bool operator()(P &p1, P &p2){
-            if(p1.first == p2.first){
-                return p1.second < p2.second;
-            }
-            return p1.first > p2.first;
-        }
-    };
     string clearStars(string s) {
         int n = s.size();
-        priority_queue<P, vector<P>, comp> minh;
+
+        vector<vector<int>> mp(26); // mapping of characters == a -> 0,1,3   b-> 2
+        // whenever we encounter a star we iterate in the map from a to z and remove the last elemwnt from their vec
+
+        vector<int> to_Remove(n, 0);
 
         for(int i=0; i<n; i++){
-            if(s[i] != '*'){
-                minh.push({s[i], i});
+            if(s[i] == '*'){
+                for(char ch='a'; ch<='z'; ch++){
+                    if(mp[ch-'a'].size() != 0){
+                        to_Remove[mp[ch-'a'].back()] = 1;
+                        mp[ch-'a'].pop_back();
+                        break;
+                    }
+                }
             }
             else{
-                int idx = minh.top().second;
-                minh.pop();
-                s[idx] = '*';
+                mp[s[i]-'a'].push_back(i);
             }
         }
 
-        string ans = "";
+        string ans;
         for(int i=0; i<n; i++){
-            if(s[i] != '*'){
+            if(to_Remove[i] != 1 && s[i] != '*'){
                 ans.push_back(s[i]);
             }
         }
