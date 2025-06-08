@@ -1,34 +1,52 @@
 class Solution {
 public:
-    bool isPallindrome(int i, int j, string& s){
+    bool isPallindrome(string& s, int i, int j){
         while(i < j){
-            if(s[i] != s[j]) return false;
+            if(s[i] != s[j]) return 0;
             i++, j--;
         }
-        return true;
+        return 1;
     }
-    int solve(int i, int n, string& s, vector<int>& t){
-        if( i == n){
+    int solve(int i, int j, string& s, vector<vector<int>>& t){
+        if(i >= j){
+            return 0;
+        }
+        if(isPallindrome(s, i, j)){
             return 0;
         }
 
-        if(t[i] != -1){
-            return t[i];
+        if(t[i][j] != -1){
+            return t[i][j];
         }
 
-        int minCost = INT_MAX;
-        for(int j=i; j<n; j++){
-            if(isPallindrome(i, j, s)){
-                int cost = 1 + solve(j+1, n, s, t);
-                minCost = min(minCost, cost); 
+        int cuts = INT_MAX;
+        for(int k=i; k<=j-1; k++){ // k, j-1 tak hi jayega kuki k+1 kr rahe hai
+            if(isPallindrome(s, i, k)){
+                int left = 0;
+                if(t[i][k] != -1){
+                    left = t[i][k];
+                } 
+                else{
+                    left = solve(i, k, s, t);
+                }
+                int right = 0;
+                if(t[k+1][j] != -1){
+                    right = t[k+1][j];
+                }
+                else{
+                    right = solve(k+1, j, s, t);
+                } 
+                int temp = 1 + left + right; // 1 current partition ka add kra hai
+                cuts = min(cuts, temp);
             }
+            
         }
-        return t[i] = minCost;
+        return t[i][j] = cuts;
     }
     int minCut(string s) {
         int n = s.size();
-        vector<int> t(n, -1);
-        return solve(0, n, s, t) - 1; // it is doing partition for the last character as well
-                                    // so we need to minus 1,  a|b|c| <- delete this last partiton
+
+        vector<vector<int>> t(n, vector<int>(n, -1));
+        return solve(0, n-1, s, t);
     }
 };
