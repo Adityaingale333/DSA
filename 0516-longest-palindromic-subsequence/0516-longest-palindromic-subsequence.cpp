@@ -1,37 +1,28 @@
 class Solution {
 public:
-    // pallindrome means it reads same front and back
-    // if we reverse the given string and save it as s2
-    // and then find the lcs of it then it will be the longest pallindrome as well
-    int lcs(string s, string s2){
-        int m = s.size();
-        int n = s2.size();
-
-        vector<vector<int>> t(m+1, vector<int>(n+1, 0));
-
-        for(int i=0; i<m+1; i++){
-            t[i][0] = 0;
-        }
-        for(int j=0; j<n+1; j++){
-            t[0][j] = 0;
+    int solve(int i, int j, string& s, string& s2, vector<vector<int>>& t){
+        if(i == s.size() || j == s2.size()){
+            return 0;
         }
 
-        for(int i=1; i<m+1; i++){
-            for(int j=1; j<n+1; j++){
-                if(s[i-1] == s2[j-1]){
-                    t[i][j] = 1 + t[i-1][j-1];
-                }
-                else{
-                    t[i][j] = max(t[i-1][j], t[i][j-1]);
-                }
-            }
+        if(t[i][j] != -1){
+            return t[i][j];
         }
-        return t[m][n];
+
+        if(s[i] == s2[j]){
+            return t[i][j] = 1 + solve(i+1, j+1, s, s2, t);
+        }
+        else{
+            return t[i][j] = max(solve(i+1, j, s, s2, t), solve(i, j+1, s, s2, t));
+        }
+
     }
     int longestPalindromeSubseq(string s) {
+        int n = s.size();
         string s2 = s;
         reverse(s2.begin(), s2.end());
 
-        return lcs(s, s2);
+        vector<vector<int>> t(n, vector<int>(n, -1));
+        return solve(0, 0, s, s2, t);
     }
 };
