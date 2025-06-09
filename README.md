@@ -97,6 +97,7 @@
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Adityaingale333/DSA/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1364-tuple-with-same-product](https://github.com/Adityaingale333/DSA/tree/master/1364-tuple-with-same-product) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Adityaingale333/DSA/tree/master/1370-count-number-of-nice-subarrays) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/Adityaingale333/DSA/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Adityaingale333/DSA/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Adityaingale333/DSA/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/Adityaingale333/DSA/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
@@ -375,6 +376,7 @@
 | [0945-snakes-and-ladders](https://github.com/Adityaingale333/DSA/tree/master/0945-snakes-and-ladders) |
 | [0967-minimum-falling-path-sum](https://github.com/Adityaingale333/DSA/tree/master/0967-minimum-falling-path-sum) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Adityaingale333/DSA/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/Adityaingale333/DSA/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Adityaingale333/DSA/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Adityaingale333/DSA/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1972-rotating-the-box](https://github.com/Adityaingale333/DSA/tree/master/1972-rotating-the-box) |
@@ -460,6 +462,7 @@
 | [1129-longest-string-chain](https://github.com/Adityaingale333/DSA/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/Adityaingale333/DSA/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/Adityaingale333/DSA/tree/master/1250-longest-common-subsequence) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/Adityaingale333/DSA/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Adityaingale333/DSA/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Adityaingale333/DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [2022-maximum-alternating-subsequence-sum](https://github.com/Adityaingale333/DSA/tree/master/2022-maximum-alternating-subsequence-sum) |
