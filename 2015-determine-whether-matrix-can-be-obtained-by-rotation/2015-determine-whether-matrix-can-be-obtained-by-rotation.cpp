@@ -27,17 +27,13 @@ public:
     bool findRotation(vector<vector<int>>& mat, vector<vector<int>>& target) {
         int n = mat.size();
 
-        bool ans = (mat == target);
+        if(mat == target) return true;
 
-        rotate(n, mat);
-        ans = ans || (mat == target) ;
+        for(int i=0; i<3; i++){
+            rotate(n, mat);
+            if(mat == target) return true;
+        }
     
-        rotate(n, mat);
-        ans = ans || (mat == target) ;
-
-        rotate(n, mat);
-        ans = ans || (mat == target) ;
-
-        return ans; 
+        return false; 
     }
 };
