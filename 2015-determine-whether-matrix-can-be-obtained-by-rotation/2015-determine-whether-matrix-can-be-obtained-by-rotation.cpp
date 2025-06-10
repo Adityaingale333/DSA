@@ -12,7 +12,7 @@ public:
         }
         return;
     }
-    bool compare(vector<vector<int>>& mat, vector<vector<int>>& target){
+    /*bool compare(vector<vector<int>>& mat, vector<vector<int>>& target){
         int n = mat.size();
 
         for(int i=0; i<n; i++){
@@ -23,20 +23,20 @@ public:
             }
         }
         return true;
-    }
+    }*/
     bool findRotation(vector<vector<int>>& mat, vector<vector<int>>& target) {
         int n = mat.size();
 
-        bool ans = compare(mat, target);
+        bool ans = (mat == target) ? true : false;
 
         rotate(n, mat);
-        ans = ans || compare(mat, target);
+        ans = ans || (mat == target) ? true : false;
     
         rotate(n, mat);
-        ans = ans || compare(mat, target);
+        ans = ans || (mat == target) ? true : false;
 
         rotate(n, mat);
-        ans = ans || compare(mat, target);
+        ans = ans || (mat == target) ? true : false;
 
         return ans; 
     }
