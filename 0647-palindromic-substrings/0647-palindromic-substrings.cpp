@@ -1,30 +1,29 @@
 class Solution {
 public:
-    bool isPallindrome(string& s, int i, int j, vector<vector<int>>& t){
-        if(i > j){
-            return true;
-        }
-
-        if(t[i][j] != -1){
-            return t[i][j];
-        }
-
-        if(s[i] == s[j]){
-           return t[i][j] = isPallindrome(s, i+1, j-1, t);
-        }
-
-        return t[i][j] = false;
-    }
     int countSubstrings(string s) {
         int n = s.size();
-
         int count = 0;
 
-        vector<vector<int>> t(n, vector<int>(n, -1));
+        vector<vector<bool>> t(n, vector<bool>(n, false));
+        // state = t[i][j] = true ->s[i:j] is a pallindromic substring, inclusive of both i and j
 
-        for(int i=0; i<n; i++){
-            for(int j=i; j<n; j++){
-                if(isPallindrome(s, i, j, t)){
+        for(int len=1; len<=n; len++){ // for every length
+            for(int i=0; i+len-1<n; i++){ // starting index
+                int j = i+len-1; // position of j
+
+                if(i == j){ // means it is 1 length string 
+                    t[i][j] = true;
+                }
+
+                else if(i+1 == j){ // means it is of 2 length string
+                    t[i][j] = (s[i] == s[j]);
+                }
+
+                else{
+                    t[i][j] = (s[i] == s[j] && t[i+1][j-1]) ;
+                }
+
+                if(t[i][j] == true){
                     count++;
                 }
             }
