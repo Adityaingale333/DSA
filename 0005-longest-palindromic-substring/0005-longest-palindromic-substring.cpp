@@ -1,38 +1,35 @@
 class Solution {
 public:
-    int t[1001][1001];
-
-    bool isPallindrome(string& s, int low, int high){
-        if(low >= high) return 1;
-
-        if(t[low][high] != -1){
-            return t[low][high];
-        }
-        if(s[low] == s[high]){
-            low++, high--;
-            return t[low][high] = isPallindrome(s, low, high);
-        }
-        return t[low][high] = 0;
-    }
-
     string longestPalindrome(string s) {
         int n = s.size();
+        string ans = "";
 
-        if(n == 1) return s;
+        int startIdx = -1;
+        int maxLen = 0;
 
-        memset(t, -1, sizeof(t));
+        vector<vector<bool>> t(n, vector<bool>(n, false));
 
-        int maxLen= 1;
-        int sp = 0;
-        for(int i=0; i<n; i++){
-            for(int j=i; j<n; j++){
-                if( isPallindrome(s, i, j) && j-i+1 > maxLen ){
-                    sp = i;
+        for(int len=1; len<=n; len++){
+            for(int i=0; i + len-1<n; i++){
+                int j = i + len-1; 
+
+                if(i == j){
+                    t[i][j] = true;
+                }
+                else if(i+1 == j){
+                    t[i][j] = (s[i] == s[j]);
+                }
+                else{
+                    t[i][j] = (s[i] == s[j] && t[i+1][j-1]);
+                }
+
+                if(t[i][j] && j-i+1 > maxLen){
+                    startIdx = i;
                     maxLen = j-i+1;
-                }   
+                }
+
             }
         }
-        return s.substr(sp, maxLen); // parameters == (starting point, length)
-        
+        return s.substr(startIdx, maxLen);
     }
 };
