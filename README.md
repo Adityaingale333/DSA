@@ -604,6 +604,7 @@
 | [0042-trapping-rain-water](https://github.com/Adityaingale333/DSA/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Adityaingale333/DSA/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/Adityaingale333/DSA/tree/master/0085-maximal-rectangle) |
+| [0145-binary-tree-postorder-traversal](https://github.com/Adityaingale333/DSA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0496-next-greater-element-i](https://github.com/Adityaingale333/DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Adityaingale333/DSA/tree/master/0503-next-greater-element-ii) |
 | [0678-valid-parenthesis-string](https://github.com/Adityaingale333/DSA/tree/master/0678-valid-parenthesis-string) |
@@ -831,6 +832,7 @@
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0145-binary-tree-postorder-traversal](https://github.com/Adityaingale333/DSA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Adityaingale333/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/Adityaingale333/DSA/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Adityaingale333/DSA/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
@@ -843,6 +845,7 @@
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0145-binary-tree-postorder-traversal](https://github.com/Adityaingale333/DSA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Adityaingale333/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Ordered Set
 |  |
@@ -863,6 +866,7 @@
 | ------- |
 | [0079-word-search](https://github.com/Adityaingale333/DSA/tree/master/0079-word-search) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0145-binary-tree-postorder-traversal](https://github.com/Adityaingale333/DSA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0386-lexicographical-numbers](https://github.com/Adityaingale333/DSA/tree/master/0386-lexicographical-numbers) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/Adityaingale333/DSA/tree/master/2438-find-closest-node-to-given-two-nodes) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Adityaingale333/DSA/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
