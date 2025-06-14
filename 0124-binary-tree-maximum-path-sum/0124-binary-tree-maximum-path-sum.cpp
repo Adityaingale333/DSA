@@ -11,25 +11,33 @@
  */
 class Solution {
 public:
-// again here we are using the same height function with little more tweaks
-// here at every node we are calculating the left path sum and right path sum, and we storing a max value
-// max value, is compared at every node with, node->val + lh + rh, so to keep the highest sum a curve point brings
-// to keep check of negative value, we take max of (0, lh), so as we take 0 always whenever there is -ve value
-    int height(TreeNode* node, int& maxi){
+    int solve(TreeNode* node, int& maxSum){
         if(node == NULL){
             return 0;
         }
 
-        int lh = max(0, height(node->left, maxi) );
-        int rh = max(0, height(node->right, maxi) );
+        int l = solve(node->left, maxSum);
+        int r = solve(node->right, maxSum);
 
-        maxi = max(maxi, lh + rh + node->val);
+        // case 1 : when we got the best answer from the below only
+        int neeche_hi_milgaya_answer = l + r + node->val;
 
-        return node->val + max(lh, rh);
+        //case 2 : when we good answer either from left or right
+        int koi_ek_acha = node->val + max(l, r);
+
+        // case 3 : when both left and right are bad, consider only root
+        int only_root_acha = node->val;
+
+        // we will take max of all the above 3 cases
+        maxSum = max({maxSum, neeche_hi_milgaya_answer, koi_ek_acha, only_root_acha});
+
+        // we will only those cases where we an further explore, in case 1 we cannot explore further as we are
+        // considering that we got the best answer below only, so we can only explore case2 and case3
+        return max(koi_ek_acha, only_root_acha) ;
     }
     int maxPathSum(TreeNode* root) {
-        int maxi = INT_MIN;
-        height(root, maxi);
-        return maxi;
+        int maxSum = INT_MIN;
+        solve(root, maxSum);
+        return maxSum;
     }
 };
