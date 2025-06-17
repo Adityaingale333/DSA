@@ -2,31 +2,28 @@ class Solution {
 public:
     vector<int> sortEvenOdd(vector<int>& nums) {
         int n = nums.size();
-        vector<int> odd;
-        vector<int> even;
+
+        priority_queue<int> odd;
+        priority_queue<int, vector<int>, greater<int>> even;
 
         for(int i=0; i<n; i++){
-            if(i % 2){
-                odd.push_back(nums[i]);
+            if(i % 2 == 1){
+                odd.push(nums[i]);
             }
             else{
-                even.push_back(nums[i]);
+                even.push(nums[i]);
             }
         }
 
-        sort(even.begin(), even.end());
-        sort(odd.begin(), odd.end(), greater<int>());
-
         vector<int> ans(n);
-        int oddIdx  = 0, evenIdx  = 0;
         for(int i=0; i<n; i++){
-            if(i % 2){
-                ans[i] = odd[oddIdx ];
-                oddIdx ++;
+            if(i % 2 == 1){
+                ans[i] = odd.top();
+                odd.pop();
             }
             else{
-                ans[i] = even[evenIdx ];
-                evenIdx ++;
+                ans[i] = even.top();
+                even.pop();
             }
         }
         return ans;
