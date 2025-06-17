@@ -128,6 +128,7 @@
 | [2265-partition-array-according-to-given-pivot](https://github.com/Adityaingale333/DSA/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Adityaingale333/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/Adityaingale333/DSA/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
+| [2283-sort-even-and-odd-indices-independently](https://github.com/Adityaingale333/DSA/tree/master/2283-sort-even-and-odd-indices-independently) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Adityaingale333/DSA/tree/master/2308-divide-array-into-equal-pairs) |
 | [2411-spiral-matrix-iv](https://github.com/Adityaingale333/DSA/tree/master/2411-spiral-matrix-iv) |
 | [2478-longest-nice-subarray](https://github.com/Adityaingale333/DSA/tree/master/2478-longest-nice-subarray) |
@@ -373,6 +374,7 @@
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Adityaingale333/DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1962-single-threaded-cpu](https://github.com/Adityaingale333/DSA/tree/master/1962-single-threaded-cpu) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Adityaingale333/DSA/tree/master/2215-finding-3-digit-even-numbers) |
+| [2283-sort-even-and-odd-indices-independently](https://github.com/Adityaingale333/DSA/tree/master/2283-sort-even-and-odd-indices-independently) |
 | [2284-smallest-value-of-the-rearranged-number](https://github.com/Adityaingale333/DSA/tree/master/2284-smallest-value-of-the-rearranged-number) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Adityaingale333/DSA/tree/master/2699-count-the-number-of-fair-pairs) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/Adityaingale333/DSA/tree/master/3307-find-the-maximum-sum-of-node-values) |
