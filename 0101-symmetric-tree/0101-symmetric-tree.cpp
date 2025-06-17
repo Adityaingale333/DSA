@@ -11,26 +11,34 @@
  */
 class Solution {
 public:
-    bool check(TreeNode* l, TreeNode* r){
-        if(l == NULL && r == NULL){ // dono null hai
-            return true;
-        }
-
-        if(l == NULL || r == NULL){ // sirf ek null hai, mtl unequal
-            return false;
-        }
-
-        if((l->val == r->val) && check(l->left, r->right) && check(l->right, r->left)){
-            return true;
-        } 
-
-        return false;
-    }
+    // iterative approach 
     bool isSymmetric(TreeNode* root) {
         if(root == NULL){
             return true;
         }
 
-        return check(root->left, root->right);
+        queue<TreeNode*> q;
+        q.push(root->left);
+        q.push(root->right);
+
+        while(!q.empty()){
+            TreeNode* leftNode = q.front();
+            q.pop();
+            TreeNode* rightNode = q.front();
+            q.pop();
+
+            if(leftNode == NULL && rightNode == NULL) continue;
+
+            if(leftNode == NULL || rightNode == NULL || leftNode->val != rightNode->val) return false;
+
+            // we are checking adjacent elements in queue, so we need push carefully in queue
+            // we need to compare left->left to right->right
+            q.push(leftNode->left);
+            q.push(rightNode->right);
+            // and compare left->right to right->left
+            q.push(leftNode->right);
+            q.push(rightNode->left);
+        }
+        return true;
     }
 };
