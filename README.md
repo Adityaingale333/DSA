@@ -683,6 +683,7 @@
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/Adityaingale333/DSA/tree/master/0214-shortest-palindrome) |
+| [0572-subtree-of-another-tree](https://github.com/Adityaingale333/DSA/tree/master/0572-subtree-of-another-tree) |
 | [0812-rotate-string](https://github.com/Adityaingale333/DSA/tree/master/0812-rotate-string) |
 ## Heap (Priority Queue)
 |  |
@@ -772,6 +773,7 @@
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/Adityaingale333/DSA/tree/master/0214-shortest-palindrome) |
+| [0572-subtree-of-another-tree](https://github.com/Adityaingale333/DSA/tree/master/0572-subtree-of-another-tree) |
 ## Backtracking
 |  |
 | ------- |
@@ -860,6 +862,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/Adityaingale333/DSA/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Adityaingale333/DSA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Adityaingale333/DSA/tree/master/0199-binary-tree-right-side-view) |
+| [0572-subtree-of-another-tree](https://github.com/Adityaingale333/DSA/tree/master/0572-subtree-of-another-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Adityaingale333/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/Adityaingale333/DSA/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Adityaingale333/DSA/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
@@ -880,6 +883,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/Adityaingale333/DSA/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Adityaingale333/DSA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Adityaingale333/DSA/tree/master/0199-binary-tree-right-side-view) |
+| [0572-subtree-of-another-tree](https://github.com/Adityaingale333/DSA/tree/master/0572-subtree-of-another-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Adityaingale333/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Ordered Set
 |  |
@@ -907,6 +911,7 @@
 | [0145-binary-tree-postorder-traversal](https://github.com/Adityaingale333/DSA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Adityaingale333/DSA/tree/master/0199-binary-tree-right-side-view) |
 | [0386-lexicographical-numbers](https://github.com/Adityaingale333/DSA/tree/master/0386-lexicographical-numbers) |
+| [0572-subtree-of-another-tree](https://github.com/Adityaingale333/DSA/tree/master/0572-subtree-of-another-tree) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/Adityaingale333/DSA/tree/master/2438-find-closest-node-to-given-two-nodes) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Adityaingale333/DSA/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/Adityaingale333/DSA/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
