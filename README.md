@@ -130,6 +130,7 @@
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/Adityaingale333/DSA/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 | [2283-sort-even-and-odd-indices-independently](https://github.com/Adityaingale333/DSA/tree/master/2283-sort-even-and-odd-indices-independently) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Adityaingale333/DSA/tree/master/2308-divide-array-into-equal-pairs) |
+| [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Adityaingale333/DSA/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2411-spiral-matrix-iv](https://github.com/Adityaingale333/DSA/tree/master/2411-spiral-matrix-iv) |
 | [2478-longest-nice-subarray](https://github.com/Adityaingale333/DSA/tree/master/2478-longest-nice-subarray) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Adityaingale333/DSA/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
@@ -379,6 +380,7 @@
 | [2215-finding-3-digit-even-numbers](https://github.com/Adityaingale333/DSA/tree/master/2215-finding-3-digit-even-numbers) |
 | [2283-sort-even-and-odd-indices-independently](https://github.com/Adityaingale333/DSA/tree/master/2283-sort-even-and-odd-indices-independently) |
 | [2284-smallest-value-of-the-rearranged-number](https://github.com/Adityaingale333/DSA/tree/master/2284-smallest-value-of-the-rearranged-number) |
+| [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Adityaingale333/DSA/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Adityaingale333/DSA/tree/master/2699-count-the-number-of-fair-pairs) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/Adityaingale333/DSA/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/Adityaingale333/DSA/tree/master/3307-find-the-maximum-sum-of-node-values) |
@@ -432,6 +434,7 @@
 | [2032-largest-odd-number-in-string](https://github.com/Adityaingale333/DSA/tree/master/2032-largest-odd-number-in-string) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/Adityaingale333/DSA/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Adityaingale333/DSA/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
+| [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Adityaingale333/DSA/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Adityaingale333/DSA/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Adityaingale333/DSA/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/Adityaingale333/DSA/tree/master/2704-maximum-difference-by-remapping-a-digit) |
