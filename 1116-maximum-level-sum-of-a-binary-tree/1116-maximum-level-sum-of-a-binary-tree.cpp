@@ -12,7 +12,7 @@
 class Solution {
 public:
     int maxLevelSum(TreeNode* root) {
-        map<int, int> mp; // level -> sum of elements of that level
+        unordered_map<int, int> mp; // level -> sum of elements of that level
         queue<pair<TreeNode*, int>> q; // node -> level
         q.push({root, 1});
 
@@ -28,12 +28,15 @@ public:
             if(node->right != NULL) q.push({node->right, level+1});
         }
  
-        int ansLevel = -1;
+        int ansLevel = INT_MAX;
         int maxSum = INT_MIN;
         for(auto& it : mp){
             if(it.second > maxSum){
                 maxSum = it.second;
                 ansLevel = it.first;
+            }
+            else if(it.second == maxSum){
+                ansLevel = min(ansLevel, it.first);
             }
         }
         return ansLevel;
