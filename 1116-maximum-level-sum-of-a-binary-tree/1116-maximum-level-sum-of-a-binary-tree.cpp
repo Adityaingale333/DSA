@@ -12,33 +12,34 @@
 class Solution {
 public:
     int maxLevelSum(TreeNode* root) {
-        unordered_map<int, int> mp; // level -> sum of elements of that level
-        queue<pair<TreeNode*, int>> q; // node -> level
-        q.push({root, 1});
+        int maxSum = INT_MIN;
+        int ans = 0;
+        int level = 0;
+
+        queue<TreeNode*> q; // node 
+        q.push(root);
 
         while(!q.empty()){
-            TreeNode* node = q.front().first;
-            int level = q.front().second;
-            q.pop();
+            level++;
+            int sumAtCurrentLevel = 0;
+            int n = q.size();
 
-            int already_existing_level_value = mp[level];
-            mp[level] = already_existing_level_value + node->val;
+            for(int i=0; i<n; i++){
+                TreeNode* node = q.front();
+                q.pop();
+                sumAtCurrentLevel = sumAtCurrentLevel + node->val;
 
-            if(node->left != NULL) q.push({node->left, level+1});
-            if(node->right != NULL) q.push({node->right, level+1});
+                if(node->left != NULL) q.push(node->left);
+                if(node->right != NULL) q.push(node->right);
+            }
+
+            if(sumAtCurrentLevel > maxSum){
+                maxSum = sumAtCurrentLevel;
+                ans = level;
+            }
+            
         }
  
-        int ansLevel = INT_MAX;
-        int maxSum = INT_MIN;
-        for(auto& it : mp){
-            if(it.second > maxSum){
-                maxSum = it.second;
-                ansLevel = it.first;
-            }
-            else if(it.second == maxSum){
-                ansLevel = min(ansLevel, it.first);
-            }
-        }
-        return ansLevel;
+        return ans;
     }
 };
