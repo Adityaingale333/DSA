@@ -869,6 +869,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/Adityaingale333/DSA/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Adityaingale333/DSA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Adityaingale333/DSA/tree/master/0199-binary-tree-right-side-view) |
+| [0226-invert-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Adityaingale333/DSA/tree/master/0572-subtree-of-another-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Adityaingale333/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -893,6 +894,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/Adityaingale333/DSA/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Adityaingale333/DSA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Adityaingale333/DSA/tree/master/0199-binary-tree-right-side-view) |
+| [0226-invert-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Adityaingale333/DSA/tree/master/0572-subtree-of-another-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Adityaingale333/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -922,6 +924,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/Adityaingale333/DSA/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Adityaingale333/DSA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Adityaingale333/DSA/tree/master/0199-binary-tree-right-side-view) |
+| [0226-invert-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0386-lexicographical-numbers](https://github.com/Adityaingale333/DSA/tree/master/0386-lexicographical-numbers) |
 | [0572-subtree-of-another-tree](https://github.com/Adityaingale333/DSA/tree/master/0572-subtree-of-another-tree) |
@@ -938,6 +941,7 @@
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Adityaingale333/DSA/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/Adityaingale333/DSA/tree/master/0199-binary-tree-right-side-view) |
+| [0226-invert-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/Adityaingale333/DSA/tree/master/0322-coin-change) |
 | [0945-snakes-and-ladders](https://github.com/Adityaingale333/DSA/tree/master/0945-snakes-and-ladders) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
