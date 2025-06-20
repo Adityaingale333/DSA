@@ -19,25 +19,31 @@ public:
 
         return false;
     }
-    int solve(int i, string temp, vector<string>& arr){
+    int solve(int i, string temp, vector<string>& arr, unordered_map<string, int>& mp){
         if(i >= arr.size()){
             return temp.length();
+        }
+
+        if(mp.find(temp) != mp.end()){
+            return mp[temp];
         }
 
         int include = 0;
         int exclude = 0;
         if(hasDuplicates(temp, arr[i])){
-            exclude = solve(i+1, temp, arr);
+            exclude = solve(i+1, temp, arr, mp);
         }
         else{
-            include = solve(i+1, temp + arr[i], arr);
-            exclude = solve(i+1, temp, arr);
+            include = solve(i+1, temp + arr[i], arr, mp);
+            exclude = solve(i+1, temp, arr, mp);
         }
-        return max(include, exclude);
+        return mp[temp] = max(include, exclude);
     }
     int maxLength(vector<string>& arr) {
         int n = arr.size();
         string temp = "";
-        return solve(0, temp, arr);
+
+        unordered_map<string, int> mp; // temp -> uska ans
+        return solve(0, temp, arr, mp);
     }
 };
