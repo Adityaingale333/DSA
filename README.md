@@ -529,6 +529,7 @@
 | [0921-spiral-matrix-iii](https://github.com/Adityaingale333/DSA/tree/master/0921-spiral-matrix-iii) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Adityaingale333/DSA/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2155-find-missing-observations](https://github.com/Adityaingale333/DSA/tree/master/2155-find-missing-observations) |
+| [2260-divide-a-string-into-groups-of-size-k](https://github.com/Adityaingale333/DSA/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Adityaingale333/DSA/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Adityaingale333/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2411-spiral-matrix-iv](https://github.com/Adityaingale333/DSA/tree/master/2411-spiral-matrix-iv) |
@@ -619,6 +620,7 @@
 | [2107-find-unique-binary-string](https://github.com/Adityaingale333/DSA/tree/master/2107-find-unique-binary-string) |
 | [2134-maximize-the-confusion-of-an-exam](https://github.com/Adityaingale333/DSA/tree/master/2134-maximize-the-confusion-of-an-exam) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Adityaingale333/DSA/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
+| [2260-divide-a-string-into-groups-of-size-k](https://github.com/Adityaingale333/DSA/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Adityaingale333/DSA/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Adityaingale333/DSA/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Adityaingale333/DSA/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
