@@ -10,28 +10,23 @@
 
 class Solution {
 public:
-    // one way to do this is doing simple LCA on binary tree
-    // time O(n)
-    // recursion stack space O(h)
-    TreeNode* findLCA(TreeNode* root, TreeNode* p, TreeNode* q){
-        if(root == NULL || root == p || root == q){
-            return root;
-        }
-
-        TreeNode* left = findLCA(root->left, p, q);
-        TreeNode* right = findLCA(root->right, p, q);
-
-        if(left == NULL){
-            return right;
-        }
-        else if(right == NULL){
-            return left;
-        }
-        else{
-            return root;
-        }
-    }
+    // as it is a BST, we can reduce the time to O(H)
+    // LCA will be that root where both the p and q will be on its left and right, where it spilt
+    // or if the root is one of p or q, the also we can say that both are not either one side 
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        return findLCA(root, p, q);
+        if(root == NULL){
+            return NULL;
+        }
+
+        int curr = root->val;
+        if(curr < p->val && curr < q->val){
+            return lowestCommonAncestor(root->right, p, q);
+        }
+        else if(curr > p->val && curr > q->val){
+            return lowestCommonAncestor(root->left, p, q);
+        } 
+        
+        return root;
+
     }
 };
