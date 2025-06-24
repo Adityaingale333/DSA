@@ -187,6 +187,7 @@
 | [0241-different-ways-to-add-parentheses](https://github.com/Adityaingale333/DSA/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/Adityaingale333/DSA/tree/master/0264-ugly-number-ii) |
 | [0268-missing-number](https://github.com/Adityaingale333/DSA/tree/master/0268-missing-number) |
+| [0279-perfect-squares](https://github.com/Adityaingale333/DSA/tree/master/0279-perfect-squares) |
 | [0368-largest-divisible-subset](https://github.com/Adityaingale333/DSA/tree/master/0368-largest-divisible-subset) |
 | [0564-find-the-closest-palindrome](https://github.com/Adityaingale333/DSA/tree/master/0564-find-the-closest-palindrome) |
 | [0797-rabbits-in-forest](https://github.com/Adityaingale333/DSA/tree/master/0797-rabbits-in-forest) |
@@ -495,6 +496,7 @@
 | [0213-house-robber-ii](https://github.com/Adityaingale333/DSA/tree/master/0213-house-robber-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Adityaingale333/DSA/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/Adityaingale333/DSA/tree/master/0264-ugly-number-ii) |
+| [0279-perfect-squares](https://github.com/Adityaingale333/DSA/tree/master/0279-perfect-squares) |
 | [0300-longest-increasing-subsequence](https://github.com/Adityaingale333/DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Adityaingale333/DSA/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/Adityaingale333/DSA/tree/master/0322-coin-change) |
@@ -986,6 +988,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/Adityaingale333/DSA/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0226-invert-binary-tree) |
+| [0279-perfect-squares](https://github.com/Adityaingale333/DSA/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/Adityaingale333/DSA/tree/master/0322-coin-change) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0945-snakes-and-ladders](https://github.com/Adityaingale333/DSA/tree/master/0945-snakes-and-ladders) |
