@@ -11,25 +11,23 @@
  */
 class Solution {
 public:
-    // one way is to do inorder traversal and then check if it is sorted or not
-    void inorder(TreeNode* root, vector<int>& ans){
+    // to do it in O(n) time and O(1) space, we can check if the root of bst is in it's range or not  
+    bool solve(TreeNode* root, long long min_of_range, long long max_of_range){
         if(root == NULL){
-            return;
+            return true;
         }
 
-        inorder(root->left, ans);
-        ans.push_back(root->val);
-        inorder(root->right, ans);
+        if(root->val >= max_of_range || root->val <= min_of_range){
+            return false;
+        }
+
+        bool left = solve(root->left, min_of_range, root->val);
+
+        bool right = solve(root->right, root->val, max_of_range);
+
+        return left && right;
     }
     bool isValidBST(TreeNode* root) {
-        vector<int> ans;
-        inorder(root, ans);
-
-        for(int i=0; i<ans.size()-1; i++){
-            if(ans[i] >= ans[i+1]){
-                return false;
-            }
-        }
-        return true;
+        return solve(root, LLONG_MIN, LLONG_MAX);
     }
 };
