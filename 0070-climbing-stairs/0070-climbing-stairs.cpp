@@ -1,27 +1,24 @@
 class Solution {
 public:
-    int t[46];
-    int solve(int sum, int n){
-        if(sum > n){
+    int solve(int i, int n, vector<int>& t){
+        if(i > n){
             return 0;
         }
-
-        if(sum == n){
+        if(i == n){
             return 1;
         }
-
-        if(t[sum] != -1){
-            return t[sum];
+        if(t[i] != -1){
+            return t[i];
         }
 
-       return t[sum] = solve(sum+1, n) + solve(sum + 2, n);
-        
-        
+        int one = solve(i+1, n, t);
+
+        int two = solve(i+2, n, t);
+
+        return t[i] = one + two;
     }
     int climbStairs(int n) {
-        memset(t, -1, sizeof(t));
-        int ans = 0;
-        int sum = 0;
-        return solve(sum, n);
+        vector<int> t(n+1, -1);
+        return solve(0, n, t);
     }
 };
