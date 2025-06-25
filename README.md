@@ -91,6 +91,7 @@
 | [0952-word-subsets](https://github.com/Adityaingale333/DSA/tree/master/0952-word-subsets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Adityaingale333/DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/Adityaingale333/DSA/tree/master/0967-minimum-falling-path-sum) |
+| [1025-minimum-cost-for-tickets](https://github.com/Adityaingale333/DSA/tree/master/1025-minimum-cost-for-tickets) |
 | [1046-max-consecutive-ones-iii](https://github.com/Adityaingale333/DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Adityaingale333/DSA/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Adityaingale333/DSA/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -520,6 +521,7 @@
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Adityaingale333/DSA/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0967-minimum-falling-path-sum](https://github.com/Adityaingale333/DSA/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/Adityaingale333/DSA/tree/master/1013-fibonacci-number) |
+| [1025-minimum-cost-for-tickets](https://github.com/Adityaingale333/DSA/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/Adityaingale333/DSA/tree/master/1063-best-sightseeing-pair) |
 | [1129-longest-string-chain](https://github.com/Adityaingale333/DSA/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/Adityaingale333/DSA/tree/master/1170-shortest-common-supersequence) |
