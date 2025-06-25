@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool solve(int i, vector<int>& nums, vector<int>& t){
+    /*bool solve(int i, vector<int>& nums, vector<int>& t){
         if(i == nums.size()-1){
             return true;
         }
@@ -17,9 +17,24 @@ public:
             j++;
         }
         return t[i] = false;
-    }
+    }*/
     bool canJump(vector<int>& nums) {
-        vector<int> t(nums.size(), -1);
-        return solve(0, nums, t);
+        int n = nums.size();
+
+        //vector<int> t(nums.size(), -1);
+
+        vector<bool> t(n, false);
+
+        t[n-1] = true;
+
+        for(int i=n-2; i>=0; i--){
+            for(int j=1; j<=nums[i]; j++){
+                if(t[i+j]){
+                    t[i] = true;
+                    break;
+                }
+            }
+        }
+        return t[0];
     }
 };
