@@ -15,6 +15,7 @@
 | [0042-trapping-rain-water](https://github.com/Adityaingale333/DSA/tree/master/0042-trapping-rain-water) |
 | [0051-n-queens](https://github.com/Adityaingale333/DSA/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/Adityaingale333/DSA/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/Adityaingale333/DSA/tree/master/0055-jump-game) |
 | [0059-spiral-matrix-ii](https://github.com/Adityaingale333/DSA/tree/master/0059-spiral-matrix-ii) |
 | [0063-unique-paths-ii](https://github.com/Adityaingale333/DSA/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Adityaingale333/DSA/tree/master/0064-minimum-path-sum) |
@@ -431,6 +432,7 @@
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/Adityaingale333/DSA/tree/master/0044-wildcard-matching) |
+| [0055-jump-game](https://github.com/Adityaingale333/DSA/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Adityaingale333/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0135-candy](https://github.com/Adityaingale333/DSA/tree/master/0135-candy) |
 | [0179-largest-number](https://github.com/Adityaingale333/DSA/tree/master/0179-largest-number) |
@@ -479,6 +481,7 @@
 | [0042-trapping-rain-water](https://github.com/Adityaingale333/DSA/tree/master/0042-trapping-rain-water) |
 | [0044-wildcard-matching](https://github.com/Adityaingale333/DSA/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/Adityaingale333/DSA/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/Adityaingale333/DSA/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/Adityaingale333/DSA/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/Adityaingale333/DSA/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Adityaingale333/DSA/tree/master/0064-minimum-path-sum) |
