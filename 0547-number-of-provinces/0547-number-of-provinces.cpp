@@ -4,19 +4,22 @@ public:
     // then we can maintain a visited array on ehich we will iterate and visit every node
     // and the number of times traversal will be called will be the number of provinces
     // bcz traversal visited every interconnected nodes
-    void dfs(int node,  unordered_map<int, vector<int>>& adj, vector<bool>& visited){
+    int n;
+    void dfs(int node, vector<vector<int>>& isConnected, vector<bool>& visited){
         visited[node] = true;
 
-        for(auto& it : adj[node]){
-            if(!visited[it]){
-                dfs(it, adj, visited);
+        for(int col=0; col<n; col++){
+            if(!visited[col] && isConnected[node][col] == 1){
+                dfs(col, isConnected, visited);
             }
         }
     }
     int findCircleNum(vector<vector<int>>& isConnected) {
-        int n = isConnected.size();
+        n = isConnected.size();
 
-        unordered_map<int, vector<int>> adj;
+        // we can also use the given matrix
+
+        /*unordered_map<int, vector<int>> adj;
 
         for(int i=0; i<n; i++){
             for(int j=0; j<n; j++){
@@ -25,7 +28,7 @@ public:
                     adj[j].push_back(i);
                 }
             }
-        }
+        }*/
 
         vector<bool> visited(n, false);
 
@@ -34,7 +37,7 @@ public:
         for(int i=0; i<n; i++){
             if(!visited[i]){
                 count++;
-                dfs(i, adj, visited);
+                dfs(i, isConnected, visited);
             }
         }
         return count;
