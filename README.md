@@ -457,6 +457,7 @@
 | [2094-remove-stones-to-minimize-the-total](https://github.com/Adityaingale333/DSA/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Adityaingale333/DSA/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Adityaingale333/DSA/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
+| [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Adityaingale333/DSA/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Adityaingale333/DSA/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Adityaingale333/DSA/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/Adityaingale333/DSA/tree/master/2704-maximum-difference-by-remapping-a-digit) |
@@ -533,6 +534,7 @@
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Adityaingale333/DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [2022-maximum-alternating-subsequence-sum](https://github.com/Adityaingale333/DSA/tree/master/2022-maximum-alternating-subsequence-sum) |
 | [2061-painting-a-grid-with-three-different-colors](https://github.com/Adityaingale333/DSA/tree/master/2061-painting-a-grid-with-three-different-colors) |
+| [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Adityaingale333/DSA/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/Adityaingale333/DSA/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Adityaingale333/DSA/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/Adityaingale333/DSA/tree/master/3307-find-the-maximum-sum-of-node-values) |
@@ -637,6 +639,7 @@
 | [2134-maximize-the-confusion-of-an-exam](https://github.com/Adityaingale333/DSA/tree/master/2134-maximize-the-confusion-of-an-exam) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Adityaingale333/DSA/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/Adityaingale333/DSA/tree/master/2260-divide-a-string-into-groups-of-size-k) |
+| [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Adityaingale333/DSA/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Adityaingale333/DSA/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Adityaingale333/DSA/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Adityaingale333/DSA/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
@@ -805,6 +808,7 @@
 | [0139-word-break](https://github.com/Adityaingale333/DSA/tree/master/0139-word-break) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Adityaingale333/DSA/tree/master/0241-different-ways-to-add-parentheses) |
 | [1013-fibonacci-number](https://github.com/Adityaingale333/DSA/tree/master/1013-fibonacci-number) |
+| [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Adityaingale333/DSA/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 ## Rolling Hash
 |  |
 | ------- |
