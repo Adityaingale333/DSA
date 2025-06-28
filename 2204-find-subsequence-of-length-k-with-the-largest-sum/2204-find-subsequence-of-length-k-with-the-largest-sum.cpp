@@ -1,33 +1,33 @@
 class Solution {
 public:
-    typedef pair<int,int> P;
+    // most optimal solutin O(n)
+    // we can use nth_element function in C++, which return us the nth largest element
+    // it returns array such that, we get kth largest and to its left will be smaller and to its right all greater
     vector<int> maxSubsequence(vector<int>& nums, int k) {
         int n = nums.size();
 
-        priority_queue<P, vector<P>, greater<P>> minh; // element, index
+        vector<int> temp = nums;
 
-        for(int i=0; i<n; i++){
-            minh.push({nums[i], i});
+        nth_element(temp.begin(), temp.begin() + k - 1,  temp.end(), greater<int>());
 
-            if(minh.size() > k){
-                minh.pop();
-            }
-        } 
+        int kth_largest = temp[k-1];
+        int count_K_largest = count(temp.begin(), temp.begin() + k, kth_largest);
 
-        // store index of top k largest element
         vector<int> ans;
-        while(!minh.empty()){
-            ans.push_back(minh.top().second);
-            minh.pop();
-        }
         
-        // now we can sort those k indices and then store our elements
-        sort(ans.begin(), ans.end());
+        for(int& num : nums){
+            if(num > kth_largest){
+                ans.push_back(num);
+            }
+            else if(num == kth_largest && count_K_largest > 0){
+                ans.push_back(num);
+                count_K_largest--;
+            }
 
-        for(int i=0; i<k; i++){
-            ans[i] = nums[ans[i]];
+            if(ans.size() == k){
+                break;
+            }
         }
-        
-    return ans;
+        return ans;
     }
 };
