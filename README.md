@@ -72,6 +72,7 @@
 | [0518-coin-change-ii](https://github.com/Adityaingale333/DSA/tree/master/0518-coin-change-ii) |
 | [0525-contiguous-array](https://github.com/Adityaingale333/DSA/tree/master/0525-contiguous-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Adityaingale333/DSA/tree/master/0540-single-element-in-a-sorted-array) |
+| [0542-01-matrix](https://github.com/Adityaingale333/DSA/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/Adityaingale333/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0624-maximum-distance-in-arrays](https://github.com/Adityaingale333/DSA/tree/master/0624-maximum-distance-in-arrays) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Adityaingale333/DSA/tree/master/0646-maximum-length-of-pair-chain) |
@@ -421,6 +422,7 @@
 | [0073-set-matrix-zeroes](https://github.com/Adityaingale333/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/Adityaingale333/DSA/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/Adityaingale333/DSA/tree/master/0085-maximal-rectangle) |
+| [0542-01-matrix](https://github.com/Adityaingale333/DSA/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Adityaingale333/DSA/tree/master/0733-flood-fill) |
 | [0921-spiral-matrix-iii](https://github.com/Adityaingale333/DSA/tree/master/0921-spiral-matrix-iii) |
 | [0945-snakes-and-ladders](https://github.com/Adityaingale333/DSA/tree/master/0945-snakes-and-ladders) |
@@ -520,6 +522,7 @@
 | [0494-target-sum](https://github.com/Adityaingale333/DSA/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/Adityaingale333/DSA/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/Adityaingale333/DSA/tree/master/0518-coin-change-ii) |
+| [0542-01-matrix](https://github.com/Adityaingale333/DSA/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/Adityaingale333/DSA/tree/master/0583-delete-operation-for-two-strings) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Adityaingale333/DSA/tree/master/0646-maximum-length-of-pair-chain) |
 | [0647-palindromic-substrings](https://github.com/Adityaingale333/DSA/tree/master/0647-palindromic-substrings) |
@@ -1027,6 +1030,7 @@
 | [0226-invert-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0226-invert-binary-tree) |
 | [0279-perfect-squares](https://github.com/Adityaingale333/DSA/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/Adityaingale333/DSA/tree/master/0322-coin-change) |
+| [0542-01-matrix](https://github.com/Adityaingale333/DSA/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/Adityaingale333/DSA/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Adityaingale333/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0662-maximum-width-of-binary-tree) |
