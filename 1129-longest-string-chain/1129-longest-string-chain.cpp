@@ -1,43 +1,53 @@
 class Solution {
 public:
-    bool checkPossible(string& s1, string& s2){
-        if(s1.length() != s2.length()+1){
-            return false;
-        }
+    static bool myFunction(string& word1, string& word2){
+        return word1.length() < word2.length();
+    }
 
-        int first = 0;
-        int second = 0;
-        while(first < s1.size()){
-            if(second < s2.size() && s1[first] == s2[second]){
-                first++;
-                second++;
+    bool isPredecessor(string& prevString, string& currString){
+        int n = prevString.length();
+        int m = currString.length();
+
+        if(n > m || m-n != 1) return false;
+        
+        int i=0, j=0;
+
+        while(i<n && j<m){
+            if(prevString[i] == currString[j]){
+                i++, j++;
             }
             else{
-                first++;
+                j++;
             }
         }
-        if(first == s1.size() && second == s2.size()) return true;
-        return false;
+        return (i == n) ;
     }
-    static bool comp(string& s1, string& s2){
-        return s1.size() < s2.size();
+    int solve(int i, int prev, vector<string>& words,  vector<vector<int>>& t){
+        if(i == words.size()){
+            return 0;
+        }
+
+        if(t[i][prev + 1] != -1){
+            return t[i][prev + 1];
+        }
+
+        int take = 0;
+        if(prev == -1 || isPredecessor(words[prev], words[i])){
+            take = 1 + solve(i+1, i, words, t);
+        }
+
+        int notTake = solve(i+1, prev, words, t);
+
+        return t[i][prev + 1] = max(take, notTake);
     }
+
     int longestStrChain(vector<string>& words) {
         int n = words.size();
 
-        sort(words.begin(), words.end(), comp);
+        sort(words.begin(), words.end(), myFunction);
 
-        vector<int> dp(n, 1);
-        int len = 0;
+        vector<vector<int>> t(n, vector<int>(n+1, -1));
 
-        for(int i=0; i<n; i++){
-            for(int j=0; j<i; j++){
-                if(checkPossible(words[i], words[j]) && dp[j]+1 > dp[i]){
-                    dp[i] = dp[j] + 1;
-                }
-            }
-            len = max(len, dp[i]);
-        }
-        return len;
+        return solve(0, -1, words, t);
     }
 };
