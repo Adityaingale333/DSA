@@ -9,84 +9,73 @@
  */
 class Solution {
 public:
-    // the main issue we face in this problem is how to traverse backwards, means to parent side
-    // so for that we will use a map and keep track of parents of each node
-
-    void inorder(TreeNode* root, unordered_map<TreeNode*, TreeNode*>& parent){
+    void preorder(TreeNode* root, unordered_map<TreeNode*, TreeNode*>& parent){
         if(root == NULL){
             return;
         }
 
-        if(root->left != NULL){ // before we go to root->left, store its parent in mao
+        if(root->left != NULL){
             parent[root->left] = root;
         }
-        inorder(root->left, parent);
+        preorder(root->left, parent);
 
         if(root->right != NULL){
-            parent[root->right] = root;
+           parent[root->right] = root;
         }
-        inorder(root->right, parent);
+        preorder(root->right, parent);
     }
 
-    void bfs(TreeNode* target, int k, unordered_map<TreeNode*, TreeNode*>& parent, vector<int>& ans){
-        queue<TreeNode*> q; 
+    void bfs(TreeNode* root, TreeNode* target, unordered_map<TreeNode*, TreeNode*>& parent, vector<int>& ans, int k){
+        queue<TreeNode*> q; // node 
         q.push(target);
 
-        unordered_set<int> visited; // bcz there will be cases where two child will try to push same parent twice
-        visited.insert(target->val); // so to avoid that we use set
+        unordered_set<int> visited; // two child will have same parent
+        visited.insert(target->val);
 
-        int level = 0;
         while(!q.empty()){
-            int n = q.size(); // so we can travel all elements of a particular level in one go
-
-            if(level == k){ // we are at the required level, so break and print the answer
+            int n = q.size();
+        
+            if(k == 0){
                 break;
             }
 
-            while(n--){
-                TreeNode* curr = q.front();
+            for(int i=0; i<n; i++){
+                TreeNode* node = q.front();
                 q.pop();
 
-                // go in all three possible direction and find the answer 
-                // left
-                if(curr->left != NULL && !visited.count(curr->left->val)){
-                    q.push(curr->left);
-                    visited.insert(curr->left->val);
+                if(node->left != NULL && !visited.count(node->left->val)){
+                    visited.insert(node->left->val);
+                    q.push(node->left);
                 }
 
-                // right
-                if(curr->right != NULL && !visited.count(curr->right->val)){
-                    q.push(curr->right);
-                    visited.insert(curr->right->val);
+                if(node->right != NULL && !visited.count(node->right->val)){
+                    visited.insert(node->right->val);
+                    q.push(node->right);
                 }
 
-                // parent
-                if(parent.count(curr) && !visited.count(parent[curr]->val)){
-                    q.push(parent[curr]);
-                    visited.insert(parent[curr]->val);
+                if(parent.count(node) && !visited.count(parent[node]->val)){
+                    visited.insert(parent[node]->val);
+                    q.push(parent[node]);
                 }
             }
-            level++;
+
+            k--;
         }
 
         while(!q.empty()){
-            TreeNode* curr = q.front();
+            ans.push_back(q.front()->val);
             q.pop();
-            ans.push_back(curr->val);
         }
+
     }
-
     vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {
-        unordered_map<TreeNode*, TreeNode*> parent; // node -> node ka parent
+        unordered_map<TreeNode*, TreeNode*> parent; // bcz we will have to traverse through parent also
 
-        inorder(root, parent); // we will do dfs traversal in tree to populate the parent map
-
-        // now that we have the ability to go in all directions from the target node, we will do a 
-        // bfs traversal level wise and get all the nodes at k distance or k level from node
+        preorder(root, parent); // populate parent map
 
         vector<int> ans;
 
-        bfs(target, k, parent, ans);
+        bfs(root, target, parent, ans, k); // do bfs traversal, and get nodes at level k from target
 
         return ans;
     }
