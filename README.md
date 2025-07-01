@@ -299,6 +299,7 @@
 | [0797-rabbits-in-forest](https://github.com/Adityaingale333/DSA/tree/master/0797-rabbits-in-forest) |
 | [0822-unique-morse-code-words](https://github.com/Adityaingale333/DSA/tree/master/0822-unique-morse-code-words) |
 | [0876-hand-of-straights](https://github.com/Adityaingale333/DSA/tree/master/0876-hand-of-straights) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0952-word-subsets](https://github.com/Adityaingale333/DSA/tree/master/0952-word-subsets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Adityaingale333/DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -942,6 +943,7 @@
 | [0783-search-in-a-binary-search-tree](https://github.com/Adityaingale333/DSA/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/Adityaingale333/DSA/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Adityaingale333/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Adityaingale333/DSA/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
@@ -984,6 +986,7 @@
 | [0783-search-in-a-binary-search-tree](https://github.com/Adityaingale333/DSA/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/Adityaingale333/DSA/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Adityaingale333/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Adityaingale333/DSA/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
@@ -1027,6 +1030,7 @@
 | [0662-maximum-width-of-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/Adityaingale333/DSA/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/Adityaingale333/DSA/tree/master/0801-is-graph-bipartite) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/Adityaingale333/DSA/tree/master/1073-number-of-enclaves) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
@@ -1053,6 +1057,7 @@
 | [0662-maximum-width-of-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/Adityaingale333/DSA/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/Adityaingale333/DSA/tree/master/0801-is-graph-bipartite) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0945-snakes-and-ladders](https://github.com/Adityaingale333/DSA/tree/master/0945-snakes-and-ladders) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/Adityaingale333/DSA/tree/master/1036-rotting-oranges) |
