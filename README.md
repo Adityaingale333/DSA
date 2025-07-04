@@ -103,6 +103,7 @@
 | [1127-last-stone-weight](https://github.com/Adityaingale333/DSA/tree/master/1127-last-stone-weight) |
 | [1129-longest-string-chain](https://github.com/Adityaingale333/DSA/tree/master/1129-longest-string-chain) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Adityaingale333/DSA/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/Adityaingale333/DSA/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1293-three-consecutive-odds](https://github.com/Adityaingale333/DSA/tree/master/1293-three-consecutive-odds) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Adityaingale333/DSA/tree/master/1333-sort-the-jumbled-numbers) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Adityaingale333/DSA/tree/master/1335-maximum-candies-allocated-to-k-children) |
@@ -441,6 +442,7 @@
 | [1036-rotting-oranges](https://github.com/Adityaingale333/DSA/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/Adityaingale333/DSA/tree/master/1073-number-of-enclaves) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Adityaingale333/DSA/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/Adityaingale333/DSA/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Adityaingale333/DSA/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Adityaingale333/DSA/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Adityaingale333/DSA/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
@@ -1069,6 +1071,7 @@
 | [1036-rotting-oranges](https://github.com/Adityaingale333/DSA/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/Adityaingale333/DSA/tree/master/1073-number-of-enclaves) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/Adityaingale333/DSA/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/Adityaingale333/DSA/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Adityaingale333/DSA/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/Adityaingale333/DSA/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
