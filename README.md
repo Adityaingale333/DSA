@@ -1034,6 +1034,7 @@
 | [0662-maximum-width-of-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/Adityaingale333/DSA/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/Adityaingale333/DSA/tree/master/0801-is-graph-bipartite) |
+| [0820-find-eventual-safe-states](https://github.com/Adityaingale333/DSA/tree/master/0820-find-eventual-safe-states) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/Adityaingale333/DSA/tree/master/1073-number-of-enclaves) |
@@ -1061,6 +1062,7 @@
 | [0662-maximum-width-of-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/Adityaingale333/DSA/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/Adityaingale333/DSA/tree/master/0801-is-graph-bipartite) |
+| [0820-find-eventual-safe-states](https://github.com/Adityaingale333/DSA/tree/master/0820-find-eventual-safe-states) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0945-snakes-and-ladders](https://github.com/Adityaingale333/DSA/tree/master/0945-snakes-and-ladders) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -1077,6 +1079,7 @@
 | [0210-course-schedule-ii](https://github.com/Adityaingale333/DSA/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/Adityaingale333/DSA/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/Adityaingale333/DSA/tree/master/0801-is-graph-bipartite) |
+| [0820-find-eventual-safe-states](https://github.com/Adityaingale333/DSA/tree/master/0820-find-eventual-safe-states) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/Adityaingale333/DSA/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/Adityaingale333/DSA/tree/master/2438-find-closest-node-to-given-two-nodes) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Adityaingale333/DSA/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
@@ -1105,4 +1108,5 @@
 | ------- |
 | [0207-course-schedule](https://github.com/Adityaingale333/DSA/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Adityaingale333/DSA/tree/master/0210-course-schedule-ii) |
+| [0820-find-eventual-safe-states](https://github.com/Adityaingale333/DSA/tree/master/0820-find-eventual-safe-states) |
 <!---LeetCode Topics End-->
