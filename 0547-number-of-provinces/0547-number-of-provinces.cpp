@@ -1,43 +1,83 @@
-class Solution {
-public:
-    // we can get the total number of nodes from the size of the isConnected
-    // then we can maintain a visited array on ehich we will iterate and visit every node
-    // and the number of times traversal will be called will be the number of provinces
-    // bcz traversal visited every interconnected nodes
-    int n;
-    void dfs(int node, vector<vector<int>>& isConnected, vector<bool>& visited){
-        visited[node] = true;
+class DisjointSet{
+    public:
+    vector<int> rank, parent, size;
+    DisjointSet(int n){
+        rank.resize(n+1, 0);
+        parent.resize(n+1);
+        size.resize(n+1);
 
-        for(int col=0; col<n; col++){
-            if(!visited[col] && isConnected[node][col] == 1){
-                dfs(col, isConnected, visited);
-            }
+        for(int i=0; i<n+1; i++){
+            parent[i] = i;
+            size[i] = 1;
         }
     }
+
+    int findUPar(int node){
+        if(node == parent[node]){
+            return node;
+        }
+
+        return parent[node] = findUPar(parent[node]);
+    }
+
+    void unionByRank(int u, int v){
+        int ulp_u = findUPar(u);
+        int ulp_v = findUPar(v);
+
+        if(ulp_u == ulp_v){
+            return;
+        }
+
+        if(rank[ulp_u] < rank[ulp_v]){
+            parent[ulp_u] = ulp_v;
+        }
+        else if(rank[ulp_v] < rank[ulp_u]){
+            parent[ulp_v] = ulp_u;
+        }
+        else{
+            parent[ulp_u] = ulp_v;
+            rank[ulp_v]++;
+        }
+    }
+
+    void unionBySize(int u, int v){
+        int ulp_u = findUPar(u);
+        int ulp_v = findUPar(v);
+
+        if(ulp_u == ulp_v){
+            return;
+        }
+
+        if(size[ulp_u] < size[ulp_v]){
+            parent[ulp_u] = ulp_v;
+            size[ulp_v] = size[ulp_v] + size[ulp_u];
+        }
+        else{
+            parent[ulp_v] = ulp_u;
+            size[ulp_u] = size[ulp_u] + size[ulp_v];
+        }
+    }
+};
+class Solution {
+public:
     int findCircleNum(vector<vector<int>>& isConnected) {
-        n = isConnected.size();
+        int n = isConnected.size();
 
-        // we can also use the given matrix
-
-        /*unordered_map<int, vector<int>> adj;
+        DisjointSet ds(n);
 
         for(int i=0; i<n; i++){
             for(int j=0; j<n; j++){
                 if(isConnected[i][j] == 1){
-                    adj[i].push_back(j);
-                    adj[j].push_back(i);
+                    ds.unionBySize(i, j);
+                    // ds.unionBySize(j, i); // no need for this as after above line it will be connected and will return if first if() case 
                 }
             }
-        }*/
-
-        vector<bool> visited(n, false);
-
+        }
+        
         int count = 0;
-
         for(int i=0; i<n; i++){
-            if(!visited[i]){
+            if(ds.parent[i] == i){
                 count++;
-                dfs(i, isConnected, visited);
             }
         }
         return count;
