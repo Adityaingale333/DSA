@@ -18,17 +18,33 @@ public:
 
 class Solution {
 public:
+    // time = O(n)
+    // space = O(n) for queue, O(n/2) in worst case of the vector
     Node* connect(Node* root) {
-        if(root == NULL || root->left == NULL) return root;
+        if(root == NULL) return root;
 
-        root->left->next = root->right;
+        queue<Node*> q;
+        q.push(root);
 
-        if(root->next){
-            root->right->next = root->next->left;
+        while(!q.empty()){
+            int n = q.size();
+            vector<Node*> levelNodes;
+
+            for(int i=0; i<n; i++){
+                Node* node = q.front();
+                q.pop();
+
+                levelNodes.push_back(node);
+
+                if(node->left != NULL) q.push(node->left);
+                if(node->right != NULL) q.push(node->right);
+            }
+
+            for(int i=0; i<levelNodes.size()-1; i++){
+                levelNodes[i]->next = levelNodes[i+1];
+            }
+            levelNodes.back()->next = NULL;
         }
-
-        connect(root->left);
-        connect(root->right);
 
         return root;
     }
