@@ -4,21 +4,18 @@ public:
         int n = players.size();
         int m = trainers.size();
 
-        sort(players.begin(), players.end());
-        sort(trainers.begin(), trainers.end());
+        sort(players.begin(), players.end()); // O(nlogn)
+        sort(trainers.begin(), trainers.end()); // O(mlogm)
 
         int i=0, j=0;
         int count = 0;
 
-        while(i<n && j<m){
+        while(i<n && j<m){ // O( max(n,m) )
             if(players[i] <= trainers[j]){
                 count++;
                 i++;
-                j++;
             }
-            else{
-                j++;
-            }
+            j++;
         }
 
         return count;
