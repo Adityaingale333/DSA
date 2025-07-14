@@ -372,6 +372,7 @@
 | [2690-house-robber-iv](https://github.com/Adityaingale333/DSA/tree/master/2690-house-robber-iv) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Adityaingale333/DSA/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Adityaingale333/DSA/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
+| [3881-minimize-maximum-component-cost](https://github.com/Adityaingale333/DSA/tree/master/3881-minimize-maximum-component-cost) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -435,6 +436,7 @@
 | [3430-count-days-without-meetings](https://github.com/Adityaingale333/DSA/tree/master/3430-count-days-without-meetings) |
 | [3647-zero-array-transformation-iii](https://github.com/Adityaingale333/DSA/tree/master/3647-zero-array-transformation-iii) |
 | [3812-smallest-palindromic-rearrangement-i](https://github.com/Adityaingale333/DSA/tree/master/3812-smallest-palindromic-rearrangement-i) |
+| [3881-minimize-maximum-component-cost](https://github.com/Adityaingale333/DSA/tree/master/3881-minimize-maximum-component-cost) |
 ## Matrix
 |  |
 | ------- |
@@ -1125,6 +1127,7 @@
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Adityaingale333/DSA/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/Adityaingale333/DSA/tree/master/2438-find-closest-node-to-given-two-nodes) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Adityaingale333/DSA/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3881-minimize-maximum-component-cost](https://github.com/Adityaingale333/DSA/tree/master/3881-minimize-maximum-component-cost) |
 ## Binary Indexed Tree
 |  |
 | ------- |
@@ -1142,6 +1145,7 @@
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Adityaingale333/DSA/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1073-number-of-enclaves](https://github.com/Adityaingale333/DSA/tree/master/1073-number-of-enclaves) |
 | [1753-path-with-minimum-effort](https://github.com/Adityaingale333/DSA/tree/master/1753-path-with-minimum-effort) |
+| [3881-minimize-maximum-component-cost](https://github.com/Adityaingale333/DSA/tree/master/3881-minimize-maximum-component-cost) |
 ## Shortest Path
 |  |
 | ------- |
