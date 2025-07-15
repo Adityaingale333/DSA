@@ -1,8 +1,8 @@
 class Solution {
 public:
-    static bool myFunction(string& word1, string& word2){
+    /*static bool myFunction(string& word1, string& word2){
         return word1.length() < word2.length();
-    }
+    }*/
     bool isPredecessor(string& prev, string& curr){
         int n = prev.length();
         int m = curr.length();
@@ -39,7 +39,9 @@ public:
     int longestStrChain(vector<string>& words) {
         int n = words.size();
 
-        sort(words.begin(), words.end(), myFunction);
+        sort(words.begin(), words.end(), [](string& word1, string& word2){
+            return word1.length() < word2.length();
+        } );
 
         vector<int> t(n, 1);
 
