@@ -1,27 +1,57 @@
-class Solution {
+class DisjointSet{
 public:
-    void dfs(int index, vector<bool>& visited, vector<vector<int>>& stones){
-        visited[index] = 1;
-
-        for(int i=0; i<stones.size(); i++){
-            int row = stones[index][0];
-            int col = stones[index][1];
-
-            if(visited[i] == false && ( stones[i][0] == row || stones[i][1] == col )){
-                dfs(i, visited, stones);
-            }
+    vector<int> parent, size;
+    DisjointSet(int n){
+        parent.resize(n+1);
+        size.resize(n+1, 1);
+        
+        for(int i=0; i<=n; i++){
+            parent[i] = i;
         }
     }
 
+    int findUPar(int node){
+        if(node == parent[node]){
+            return node;
+        }
+
+        return parent[node] = findUPar(parent[node]);
+    }
+
+    void unionBySize(int u, int v){
+        int ulp_u = findUPar(u);
+        int ulp_v = findUPar(v);
+
+        if(ulp_u == ulp_v) return;
+
+        if(size[ulp_u] < size[ulp_v]){
+            parent[ulp_u] = ulp_v;
+            size[ulp_v] += size[ulp_u];
+        }
+        else{
+            parent[ulp_v] = ulp_u;
+            size[ulp_u] += size[ulp_v];
+        }
+    }
+};
+class Solution {
+public:
     int removeStones(vector<vector<int>>& stones) {
         int n = stones.size();
 
-        vector<bool> visited(n, false);
+        DisjointSet ds(n);
+
+        for(int i=0; i<n; i++){
+            for(int j=i+1; j<n; j++){
+                if(stones[i][0] == stones[j][0] || stones[i][1] == stones[j][1]){
+                    ds.unionBySize(i, j);
+                }
+            }
+        }
 
         int components = 0;
         for(int i=0; i<n; i++){
-            if(visited[i] == false){
-                dfs(i, visited, stones);
+            if(ds.parent[i] == i){
                 components++;
             }
         }
