@@ -84,6 +84,7 @@
 | [0735-asteroid-collision](https://github.com/Adityaingale333/DSA/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Adityaingale333/DSA/tree/master/0739-daily-temperatures) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Adityaingale333/DSA/tree/master/0780-max-chunks-to-make-sorted) |
+| [0794-swim-in-rising-water](https://github.com/Adityaingale333/DSA/tree/master/0794-swim-in-rising-water) |
 | [0797-rabbits-in-forest](https://github.com/Adityaingale333/DSA/tree/master/0797-rabbits-in-forest) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/Adityaingale333/DSA/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0822-unique-morse-code-words](https://github.com/Adityaingale333/DSA/tree/master/0822-unique-morse-code-words) |
@@ -362,6 +363,7 @@
 | [0300-longest-increasing-subsequence](https://github.com/Adityaingale333/DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/Adityaingale333/DSA/tree/master/0410-split-array-largest-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Adityaingale333/DSA/tree/master/0540-single-element-in-a-sorted-array) |
+| [0794-swim-in-rising-water](https://github.com/Adityaingale333/DSA/tree/master/0794-swim-in-rising-water) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/Adityaingale333/DSA/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0907-koko-eating-bananas](https://github.com/Adityaingale333/DSA/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/Adityaingale333/DSA/tree/master/1046-max-consecutive-ones-iii) |
@@ -456,6 +458,7 @@
 | [0085-maximal-rectangle](https://github.com/Adityaingale333/DSA/tree/master/0085-maximal-rectangle) |
 | [0542-01-matrix](https://github.com/Adityaingale333/DSA/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Adityaingale333/DSA/tree/master/0733-flood-fill) |
+| [0794-swim-in-rising-water](https://github.com/Adityaingale333/DSA/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/Adityaingale333/DSA/tree/master/0854-making-a-large-island) |
 | [0921-spiral-matrix-iii](https://github.com/Adityaingale333/DSA/tree/master/0921-spiral-matrix-iii) |
 | [0945-snakes-and-ladders](https://github.com/Adityaingale333/DSA/tree/master/0945-snakes-and-ladders) |
@@ -796,6 +799,7 @@
 | [0744-network-delay-time](https://github.com/Adityaingale333/DSA/tree/master/0744-network-delay-time) |
 | [0778-reorganize-string](https://github.com/Adityaingale333/DSA/tree/master/0778-reorganize-string) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Adityaingale333/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0794-swim-in-rising-water](https://github.com/Adityaingale333/DSA/tree/master/0794-swim-in-rising-water) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/Adityaingale333/DSA/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Adityaingale333/DSA/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1127-last-stone-weight](https://github.com/Adityaingale333/DSA/tree/master/1127-last-stone-weight) |
@@ -1077,6 +1081,7 @@
 | [0662-maximum-width-of-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/Adityaingale333/DSA/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/Adityaingale333/DSA/tree/master/0744-network-delay-time) |
+| [0794-swim-in-rising-water](https://github.com/Adityaingale333/DSA/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/Adityaingale333/DSA/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Adityaingale333/DSA/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/Adityaingale333/DSA/tree/master/0820-find-eventual-safe-states) |
@@ -1111,6 +1116,7 @@
 | [0662-maximum-width-of-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/Adityaingale333/DSA/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/Adityaingale333/DSA/tree/master/0744-network-delay-time) |
+| [0794-swim-in-rising-water](https://github.com/Adityaingale333/DSA/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/Adityaingale333/DSA/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Adityaingale333/DSA/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/Adityaingale333/DSA/tree/master/0820-find-eventual-safe-states) |
@@ -1156,6 +1162,7 @@
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Adityaingale333/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0547-number-of-provinces](https://github.com/Adityaingale333/DSA/tree/master/0547-number-of-provinces) |
+| [0794-swim-in-rising-water](https://github.com/Adityaingale333/DSA/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/Adityaingale333/DSA/tree/master/0801-is-graph-bipartite) |
 | [0854-making-a-large-island](https://github.com/Adityaingale333/DSA/tree/master/0854-making-a-large-island) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Adityaingale333/DSA/tree/master/0984-most-stones-removed-with-same-row-or-column) |
