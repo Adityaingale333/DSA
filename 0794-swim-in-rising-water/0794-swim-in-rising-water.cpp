@@ -1,32 +1,70 @@
+// one more way of solving it is using DSU
+// we can consider each cell as a node, and then sort them in elevation order
+// sorting will help us to acces the cell in sorted order and then activate them one by one
+// we will mark them visited and then while traversing we will unio it with already activated neighbours
+// we then check if (0, 0) and (n-1, n-1) are connected, the first time this happens it means there is a path between them 
+class DisjointSet{
+public:
+    vector<int> parent, size;
+    DisjointSet(int n){
+        parent.resize(n+1);
+        size.resize(n+1, 1);
+
+        for(int i=0; i<=n; i++){
+            parent[i] = i;
+        }
+    }
+
+    int findUPar(int node){
+        if(node == parent[node]){
+            return node;
+        }
+
+        return parent[node] = findUPar(parent[node]);
+    }
+
+    void unionBySize(int u, int v){
+        int ulp_u = findUPar(u);
+        int ulp_v = findUPar(v);
+
+        if(ulp_u == ulp_v) return;
+
+        if(size[ulp_u] < size[ulp_v]){
+            parent[ulp_u] = ulp_v;
+            size[ulp_v] += size[ulp_u];
+        }
+        else{
+            parent[ulp_v] = ulp_u;
+            size[ulp_u] += size[ulp_v];
+        }
+    }
+};
 class Solution {
 public:
-    // we have to find the shortest path to (n-1, n-1) from (0, 0) 
-    // we can do it in many ways
-    // on of them being Dijkdtra's Algorithm, with elevation constraint
-    int swimInWater(vector<vector<int>>& grid) { 
+    int swimInWater(vector<vector<int>>& grid) {
         int n = grid.size();
 
-        vector<vector<int>> visited(n, vector<int>(n, 0));
+        vector<int> visited(n*n, 0);
 
-        priority_queue< pair<int,pair<int,int>>, vector<pair<int,pair<int,int>>>, greater<pair<int,pair<int,int>>> > minh;
+        DisjointSet ds(n*n);
 
-        minh.push({grid[0][0], {0, 0}}); // { elevation, {row, col} };
-
-        while(!minh.empty()){
-            int elevation = minh.top().first;
-            int row = minh.top().second.first;
-            int col = minh.top().second.second;
-            minh.pop();
-
-            if(row == n-1 && col == n-1){
-                return elevation;
+        vector<pair<int, pair<int,int>>> nodes;
+        for(int i=0; i<n; i++){
+            for(int j=0; j<n; j++){
+                nodes.push_back({grid[i][j], {i, j}});
             }
+        }
 
-            if(visited[row][col] == 1){
-                continue;
-            }
+        sort(nodes.begin(), nodes.end()); // sort acc to elevation
 
-            visited[row][col] = 1;
+        for(auto& it : nodes){
+            int row = it.second.first;
+            int col = it.second.second;
+            int elevation = it.first;
+
+            int nodeNo = row*n + col;
+            
+            visited[nodeNo] = 1;
 
             int drow[] = {1, 0, -1, 0};
             int dcol[] = {0, 1, 0, -1};
@@ -34,11 +72,17 @@ public:
                 int nrow = row + drow[i];
                 int ncol = col + dcol[i];
 
-                if(nrow < n && nrow >= 0 && ncol < n && ncol >= 0 && visited[nrow][ncol] == 0){
-                    minh.push({max(elevation, grid[nrow][ncol]), {nrow, ncol}});
+                int adjNodeNo = nrow*n + ncol;
+
+                if(nrow < n && nrow >= 0 && ncol < n && ncol >= 0 && visited[adjNodeNo] == 1){
+                    ds.unionBySize(nodeNo, adjNodeNo);
                 }
             }
-        } 
+
+            if(ds.findUPar(0) == ds.findUPar((n*n)-1)){
+                return elevation;
+            }
+        }
 
         return -1;
     }
