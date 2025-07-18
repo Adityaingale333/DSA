@@ -9,29 +9,26 @@
  */
 class Solution {
 public:
-    TreeNode* findLCA(TreeNode* root, TreeNode* p, TreeNode* q){
-        if(root == NULL){
-            return NULL;
-        }
-
-        if(root == p || root == q){
+    TreeNode* solve(TreeNode* root, TreeNode* p, TreeNode* q){
+        if(root == NULL || root == p || root == q){
             return root;
         }
 
-        TreeNode* leftLCA = findLCA(root->left, p, q);
-        TreeNode* rightLCA = findLCA(root->right, p, q);
+        TreeNode* left = solve(root->left, p, q);
+        TreeNode* right = solve(root->right, p, q);
 
-        if(leftLCA && rightLCA){
+        if(left && right){
             return root;
         }
-        else if(leftLCA != NULL){// leftLCA is not null means rightLCA is null, 
-            return leftLCA; // so we return leftLCA
+        else if(left){
+            return left;
         }
-        else{ // either rightLCA is not null so we return rightLCA, 
-            return rightLCA;// if both null, then we return rightLCA as bot left and right are NULL
+        else{
+            return right;
         }
+
     }
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        return findLCA(root, p, q);
+        return solve(root, p, q);
     }
 };
