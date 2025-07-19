@@ -110,6 +110,7 @@
 | [1293-three-consecutive-odds](https://github.com/Adityaingale333/DSA/tree/master/1293-three-consecutive-odds) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Adityaingale333/DSA/tree/master/1333-sort-the-jumbled-numbers) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Adityaingale333/DSA/tree/master/1335-maximum-candies-allocated-to-k-children) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/Adityaingale333/DSA/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/Adityaingale333/DSA/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1364-tuple-with-same-product](https://github.com/Adityaingale333/DSA/tree/master/1364-tuple-with-same-product) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Adityaingale333/DSA/tree/master/1370-count-number-of-nice-subarrays) |
@@ -677,6 +678,7 @@
 | [1250-longest-common-subsequence](https://github.com/Adityaingale333/DSA/tree/master/1250-longest-common-subsequence) |
 | [1261-swap-for-longest-repeated-character-substring](https://github.com/Adityaingale333/DSA/tree/master/1261-swap-for-longest-repeated-character-substring) |
 | [1321-get-equal-substrings-within-budget](https://github.com/Adityaingale333/DSA/tree/master/1321-get-equal-substrings-within-budget) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/Adityaingale333/DSA/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1351-replace-the-substring-for-balanced-string](https://github.com/Adityaingale333/DSA/tree/master/1351-replace-the-substring-for-balanced-string) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/Adityaingale333/DSA/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1423-maximum-number-of-occurrences-of-a-substring](https://github.com/Adityaingale333/DSA/tree/master/1423-maximum-number-of-occurrences-of-a-substring) |
@@ -746,6 +748,7 @@
 | [0139-word-break](https://github.com/Adityaingale333/DSA/tree/master/0139-word-break) |
 | [0386-lexicographical-numbers](https://github.com/Adityaingale333/DSA/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/Adityaingale333/DSA/tree/master/0440-k-th-smallest-in-lexicographical-order) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/Adityaingale333/DSA/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 ## Sliding Window
 |  |
 | ------- |
@@ -1094,6 +1097,7 @@
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/Adityaingale333/DSA/tree/master/1073-number-of-enclaves) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/Adityaingale333/DSA/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1753-path-with-minimum-effort](https://github.com/Adityaingale333/DSA/tree/master/1753-path-with-minimum-effort) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Adityaingale333/DSA/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/Adityaingale333/DSA/tree/master/2438-find-closest-node-to-given-two-nodes) |
