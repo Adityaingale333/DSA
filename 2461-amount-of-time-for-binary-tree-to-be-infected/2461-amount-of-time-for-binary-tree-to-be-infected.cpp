@@ -47,37 +47,40 @@ public:
 
         TreeNode* startNode = root->val == start ? root : dfs(root, start); // get the starting node
 
-        queue<pair<TreeNode*, int>> q; // node, time
-        q.push({startNode, 0}); 
+        queue<TreeNode*> q; // node
+        q.push(startNode); 
 
         unordered_set<int> visited;
         visited.insert(startNode->val);
 
-        int ans = 0;
-        
+        int time = 0;
+
         while(!q.empty()){
-            TreeNode* node = q.front().first;
-            int time = q.front().second;
-            q.pop();
+            int n = q.size();
 
-            ans = time;
+            for(int i=0; i<n; i++){
+                TreeNode* node = q.front();
+                q.pop();
 
-            if(node->left != NULL && !visited.count(node->left->val)){
-                visited.insert(node->left->val);
-                q.push({node->left, time+1});
+                if(node->left != NULL && !visited.count(node->left->val)){
+                    visited.insert(node->left->val);
+                    q.push(node->left);
+                }
+
+                if(node->right != NULL && !visited.count(node->right->val)){
+                    visited.insert(node->right->val);
+                    q.push(node->right);
+                }
+
+                if(parent[node] != NULL && !visited.count(parent[node]->val)){
+                    visited.insert(parent[node]->val);
+                    q.push(parent[node]);
+                }
             }
-
-            if(node->right != NULL && !visited.count(node->right->val)){
-                visited.insert(node->right->val);
-                q.push({node->right, time+1});
-            }
-
-            if(parent[node] != NULL && !visited.count(parent[node]->val)){
-                visited.insert(parent[node]->val);
-                q.push({parent[node], time+1});
-            }
+            time++;
+            
         }
 
-        return ans;
+        return time-1;
     }
 };
