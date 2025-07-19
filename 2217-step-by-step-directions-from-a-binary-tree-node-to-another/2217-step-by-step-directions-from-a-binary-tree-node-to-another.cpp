@@ -11,45 +11,26 @@
  */
 class Solution {
 public:
-    // if we observe, our path go in different direction from the LCA of both start and end node
-    // so we can first find the LCA of start and end node
-    // then we can go from LCA to start, store its path, then later convert it into U, bcz we will going up from start to LCA
-    // then we can go from LCA to end, and append it to the ans
-    TreeNode* findLCA(TreeNode* root, int p, int q){
-        if(root == NULL || root->val == p || root->val == q){
-            return root;
-        }
-
-        TreeNode* left = findLCA(root->left, p, q);
-        TreeNode* right = findLCA(root->right, p, q);
-
-        if(left && right){
-            return root;
-        }
-        else if(left){
-            return left;
-        }
-        else{
-            return right;
-        }
-    }
-    bool findPath(TreeNode* LCA, int target, string& path){
-        if(LCA == NULL){
+    // we can also do it without finding LCA 
+    // we can get both the path rootToStart and rootToDest, till the LCA node both will have same path
+    // we can remove the path till LCA and then do the same logic of converting remaining rootToStart into U + rootToDest 
+    bool findPath(TreeNode* root, int target, string& path){
+        if(root == NULL){
             return false;
         }
 
-        if(LCA->val == target){
+        if(root->val == target){
             return true;
         }
 
         path.push_back('L');
-        if(findPath(LCA->left, target, path) == true){
+        if(findPath(root->left, target, path) == true){
             return true;
         }
         path.pop_back();
 
         path.push_back('R');
-        if(findPath(LCA->right, target, path) == true){
+        if(findPath(root->right, target, path) == true){
             return true;
         }
         path.pop_back();
@@ -57,24 +38,38 @@ public:
         return false;
     }
     string getDirections(TreeNode* root, int startValue, int destValue) {
-        TreeNode* LCA = findLCA(root, startValue, destValue); //found LCA
+        string rootToStart = "";
+        findPath(root, startValue, rootToStart);
 
-        // next find path from lcaToStart and lcaToDest
+        string rootToDest = "";
+        findPath(root, destValue, rootToDest);
 
-        string lcaToStart = "";
-        findPath(LCA, startValue, lcaToStart);
+        // we got rootToStart and rootToDest, now they both will have same path till LCA, we do not need to consider it
 
-        string lcaToDest = "";
-        findPath(LCA, destValue, lcaToDest);
+        int i = 0, j = 0;
+        while(i < rootToStart.length() && j < rootToDest.length()){
+            if(rootToStart[i] == rootToDest[j]){
+                i++, j++;
+            }
+            else{
+                break;
+            }
+        }
 
-        // we got lcaToStart, but we will be going from start to lca, so we need to convert all the characters into U
+        // now after above loop we have our i and j pointer at the node after LCA
 
         string ans = "";
 
-        for(int i=0; i<lcaToStart.length(); i++){
+        while(i < rootToStart.length()){
             ans.push_back('U');
+            i++;
         }
 
-        return ans + lcaToDest;
+        while(j < rootToDest.length()){
+            ans.push_back(rootToDest[j]);
+            j++;
+        }
+
+        return ans;
     }
 };
