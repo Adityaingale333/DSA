@@ -2,32 +2,27 @@ class Solution {
 public:
     int solve(string& s, string& matchStr, int val){
         int n = s.size();
+        
         int i=0;
 
-        stack<char> st;
-        st.push(s[0]);
+        // i -> write, j -> read
+        // j pointer will read and give the character to i for storing int ith pointer
+        // i pointer will take whatever character j gives, and then check if the last characters matches or not
+        // if matches goes back to the index from where the matched str starts
 
-        int count = 0; // count of pair
+        int count = 0; // pairs to be removed
 
-        for(int i=1; i<n; i++){
-            if(s[i] == matchStr[1] && !st.empty() && st.top() == matchStr[0]){
-                st.pop();
+        for(int j=0; j<n; j++){
+            s[i] = s[j];
+            i++;
+
+            if(i >= 2 && s[i-2] == matchStr[0] && s[i-1] == matchStr[1]){
+                i = i-2;
                 count++;
             }
-            else{
-                st.push(s[i]);
-            }
         }
 
-        string temp;
-        while(!st.empty()){
-            temp.push_back(st.top());
-            st.pop();
-        }
-
-        reverse(temp.begin(), temp.end());
-
-        s = temp;
+        s.erase(s.begin()+i, s.end());
 
         return count * val;
     }
