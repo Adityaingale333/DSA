@@ -56,6 +56,7 @@
 | [0300-longest-increasing-subsequence](https://github.com/Adityaingale333/DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Adityaingale333/DSA/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/Adityaingale333/DSA/tree/master/0322-coin-change) |
+| [0334-increasing-triplet-subsequence](https://github.com/Adityaingale333/DSA/tree/master/0334-increasing-triplet-subsequence) |
 | [0347-top-k-frequent-elements](https://github.com/Adityaingale333/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/Adityaingale333/DSA/tree/master/0368-largest-divisible-subset) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/Adityaingale333/DSA/tree/master/0373-find-k-pairs-with-smallest-sums) |
@@ -491,6 +492,7 @@
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Adityaingale333/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0135-candy](https://github.com/Adityaingale333/DSA/tree/master/0135-candy) |
 | [0179-largest-number](https://github.com/Adityaingale333/DSA/tree/master/0179-largest-number) |
+| [0334-increasing-triplet-subsequence](https://github.com/Adityaingale333/DSA/tree/master/0334-increasing-triplet-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/Adityaingale333/DSA/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/Adityaingale333/DSA/tree/master/0455-assign-cookies) |
 | [0502-ipo](https://github.com/Adityaingale333/DSA/tree/master/0502-ipo) |
