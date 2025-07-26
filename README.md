@@ -145,6 +145,7 @@
 | [2155-find-missing-observations](https://github.com/Adityaingale333/DSA/tree/master/2155-find-missing-observations) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Adityaingale333/DSA/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Adityaingale333/DSA/tree/master/2215-finding-3-digit-even-numbers) |
+| [2227-sum-of-subarray-ranges](https://github.com/Adityaingale333/DSA/tree/master/2227-sum-of-subarray-ranges) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Adityaingale333/DSA/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2249-count-the-hidden-sequences](https://github.com/Adityaingale333/DSA/tree/master/2249-count-the-hidden-sequences) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Adityaingale333/DSA/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
@@ -752,6 +753,7 @@
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Adityaingale333/DSA/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Adityaingale333/DSA/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Adityaingale333/DSA/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2227-sum-of-subarray-ranges](https://github.com/Adityaingale333/DSA/tree/master/2227-sum-of-subarray-ranges) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Adityaingale333/DSA/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2470-removing-stars-from-a-string](https://github.com/Adityaingale333/DSA/tree/master/2470-removing-stars-from-a-string) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Adityaingale333/DSA/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
@@ -953,6 +955,7 @@
 | [0937-online-stock-span](https://github.com/Adityaingale333/DSA/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/Adityaingale333/DSA/tree/master/0943-sum-of-subarray-minimums) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Adityaingale333/DSA/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [2227-sum-of-subarray-ranges](https://github.com/Adityaingale333/DSA/tree/master/2227-sum-of-subarray-ranges) |
 ## Queue
 |  |
 | ------- |
