@@ -1,81 +1,70 @@
 class Solution {
 public:
-    vector<int> getNSL(vector<int>& height){
+    int largestArea(vector<int>& height){
         int n = height.size();
 
-        stack<int> st;
-        vector<int> NSL(n);
+        stack<int> st; // increasing stack
+        vector<int>  NSE(n);
 
-        //  [0 2 1 2 0]    agar 1 se dekh rahe hai to 0 <- <- <- 1, skipping 2
-        for(int i=0; i<n; i++){ // to get Next_Smaller_element_to_Left, obv we will iterate from letf, so we can check element on its left
+        for(int i=n-1; i>=0; i--){
+            while(!st.empty() && height[st.top()] > height[i]){
+                st.pop();
+            }
+
             if(st.empty()){
-                NSL[i] = -1; // out of bound wala index, left se chalu kr rahe hai isliye -1
+                NSE[i] = n;
             }
             else{
-                while(!st.empty() && height[st.top()] >= height[i]){ // next smaller chahiye, isliye greater aur equal wale hata diye
-                    st.pop();
-                }
-                if(st.empty()){
-                    NSL[i] = -1; // vappis empty ho gaya mtlb usse smaller hai hi nahi, isliye out of bound wala index
-                }
-                else{
-                    NSL[i] = st.top();
-                }
+                NSE[i] = st.top();
             }
-            
-            st.push(i); // element to har baar push karenge, kuyki fir uske baad wale ko check krna hai n, ki vo isse chota hai ya nahi
 
+            st.push(i);
         }
 
-        return NSL;
-    }
-    vector<int> getNSR(vector<int>& height){
-        int n = height.size();
-
-        stack<int> st;
-        vector<int> NSR(n);
-
-        for(int i=n-1; i>=0; i--){ // to get Next_Smaller_element_to_Right, obv we will iterate from right
-            if(st.empty()){
-                NSR[i] = n; // out of bound wala index, right se chale kr rahe hai isliye n
-            }
-            else{
-                while(!st.empty() && height[st.top()] >= height[i]){ // next smaller chahiye, isliye greater aur equal wale hata diye
-                    st.pop();
-                }
-                if(st.empty()){
-                    NSR[i] = n; // vappis empty ho gaya mtlb usse smaller hai hi nahi, isliye out of bound wala index
-                }
-                else{
-                    NSR[i] = st.top();
-                }
-            }
-            
-            st.push(i); // element to har baar push karenge, kuyki fir uske pehle wale ko check krna hai n, ki vo isse chota hai ya nahi
-
+        while(!st.empty()){
+            st.pop();
         }
 
-        return NSR;
-    }
-    int solve(vector<int>& height){
-        int n = height.size();
+        vector<int> PSEE(n);
 
-        vector<int> NSR = getNSR(height);
-        vector<int> NSL = getNSL(height);
-
-        int area = INT_MIN;
         for(int i=0; i<n; i++){
-            int a = height[i] * (NSR[i] - NSL[i] - 1);
-            area = max(area, a); 
+            while(!st.empty() && height[st.top()] >= height[i]){
+                st.pop();
+            }
+
+            if(st.empty()){
+                PSEE[i] = -1;
+            }
+            else{
+                PSEE[i] = st.top();
+            }
+
+            st.push(i);
         }
-        return area;
+
+        int ans = 0;
+
+        for(int i=0; i<n; i++){
+            int left = i - PSEE[i];
+            int right = NSE[i] - i;
+
+            int breadth = left + right - 1;
+            int length = height[i];
+
+            int area = length * breadth;
+
+            ans = max(ans, area);
+        }
+
+        return ans;
     }
     int maximalRectangle(vector<vector<char>>& matrix) {
         int m = matrix.size();
         int n = matrix[0].size();
 
+        int ans = 0;
+
         vector<int> height(n, 0);
-        int maxArea = INT_MIN;
 
         for(int i=0; i<m; i++){
             for(int j=0; j<n; j++){
@@ -83,11 +72,12 @@ public:
                     height[j] = 0;
                 }
                 else{
-                    height[j] = height[j]+1;
+                    height[j] = height[j] + 1;
                 }
             }
-            maxArea = max(maxArea, solve(height));
-        }
-        return maxArea;
+            ans = max(ans, largestArea(height));
+        } 
+
+        return ans;
     }
 };
