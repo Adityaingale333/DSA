@@ -1,20 +1,14 @@
 class Solution {
 public:
-    int solve(int i, int maxOr, vector<int>& nums, vector<int>& temp){
+    int solve(int i, int maxOr, vector<int>& nums, int currOr){
         if(i == nums.size()){
-            int tempOr = 0;
-            for(int i=0; i<temp.size(); i++){
-                tempOr = tempOr | temp[i];
-            }
-            if(tempOr == maxOr) return 1;
+            if(currOr == maxOr) return 1;
             return 0;
         }
 
-        temp.push_back(nums[i]);
-        int take = solve(i+1, maxOr, nums, temp);
-        temp.pop_back();
-
-        int notTake = solve(i+1, maxOr, nums, temp);
+        int take = solve(i+1, maxOr, nums, currOr | nums[i]);
+        
+        int notTake = solve(i+1, maxOr, nums, currOr);
 
         return take + notTake;
     }
@@ -26,7 +20,7 @@ public:
             maxOr = maxOr | nums[i];
         }
 
-        vector<int> temp;
-        return solve(0, maxOr, nums, temp);
+        int currOr = 0;
+        return solve(0, maxOr, nums, currOr);
     }
 };
