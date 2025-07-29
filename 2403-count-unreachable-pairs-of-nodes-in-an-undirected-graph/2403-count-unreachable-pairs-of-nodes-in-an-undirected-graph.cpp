@@ -1,44 +1,79 @@
-class Solution {
+class DisjointSet {
 public:
-    void dfs(int u, unordered_map<int, vector<int>>& adj, vector<int>& visited, int& countNodes){
-        visited[u] = 1;
-        countNodes++;
+    vector<int> rank, parent, size;
+    DisjointSet(int n){
+        rank.resize(n+1, 0);
+        parent.resize(n+1);
+        size.resize(n+1, 1);
 
-        for(auto& v : adj[u]){
-            if(!visited[v]){
-                dfs(v, adj, visited, countNodes);
-            }
+        for(int i=0; i<=n; i++){
+            parent[i] = i;
         }
     }
+
+    int findUPar(int node){
+        if(node == parent[node]){
+            return node;
+        }
+
+        return parent[node] = findUPar(parent[node]);
+    }
+
+    void unionByRank(int u, int v){
+        int ulp_u = findUPar(u);
+        int ulp_v = findUPar(v);
+
+        if(ulp_u == ulp_v) return;
+
+        if(rank[ulp_u] < rank[ulp_v]){
+            parent[ulp_u] = ulp_v;
+        }
+        else if(rank[ulp_v] < rank[ulp_u]){
+            parent[ulp_v] = ulp_u;
+        }
+        else{
+            parent[ulp_v] = ulp_u;
+            rank[ulp_u]++;
+        }
+    }
+    
+    void unionBySize(int u, int v){
+        int ulp_u = findUPar(u);
+        int ulp_v = findUPar(v);
+
+        if(ulp_u == ulp_v) return;
+
+        if(size[ulp_u] < size[ulp_v]){
+            parent[ulp_u] = ulp_v;
+            size[ulp_v] = size[ulp_v] + size[ulp_u];
+        }
+        else{
+            parent[ulp_v] = ulp_u;
+            size[ulp_u] = size[ulp_u] + size[ulp_v];
+        }
+    }
+};
+class Solution {
+public:
     long long countPairs(int n, vector<vector<int>>& edges) {
 
-        unordered_map<int, vector<int>> adj;
-        for(auto& edge : edges){
-            int u = edge[0];
-            int v = edge[1];
+        DisjointSet ds(n);
 
-            adj[u].push_back(v);
-            adj[v].push_back(u);
+        for(int i=0; i<edges.size(); i++){
+            ds.unionBySize(edges[i][0], edges[i][1]);
         }
 
-        vector<int> visited(n, 0);
-
-        int components = 0;
-        vector<int> sizeOfComponents;
-
-        for(int i=0; i<n; i++){
-            if(!visited[i]){
-                int countNodes = 0;
-                dfs(i, adj, visited, countNodes);
-                components++;
-                sizeOfComponents.push_back(countNodes);
-            }
-        }
+        //int components = 0;
 
         long long ans = 0;
-        for(int i=0; i<sizeOfComponents.size()-1; i++){
-            ans = ans + ( (long long)sizeOfComponents[i] * (n - (long long)sizeOfComponents[i]) );
-            n = n - sizeOfComponents[i];
+        int remainingNodes = n;
+
+        for(int i=0; i<n; i++){
+            if(ds.findUPar(i) == i){
+                ans = ans + ( (long long)ds.size[i] * (remainingNodes - (long long)ds.size[i]) );
+                remainingNodes = remainingNodes - ds.size[i];
+                //components++;
+            }
         }
 
         return ans;
