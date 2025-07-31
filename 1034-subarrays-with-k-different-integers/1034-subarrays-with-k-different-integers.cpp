@@ -1,51 +1,43 @@
 class Solution {
 public:
-    // CODE FOR <= K
-    int code_for_k(vector<int>& nums, int k){
-        int n = nums.size();
-        int l=0, r=0;
-        unordered_map<int, int> mp;
-        int count = 0;
-
-        while(r<n){
-            mp[nums[r]]++;
-
-            while(mp.size() > k){
-                mp[nums[l]]--;
-                if(mp[nums[l]]==0){
-                    mp.erase(nums[l]);
-                }
-                l++;
-            }
-            count = count + (r-l+1);
-            r++;
-        }
-        return count;
-    }
-    //  CODE FOR <= K-1 (j = k-1)
-    int code_for_j(vector<int>& nums, int j){
-        int n = nums.size();
-        int l=0, r=0;
-        unordered_map<int, int> mp;
-        int count = 0;
-
-        while(r<n){
-            mp[nums[r]]++;
-
-            while(mp.size() > j){
-                mp[nums[l]]--;
-                if(mp[nums[l]]==0){
-                    mp.erase(nums[l]);
-                }
-                l++;
-            }
-            count = count + (r-l+1);
-            r++;
-        }
-        return count;
-    }
-    // CODE FOR == K    -->   (CODE FOR <= K) - (CODE FOR <= K-1) 
     int subarraysWithKDistinct(vector<int>& nums, int k) {
-        return ( code_for_k(nums, k) ) - ( code_for_j(nums, k-1) );
+        int n = nums.size();
+
+        unordered_map<int, int> mp; // integers -> frequency
+
+        int i=0, j=0;
+        int i_bada = 0;
+
+        int ans = 0;
+
+        while(j < n){
+            mp[nums[j]]++;
+
+            // handle invalid subarray cases, shrink the window, and also reset i_bada to i
+            while(mp.size() > k){
+                mp[nums[i]]--;
+                
+                if(mp[nums[i]] == 0){
+                    mp.erase(nums[i]);
+                }
+                
+                i++;
+                i_bada = i;
+            }
+
+            // handle valid subarray cases, look for how many more subaray are valid
+            while(mp[nums[i]] > 1){
+                mp[nums[i]]--;
+                i++;
+            }
+
+            if(mp.size() == k){
+                ans = ans + (1 + (i - i_bada));
+            }
+
+            j++;
+        }
+
+        return ans;
     }
 };
