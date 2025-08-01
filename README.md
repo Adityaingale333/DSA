@@ -30,6 +30,7 @@
 | [0090-subsets-ii](https://github.com/Adityaingale333/DSA/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Adityaingale333/DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Adityaingale333/DSA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0118-pascals-triangle](https://github.com/Adityaingale333/DSA/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/Adityaingale333/DSA/tree/master/0120-triangle) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Adityaingale333/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Adityaingale333/DSA/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
@@ -558,6 +559,7 @@
 | [0072-edit-distance](https://github.com/Adityaingale333/DSA/tree/master/0072-edit-distance) |
 | [0085-maximal-rectangle](https://github.com/Adityaingale333/DSA/tree/master/0085-maximal-rectangle) |
 | [0115-distinct-subsequences](https://github.com/Adityaingale333/DSA/tree/master/0115-distinct-subsequences) |
+| [0118-pascals-triangle](https://github.com/Adityaingale333/DSA/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/Adityaingale333/DSA/tree/master/0120-triangle) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Adityaingale333/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Adityaingale333/DSA/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
