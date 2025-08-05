@@ -205,6 +205,7 @@
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/Adityaingale333/DSA/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/Adityaingale333/DSA/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/Adityaingale333/DSA/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
+| [3790-fruits-into-baskets-ii](https://github.com/Adityaingale333/DSA/tree/master/3790-fruits-into-baskets-ii) |
 ## Math
 |  |
 | ------- |
@@ -397,6 +398,7 @@
 | [2690-house-robber-iv](https://github.com/Adityaingale333/DSA/tree/master/2690-house-robber-iv) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Adityaingale333/DSA/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Adityaingale333/DSA/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
+| [3790-fruits-into-baskets-ii](https://github.com/Adityaingale333/DSA/tree/master/3790-fruits-into-baskets-ii) |
 | [3881-minimize-maximum-component-cost](https://github.com/Adityaingale333/DSA/tree/master/3881-minimize-maximum-component-cost) |
 ## Bit Manipulation
 |  |
@@ -631,6 +633,7 @@
 | [2551-apply-operations-to-an-array](https://github.com/Adityaingale333/DSA/tree/master/2551-apply-operations-to-an-array) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/Adityaingale333/DSA/tree/master/2553-total-cost-to-hire-k-workers) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/Adityaingale333/DSA/tree/master/3600-find-the-k-th-character-in-string-game-i) |
+| [3790-fruits-into-baskets-ii](https://github.com/Adityaingale333/DSA/tree/master/3790-fruits-into-baskets-ii) |
 ## Counting
 |  |
 | ------- |
@@ -1092,6 +1095,7 @@
 |  |
 | ------- |
 | [2434-design-a-number-container-system](https://github.com/Adityaingale333/DSA/tree/master/2434-design-a-number-container-system) |
+| [3790-fruits-into-baskets-ii](https://github.com/Adityaingale333/DSA/tree/master/3790-fruits-into-baskets-ii) |
 ## Combinatorics
 |  |
 | ------- |
@@ -1212,6 +1216,7 @@
 |  |
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Adityaingale333/DSA/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [3790-fruits-into-baskets-ii](https://github.com/Adityaingale333/DSA/tree/master/3790-fruits-into-baskets-ii) |
 ## Union Find
 |  |
 | ------- |
