@@ -206,6 +206,7 @@
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/Adityaingale333/DSA/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/Adityaingale333/DSA/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 | [3790-fruits-into-baskets-ii](https://github.com/Adityaingale333/DSA/tree/master/3790-fruits-into-baskets-ii) |
+| [3791-fruits-into-baskets-iii](https://github.com/Adityaingale333/DSA/tree/master/3791-fruits-into-baskets-iii) |
 ## Math
 |  |
 | ------- |
@@ -399,6 +400,7 @@
 | [2699-count-the-number-of-fair-pairs](https://github.com/Adityaingale333/DSA/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Adityaingale333/DSA/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [3790-fruits-into-baskets-ii](https://github.com/Adityaingale333/DSA/tree/master/3790-fruits-into-baskets-ii) |
+| [3791-fruits-into-baskets-iii](https://github.com/Adityaingale333/DSA/tree/master/3791-fruits-into-baskets-iii) |
 | [3881-minimize-maximum-component-cost](https://github.com/Adityaingale333/DSA/tree/master/3881-minimize-maximum-component-cost) |
 ## Bit Manipulation
 |  |
@@ -1096,6 +1098,7 @@
 | ------- |
 | [2434-design-a-number-container-system](https://github.com/Adityaingale333/DSA/tree/master/2434-design-a-number-container-system) |
 | [3790-fruits-into-baskets-ii](https://github.com/Adityaingale333/DSA/tree/master/3790-fruits-into-baskets-ii) |
+| [3791-fruits-into-baskets-iii](https://github.com/Adityaingale333/DSA/tree/master/3791-fruits-into-baskets-iii) |
 ## Combinatorics
 |  |
 | ------- |
@@ -1217,6 +1220,7 @@
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Adityaingale333/DSA/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [3790-fruits-into-baskets-ii](https://github.com/Adityaingale333/DSA/tree/master/3790-fruits-into-baskets-ii) |
+| [3791-fruits-into-baskets-iii](https://github.com/Adityaingale333/DSA/tree/master/3791-fruits-into-baskets-iii) |
 ## Union Find
 |  |
 | ------- |
