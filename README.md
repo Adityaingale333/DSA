@@ -227,6 +227,7 @@
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Adityaingale333/DSA/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0564-find-the-closest-palindrome](https://github.com/Adityaingale333/DSA/tree/master/0564-find-the-closest-palindrome) |
 | [0797-rabbits-in-forest](https://github.com/Adityaingale333/DSA/tree/master/0797-rabbits-in-forest) |
+| [0900-reordered-power-of-2](https://github.com/Adityaingale333/DSA/tree/master/0900-reordered-power-of-2) |
 | [1013-fibonacci-number](https://github.com/Adityaingale333/DSA/tree/master/1013-fibonacci-number) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Adityaingale333/DSA/tree/master/1370-count-number-of-nice-subarrays) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Adityaingale333/DSA/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
@@ -330,6 +331,7 @@
 | [0822-unique-morse-code-words](https://github.com/Adityaingale333/DSA/tree/master/0822-unique-morse-code-words) |
 | [0876-hand-of-straights](https://github.com/Adityaingale333/DSA/tree/master/0876-hand-of-straights) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0900-reordered-power-of-2](https://github.com/Adityaingale333/DSA/tree/master/0900-reordered-power-of-2) |
 | [0940-fruit-into-baskets](https://github.com/Adityaingale333/DSA/tree/master/0940-fruit-into-baskets) |
 | [0952-word-subsets](https://github.com/Adityaingale333/DSA/tree/master/0952-word-subsets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Adityaingale333/DSA/tree/master/0966-binary-subarrays-with-sum) |
@@ -449,6 +451,7 @@
 | [0780-max-chunks-to-make-sorted](https://github.com/Adityaingale333/DSA/tree/master/0780-max-chunks-to-make-sorted) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/Adityaingale333/DSA/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0876-hand-of-straights](https://github.com/Adityaingale333/DSA/tree/master/0876-hand-of-straights) |
+| [0900-reordered-power-of-2](https://github.com/Adityaingale333/DSA/tree/master/0900-reordered-power-of-2) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/Adityaingale333/DSA/tree/master/1129-longest-string-chain) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Adityaingale333/DSA/tree/master/1333-sort-the-jumbled-numbers) |
@@ -645,6 +648,7 @@
 | [0387-first-unique-character-in-a-string](https://github.com/Adityaingale333/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/Adityaingale333/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0778-reorganize-string](https://github.com/Adityaingale333/DSA/tree/master/0778-reorganize-string) |
+| [0900-reordered-power-of-2](https://github.com/Adityaingale333/DSA/tree/master/0900-reordered-power-of-2) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Adityaingale333/DSA/tree/master/1034-subarrays-with-k-different-integers) |
 | [1364-tuple-with-same-product](https://github.com/Adityaingale333/DSA/tree/master/1364-tuple-with-same-product) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/Adityaingale333/DSA/tree/master/1510-find-lucky-integer-in-an-array) |
@@ -957,6 +961,7 @@
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Adityaingale333/DSA/tree/master/0204-count-primes) |
+| [0900-reordered-power-of-2](https://github.com/Adityaingale333/DSA/tree/master/0900-reordered-power-of-2) |
 | [1656-count-good-triplets](https://github.com/Adityaingale333/DSA/tree/master/1656-count-good-triplets) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Adityaingale333/DSA/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Adityaingale333/DSA/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
