@@ -167,6 +167,7 @@
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/Adityaingale333/DSA/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Adityaingale333/DSA/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Adityaingale333/DSA/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2529-range-product-queries-of-powers](https://github.com/Adityaingale333/DSA/tree/master/2529-range-product-queries-of-powers) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Adityaingale333/DSA/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2551-apply-operations-to-an-array](https://github.com/Adityaingale333/DSA/tree/master/2551-apply-operations-to-an-array) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Adityaingale333/DSA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
@@ -424,6 +425,7 @@
 | [2478-longest-nice-subarray](https://github.com/Adityaingale333/DSA/tree/master/2478-longest-nice-subarray) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Adityaingale333/DSA/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Adityaingale333/DSA/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2529-range-product-queries-of-powers](https://github.com/Adityaingale333/DSA/tree/master/2529-range-product-queries-of-powers) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Adityaingale333/DSA/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2792-neighboring-bitwise-xor](https://github.com/Adityaingale333/DSA/tree/master/2792-neighboring-bitwise-xor) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/Adityaingale333/DSA/tree/master/3307-find-the-maximum-sum-of-node-values) |
@@ -885,6 +887,7 @@
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Adityaingale333/DSA/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2134-maximize-the-confusion-of-an-exam](https://github.com/Adityaingale333/DSA/tree/master/2134-maximize-the-confusion-of-an-exam) |
 | [2249-count-the-hidden-sequences](https://github.com/Adityaingale333/DSA/tree/master/2249-count-the-hidden-sequences) |
+| [2529-range-product-queries-of-powers](https://github.com/Adityaingale333/DSA/tree/master/2529-range-product-queries-of-powers) |
 | [3639-zero-array-transformation-i](https://github.com/Adityaingale333/DSA/tree/master/3639-zero-array-transformation-i) |
 | [3647-zero-array-transformation-iii](https://github.com/Adityaingale333/DSA/tree/master/3647-zero-array-transformation-iii) |
 ## Linked List
