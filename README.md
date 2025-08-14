@@ -135,6 +135,7 @@
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Adityaingale333/DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Adityaingale333/DSA/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1753-path-with-minimum-effort](https://github.com/Adityaingale333/DSA/tree/master/1753-path-with-minimum-effort) |
+| [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/Adityaingale333/DSA/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1813-maximum-erasure-value](https://github.com/Adityaingale333/DSA/tree/master/1813-maximum-erasure-value) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Adityaingale333/DSA/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Adityaingale333/DSA/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -351,6 +352,7 @@
 | [1500-count-largest-group](https://github.com/Adityaingale333/DSA/tree/master/1500-count-largest-group) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/Adityaingale333/DSA/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Adityaingale333/DSA/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
+| [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/Adityaingale333/DSA/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1813-maximum-erasure-value](https://github.com/Adityaingale333/DSA/tree/master/1813-maximum-erasure-value) |
 | [1873-longest-nice-substring](https://github.com/Adityaingale333/DSA/tree/master/1873-longest-nice-substring) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Adityaingale333/DSA/tree/master/1890-sum-of-beauty-of-all-substrings) |
@@ -399,6 +401,7 @@
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Adityaingale333/DSA/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Adityaingale333/DSA/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1753-path-with-minimum-effort](https://github.com/Adityaingale333/DSA/tree/master/1753-path-with-minimum-effort) |
+| [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/Adityaingale333/DSA/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [2134-maximize-the-confusion-of-an-exam](https://github.com/Adityaingale333/DSA/tree/master/2134-maximize-the-confusion-of-an-exam) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Adityaingale333/DSA/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Adityaingale333/DSA/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
@@ -820,6 +823,7 @@
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Adityaingale333/DSA/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Adityaingale333/DSA/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Adityaingale333/DSA/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/Adityaingale333/DSA/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1813-maximum-erasure-value](https://github.com/Adityaingale333/DSA/tree/master/1813-maximum-erasure-value) |
 | [1873-longest-nice-substring](https://github.com/Adityaingale333/DSA/tree/master/1873-longest-nice-substring) |
 | [1967-longest-substring-of-all-vowels-in-order](https://github.com/Adityaingale333/DSA/tree/master/1967-longest-substring-of-all-vowels-in-order) |
@@ -890,6 +894,7 @@
 | [1435-xor-queries-of-a-subarray](https://github.com/Adityaingale333/DSA/tree/master/1435-xor-queries-of-a-subarray) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Adityaingale333/DSA/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Adityaingale333/DSA/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/Adityaingale333/DSA/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Adityaingale333/DSA/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2134-maximize-the-confusion-of-an-exam](https://github.com/Adityaingale333/DSA/tree/master/2134-maximize-the-confusion-of-an-exam) |
 | [2249-count-the-hidden-sequences](https://github.com/Adityaingale333/DSA/tree/master/2249-count-the-hidden-sequences) |
