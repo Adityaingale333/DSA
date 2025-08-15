@@ -1,61 +1,37 @@
 class Solution {
 public:
-  /*int solve(int i, int transaction, vector<int>& prices, vector<vector<int>>& t){
-        if(transaction == 0){
-            return 0;
-        }
-        if(i >= prices.size()){
+    int solve(int i, int state, int transaction, vector<int>& prices, vector<vector<vector<int>>>& t){
+        if(transaction == 0 || i >= prices.size()){
+            if(state == 2) return -1e9;
             return 0;
         }
 
-        if(t[i][transaction] != -1){
-            return t[i][transaction];
+        if(t[i][state][transaction] != -1){
+            return t[i][state][transaction];
         }
 
         int profit = 0;
-        if(transaction%2 == 0){
-            profit = max(-prices[i] + solve(i+1, transaction-1, prices, t), solve(i+1, transaction, prices, t));
+        if(state == 1){
+            int buy = -prices[i] + solve(i+1, 2, transaction-1, prices, t);
+            int leave = solve(i+1, state, transaction, prices, t);
+            profit = max(buy, leave);
         }
         else{
-            profit = max(prices[i] + solve(i+1, transaction-1, prices, t), solve(i+1, transaction, prices, t));
+            int sell = prices[i] + solve(i+1, 1, transaction-1, prices, t);
+            int leave = solve(i+1, state, transaction, prices, t);
+            profit = max(sell, leave);
         }
-        return t[i][transaction] = profit;
-    }*/
+
+        return t[i][state][transaction] = profit;
+    }
     int maxProfit(int k, vector<int>& prices) {
         int n = prices.size();
 
-       /* vector<vector<int>> t(n+1, vector<int>((2*k)+1, 0));
+        // state 1 = only buy, either 1st day or sell kr diya hai
+        // state 2 = only sell, buy kr liya hai
 
-        for(int i=0; i<n; i++){
-            t[i][0] = 0;
-        }
-        for(int transaction=0; transaction<(2*k)+1; transaction++){
-            t[n][transaction] = 0;
-        }*/
+        vector<vector<vector<int>>> t(n, vector<vector<int>>(3, vector<int>(2*k+1, -1)));
 
-        // space optimization, we will use vector
-        vector<int> after((2*k)+1, 0);
-        vector<int> curr((2*k)+1, 0);
-
-        for(int i=0; i<n; i++){
-            after[0] = 0;
-        }
-        for(int transaction=0; transaction<(2*k)+1; transaction++){
-            after[transaction] = 0;
-        }
-        for(int i=n-1; i>=0; i--){
-            for(int transaction=1; transaction<=(2*k); transaction++){
-                int profit = 0;
-                if(transaction%2 == 0){
-                    profit = max(-prices[i] + after[transaction-1],  after[transaction]);
-                }
-                else{
-                    profit = max(prices[i] + after[transaction-1],  after[transaction]);
-                }
-                curr[transaction] = profit;
-            }
-            after = curr;
-        }
-        return after[2*k] ;
+        return solve(0, 1, 2*k, prices, t);
     }
 };
