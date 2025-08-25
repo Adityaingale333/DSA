@@ -70,6 +70,7 @@
 | [0485-max-consecutive-ones](https://github.com/Adityaingale333/DSA/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/Adityaingale333/DSA/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/Adityaingale333/DSA/tree/master/0496-next-greater-element-i) |
+| [0498-diagonal-traverse](https://github.com/Adityaingale333/DSA/tree/master/0498-diagonal-traverse) |
 | [0500-keyboard-row](https://github.com/Adityaingale333/DSA/tree/master/0500-keyboard-row) |
 | [0502-ipo](https://github.com/Adityaingale333/DSA/tree/master/0502-ipo) |
 | [0503-next-greater-element-ii](https://github.com/Adityaingale333/DSA/tree/master/0503-next-greater-element-ii) |
@@ -501,6 +502,7 @@
 | [0073-set-matrix-zeroes](https://github.com/Adityaingale333/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/Adityaingale333/DSA/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/Adityaingale333/DSA/tree/master/0085-maximal-rectangle) |
+| [0498-diagonal-traverse](https://github.com/Adityaingale333/DSA/tree/master/0498-diagonal-traverse) |
 | [0542-01-matrix](https://github.com/Adityaingale333/DSA/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Adityaingale333/DSA/tree/master/0733-flood-fill) |
 | [0794-swim-in-rising-water](https://github.com/Adityaingale333/DSA/tree/master/0794-swim-in-rising-water) |
@@ -652,6 +654,7 @@
 |  |
 | ------- |
 | [0059-spiral-matrix-ii](https://github.com/Adityaingale333/DSA/tree/master/0059-spiral-matrix-ii) |
+| [0498-diagonal-traverse](https://github.com/Adityaingale333/DSA/tree/master/0498-diagonal-traverse) |
 | [0735-asteroid-collision](https://github.com/Adityaingale333/DSA/tree/master/0735-asteroid-collision) |
 | [0921-spiral-matrix-iii](https://github.com/Adityaingale333/DSA/tree/master/0921-spiral-matrix-iii) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Adityaingale333/DSA/tree/master/2021-remove-all-occurrences-of-a-substring) |
