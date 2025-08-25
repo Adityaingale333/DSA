@@ -114,6 +114,7 @@
 | [1129-longest-string-chain](https://github.com/Adityaingale333/DSA/tree/master/1129-longest-string-chain) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Adityaingale333/DSA/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Adityaingale333/DSA/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1253-sort-the-matrix-diagonally](https://github.com/Adityaingale333/DSA/tree/master/1253-sort-the-matrix-diagonally) |
 | [1293-three-consecutive-odds](https://github.com/Adityaingale333/DSA/tree/master/1293-three-consecutive-odds) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Adityaingale333/DSA/tree/master/1333-sort-the-jumbled-numbers) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Adityaingale333/DSA/tree/master/1335-maximum-candies-allocated-to-k-children) |
@@ -472,6 +473,7 @@
 | [0900-reordered-power-of-2](https://github.com/Adityaingale333/DSA/tree/master/0900-reordered-power-of-2) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/Adityaingale333/DSA/tree/master/1129-longest-string-chain) |
+| [1253-sort-the-matrix-diagonally](https://github.com/Adityaingale333/DSA/tree/master/1253-sort-the-matrix-diagonally) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Adityaingale333/DSA/tree/master/1333-sort-the-jumbled-numbers) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Adityaingale333/DSA/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Adityaingale333/DSA/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
@@ -514,6 +516,7 @@
 | [1073-number-of-enclaves](https://github.com/Adityaingale333/DSA/tree/master/1073-number-of-enclaves) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Adityaingale333/DSA/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Adityaingale333/DSA/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1253-sort-the-matrix-diagonally](https://github.com/Adityaingale333/DSA/tree/master/1253-sort-the-matrix-diagonally) |
 | [1394-minimum-path-cost-in-a-grid](https://github.com/Adityaingale333/DSA/tree/master/1394-minimum-path-cost-in-a-grid) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Adityaingale333/DSA/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Adityaingale333/DSA/tree/master/1496-lucky-numbers-in-a-matrix) |
