@@ -10,6 +10,7 @@
 | [0031-next-permutation](https://github.com/Adityaingale333/DSA/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Adityaingale333/DSA/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Adityaingale333/DSA/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0036-valid-sudoku](https://github.com/Adityaingale333/DSA/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/Adityaingale333/DSA/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/Adityaingale333/DSA/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Adityaingale333/DSA/tree/master/0040-combination-sum-ii) |
@@ -314,6 +315,7 @@
 | [0012-integer-to-roman](https://github.com/Adityaingale333/DSA/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Adityaingale333/DSA/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Adityaingale333/DSA/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0036-valid-sudoku](https://github.com/Adityaingale333/DSA/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/Adityaingale333/DSA/tree/master/0037-sudoku-solver) |
 | [0073-set-matrix-zeroes](https://github.com/Adityaingale333/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/Adityaingale333/DSA/tree/master/0076-minimum-window-substring) |
@@ -501,6 +503,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/Adityaingale333/DSA/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/Adityaingale333/DSA/tree/master/0037-sudoku-solver) |
 | [0059-spiral-matrix-ii](https://github.com/Adityaingale333/DSA/tree/master/0059-spiral-matrix-ii) |
 | [0063-unique-paths-ii](https://github.com/Adityaingale333/DSA/tree/master/0063-unique-paths-ii) |
