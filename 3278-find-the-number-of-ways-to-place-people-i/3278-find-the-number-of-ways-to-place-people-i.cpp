@@ -5,38 +5,35 @@ public:
 
         int count = 0;
 
+        auto lambda = [](vector<int>& point1, vector<int>& point2){
+            if(point1[0] == point2[0]){
+                return point1[1] > point2[1];
+            }
+
+            return point1[0] < point2[0];
+        };
+
+        sort(points.begin(), points.end(), lambda);
+
         for(int i=0; i<n; i++){
+
             int x1 = points[i][0];
             int y1 = points[i][1];
-            for(int j=0; j<n; j++){
-                if(i == j){
-                    continue;
-                }
+
+            int maxY = INT_MIN;
+
+            for(int j=i+1; j<n; j++){
 
                 int x2 = points[j][0];
                 int y2 = points[j][1];
 
-                if(!(x1 <= x2 && y1 >= y2)){
+                if(y2 > y1){
                     continue;
                 }
 
-                
-                bool hasOtherPoint  = false;
-                for(int k=0; k<n; k++){
-                    if(k == i || k == j){
-                        continue;
-                    }
-                    int x = points[k][0];
-                    int y = points[k][1];
-                    if(x >= x1 && x <= x2 &&
-                       y <= y1 && y >= y2){
-                        hasOtherPoint = true;
-                        break;
-                    }
-                }
-                if(!hasOtherPoint){
+                if(y2 > maxY){
                     count++;
-                
+                    maxY = y2;
                 }
             }
         }
