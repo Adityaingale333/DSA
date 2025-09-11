@@ -11,22 +11,25 @@ public:
     string sortVowels(string s) {
         int n = s.length();
 
-        vector<char> vowels;
+        unordered_map<char, int> freq;
 
         for(int i=0; i<n; i++){
             if(isVowel(s[i])){
-                vowels.push_back(s[i]);
+                freq[s[i]]++;
             }
         }
-
-        sort(vowels.begin(), vowels.end());
         
-        int j = 0;
+        string temp = "AEIOUaeiou";
+        int j=0;
 
         for(int i=0; i<n; i++){
             if(isVowel(s[i])){
-                s[i] = vowels[j];
-                j++;
+                while(freq[temp[j]] == 0){
+                    j++;
+                }
+
+                s[i] = temp[j];
+                freq[temp[j]]--;
             }
         }
 
