@@ -408,6 +408,7 @@
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Adityaingale333/DSA/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Adityaingale333/DSA/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Adityaingale333/DSA/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
+| [3872-find-most-frequent-vowel-and-consonant](https://github.com/Adityaingale333/DSA/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Binary Search
 |  |
 | ------- |
@@ -721,6 +722,7 @@
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Adityaingale333/DSA/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Adityaingale333/DSA/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Adityaingale333/DSA/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
+| [3872-find-most-frequent-vowel-and-consonant](https://github.com/Adityaingale333/DSA/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## String
 |  |
 | ------- |
@@ -820,6 +822,7 @@
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Adityaingale333/DSA/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Adityaingale333/DSA/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3812-smallest-palindromic-rearrangement-i](https://github.com/Adityaingale333/DSA/tree/master/3812-smallest-palindromic-rearrangement-i) |
+| [3872-find-most-frequent-vowel-and-consonant](https://github.com/Adityaingale333/DSA/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Stack
 |  |
 | ------- |
