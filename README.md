@@ -373,6 +373,7 @@
 | [1129-longest-string-chain](https://github.com/Adityaingale333/DSA/tree/master/1129-longest-string-chain) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Adityaingale333/DSA/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1261-swap-for-longest-repeated-character-substring](https://github.com/Adityaingale333/DSA/tree/master/1261-swap-for-longest-repeated-character-substring) |
+| [1264-maximum-number-of-words-you-can-type](https://github.com/Adityaingale333/DSA/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1364-tuple-with-same-product](https://github.com/Adityaingale333/DSA/tree/master/1364-tuple-with-same-product) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Adityaingale333/DSA/tree/master/1370-count-number-of-nice-subarrays) |
 | [1423-maximum-number-of-occurrences-of-a-substring](https://github.com/Adityaingale333/DSA/tree/master/1423-maximum-number-of-occurrences-of-a-substring) |
@@ -779,6 +780,7 @@
 | [1197-parsing-a-boolean-expression](https://github.com/Adityaingale333/DSA/tree/master/1197-parsing-a-boolean-expression) |
 | [1250-longest-common-subsequence](https://github.com/Adityaingale333/DSA/tree/master/1250-longest-common-subsequence) |
 | [1261-swap-for-longest-repeated-character-substring](https://github.com/Adityaingale333/DSA/tree/master/1261-swap-for-longest-repeated-character-substring) |
+| [1264-maximum-number-of-words-you-can-type](https://github.com/Adityaingale333/DSA/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/Adityaingale333/DSA/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1321-get-equal-substrings-within-budget](https://github.com/Adityaingale333/DSA/tree/master/1321-get-equal-substrings-within-budget) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Adityaingale333/DSA/tree/master/1350-remove-sub-folders-from-the-filesystem) |
