@@ -229,6 +229,7 @@
 | [3790-fruits-into-baskets-ii](https://github.com/Adityaingale333/DSA/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/Adityaingale333/DSA/tree/master/3791-fruits-into-baskets-iii) |
 | [3797-design-spreadsheet](https://github.com/Adityaingale333/DSA/tree/master/3797-design-spreadsheet) |
+| [3827-implement-router](https://github.com/Adityaingale333/DSA/tree/master/3827-implement-router) |
 ## Math
 |  |
 | ------- |
@@ -416,6 +417,7 @@
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Adityaingale333/DSA/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Adityaingale333/DSA/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3797-design-spreadsheet](https://github.com/Adityaingale333/DSA/tree/master/3797-design-spreadsheet) |
+| [3827-implement-router](https://github.com/Adityaingale333/DSA/tree/master/3827-implement-router) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Adityaingale333/DSA/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Binary Search
 |  |
@@ -448,6 +450,7 @@
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Adityaingale333/DSA/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [3790-fruits-into-baskets-ii](https://github.com/Adityaingale333/DSA/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/Adityaingale333/DSA/tree/master/3791-fruits-into-baskets-iii) |
+| [3827-implement-router](https://github.com/Adityaingale333/DSA/tree/master/3827-implement-router) |
 | [3881-minimize-maximum-component-cost](https://github.com/Adityaingale333/DSA/tree/master/3881-minimize-maximum-component-cost) |
 ## Bit Manipulation
 |  |
@@ -1090,6 +1093,7 @@
 | [0239-sliding-window-maximum](https://github.com/Adityaingale333/DSA/tree/master/0239-sliding-window-maximum) |
 | [0387-first-unique-character-in-a-string](https://github.com/Adityaingale333/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/Adityaingale333/DSA/tree/master/2408-number-of-people-aware-of-a-secret) |
+| [3827-implement-router](https://github.com/Adityaingale333/DSA/tree/master/3827-implement-router) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -1106,6 +1110,7 @@
 | [2434-design-a-number-container-system](https://github.com/Adityaingale333/DSA/tree/master/2434-design-a-number-container-system) |
 | [3678-design-task-manager](https://github.com/Adityaingale333/DSA/tree/master/3678-design-task-manager) |
 | [3797-design-spreadsheet](https://github.com/Adityaingale333/DSA/tree/master/3797-design-spreadsheet) |
+| [3827-implement-router](https://github.com/Adityaingale333/DSA/tree/master/3827-implement-router) |
 ## Data Stream
 |  |
 | ------- |
@@ -1209,6 +1214,7 @@
 | [3678-design-task-manager](https://github.com/Adityaingale333/DSA/tree/master/3678-design-task-manager) |
 | [3790-fruits-into-baskets-ii](https://github.com/Adityaingale333/DSA/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/Adityaingale333/DSA/tree/master/3791-fruits-into-baskets-iii) |
+| [3827-implement-router](https://github.com/Adityaingale333/DSA/tree/master/3827-implement-router) |
 ## Combinatorics
 |  |
 | ------- |
