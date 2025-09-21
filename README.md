@@ -154,6 +154,7 @@
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/Adityaingale333/DSA/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2015-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Adityaingale333/DSA/tree/master/2015-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2022-maximum-alternating-subsequence-sum](https://github.com/Adityaingale333/DSA/tree/master/2022-maximum-alternating-subsequence-sum) |
+| [2023-design-movie-rental-system](https://github.com/Adityaingale333/DSA/tree/master/2023-design-movie-rental-system) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/Adityaingale333/DSA/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2107-find-unique-binary-string](https://github.com/Adityaingale333/DSA/tree/master/2107-find-unique-binary-string) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/Adityaingale333/DSA/tree/master/2144-maximum-difference-between-increasing-elements) |
@@ -391,6 +392,7 @@
 | [1873-longest-nice-substring](https://github.com/Adityaingale333/DSA/tree/master/1873-longest-nice-substring) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Adityaingale333/DSA/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/Adityaingale333/DSA/tree/master/1995-finding-pairs-with-a-certain-sum) |
+| [2023-design-movie-rental-system](https://github.com/Adityaingale333/DSA/tree/master/2023-design-movie-rental-system) |
 | [2107-find-unique-binary-string](https://github.com/Adityaingale333/DSA/tree/master/2107-find-unique-binary-string) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Adityaingale333/DSA/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Adityaingale333/DSA/tree/master/2215-finding-3-digit-even-numbers) |
@@ -943,6 +945,7 @@
 | [1753-path-with-minimum-effort](https://github.com/Adityaingale333/DSA/tree/master/1753-path-with-minimum-effort) |
 | [1917-maximum-average-pass-ratio](https://github.com/Adityaingale333/DSA/tree/master/1917-maximum-average-pass-ratio) |
 | [1962-single-threaded-cpu](https://github.com/Adityaingale333/DSA/tree/master/1962-single-threaded-cpu) |
+| [2023-design-movie-rental-system](https://github.com/Adityaingale333/DSA/tree/master/2023-design-movie-rental-system) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/Adityaingale333/DSA/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Adityaingale333/DSA/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2429-design-a-food-rating-system](https://github.com/Adityaingale333/DSA/tree/master/2429-design-a-food-rating-system) |
@@ -1106,6 +1109,7 @@
 | [0789-kth-largest-element-in-a-stream](https://github.com/Adityaingale333/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/Adityaingale333/DSA/tree/master/0937-online-stock-span) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/Adityaingale333/DSA/tree/master/1995-finding-pairs-with-a-certain-sum) |
+| [2023-design-movie-rental-system](https://github.com/Adityaingale333/DSA/tree/master/2023-design-movie-rental-system) |
 | [2429-design-a-food-rating-system](https://github.com/Adityaingale333/DSA/tree/master/2429-design-a-food-rating-system) |
 | [2434-design-a-number-container-system](https://github.com/Adityaingale333/DSA/tree/master/2434-design-a-number-container-system) |
 | [3678-design-task-manager](https://github.com/Adityaingale333/DSA/tree/master/3678-design-task-manager) |
@@ -1209,6 +1213,7 @@
 ## Ordered Set
 |  |
 | ------- |
+| [2023-design-movie-rental-system](https://github.com/Adityaingale333/DSA/tree/master/2023-design-movie-rental-system) |
 | [2429-design-a-food-rating-system](https://github.com/Adityaingale333/DSA/tree/master/2429-design-a-food-rating-system) |
 | [2434-design-a-number-container-system](https://github.com/Adityaingale333/DSA/tree/master/2434-design-a-number-container-system) |
 | [3678-design-task-manager](https://github.com/Adityaingale333/DSA/tree/master/3678-design-task-manager) |
