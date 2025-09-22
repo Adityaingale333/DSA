@@ -205,6 +205,7 @@
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Adityaingale333/DSA/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3227-find-missing-and-repeated-values](https://github.com/Adityaingale333/DSA/tree/master/3227-find-missing-and-repeated-values) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/Adityaingale333/DSA/tree/master/3241-divide-array-into-arrays-with-max-difference) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/Adityaingale333/DSA/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/Adityaingale333/DSA/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/Adityaingale333/DSA/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/Adityaingale333/DSA/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
@@ -409,6 +410,7 @@
 | [2856-count-complete-subarrays-in-an-array](https://github.com/Adityaingale333/DSA/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3223-count-complete-substrings](https://github.com/Adityaingale333/DSA/tree/master/3223-count-complete-substrings) |
 | [3227-find-missing-and-repeated-values](https://github.com/Adityaingale333/DSA/tree/master/3227-find-missing-and-repeated-values) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/Adityaingale333/DSA/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Adityaingale333/DSA/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Adityaingale333/DSA/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Adityaingale333/DSA/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
@@ -733,6 +735,7 @@
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Adityaingale333/DSA/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Adityaingale333/DSA/tree/master/2308-divide-array-into-equal-pairs) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Adityaingale333/DSA/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/Adityaingale333/DSA/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Adityaingale333/DSA/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Adityaingale333/DSA/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Adityaingale333/DSA/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
