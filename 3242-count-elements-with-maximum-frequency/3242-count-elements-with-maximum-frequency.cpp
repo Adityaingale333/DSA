@@ -4,15 +4,15 @@ public:
         int n = nums.size();
 
         int maxFreq = 0;
+        int count = 0;
         vector<int> freq(101, 0);
         for(int i=0; i<n; i++){
             freq[nums[i]]++;
-            maxFreq = max(maxFreq, freq[nums[i]]);
-        }
-
-        int count = 0;
-        for(int i=0; i<freq.size(); i++){
-            if(freq[i] == maxFreq){
+            if(freq[nums[i]] > maxFreq){
+                count = 1;
+                maxFreq = freq[nums[i]];
+            }
+            else if(freq[nums[i]] == maxFreq){
                 count++;
             }
         }
