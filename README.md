@@ -241,6 +241,7 @@
 | [0050-powx-n](https://github.com/Adityaingale333/DSA/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/Adityaingale333/DSA/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Adityaingale333/DSA/tree/master/0070-climbing-stairs) |
+| [0166-fraction-to-recurring-decimal](https://github.com/Adityaingale333/DSA/tree/master/0166-fraction-to-recurring-decimal) |
 | [0189-rotate-array](https://github.com/Adityaingale333/DSA/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Adityaingale333/DSA/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/Adityaingale333/DSA/tree/master/0231-power-of-two) |
@@ -343,6 +344,7 @@
 | [0141-linked-list-cycle](https://github.com/Adityaingale333/DSA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Adityaingale333/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Adityaingale333/DSA/tree/master/0160-intersection-of-two-linked-lists) |
+| [0166-fraction-to-recurring-decimal](https://github.com/Adityaingale333/DSA/tree/master/0166-fraction-to-recurring-decimal) |
 | [0205-isomorphic-strings](https://github.com/Adityaingale333/DSA/tree/master/0205-isomorphic-strings) |
 | [0219-contains-duplicate-ii](https://github.com/Adityaingale333/DSA/tree/master/0219-contains-duplicate-ii) |
 | [0229-majority-element-ii](https://github.com/Adityaingale333/DSA/tree/master/0229-majority-element-ii) |
@@ -763,6 +765,7 @@
 | [0132-palindrome-partitioning-ii](https://github.com/Adityaingale333/DSA/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/Adityaingale333/DSA/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/Adityaingale333/DSA/tree/master/0151-reverse-words-in-a-string) |
+| [0166-fraction-to-recurring-decimal](https://github.com/Adityaingale333/DSA/tree/master/0166-fraction-to-recurring-decimal) |
 | [0179-largest-number](https://github.com/Adityaingale333/DSA/tree/master/0179-largest-number) |
 | [0205-isomorphic-strings](https://github.com/Adityaingale333/DSA/tree/master/0205-isomorphic-strings) |
 | [0214-shortest-palindrome](https://github.com/Adityaingale333/DSA/tree/master/0214-shortest-palindrome) |
