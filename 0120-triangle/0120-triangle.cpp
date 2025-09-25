@@ -22,19 +22,22 @@ public:
         int m = triangle.size();
         int n = triangle[m-1].size();
 
-        vector<vector<int>> t(m, vector<int>(n, 0));
+        // vector<vector<int>> t(m, vector<int>(n, 0));
 
-        for(int j=0; j<n; j++){
-            t[m-1][j] = triangle[m-1][j];
-        }
+        // for(int j=0; j<n; j++){
+        //     t[m-1][j] = triangle[m-1][j];
+        // }
 
-        for(int i=n-2; i>=0; i--){
-            for(int j=i; j>=0; j--){
-                int sameIdx = triangle[i][j] + t[i+1][j];
-                int nextIdx = triangle[i][j] + t[i+1][j+1];
-                t[i][j] = min(sameIdx, nextIdx);
+        // space optimize
+        vector<int> t = triangle[m-1];
+
+        for(int i=m-2; i>=0; i--){
+            for(int j=0; j<=i; j++){
+                int sameIdx = triangle[i][j] + t[j];
+                int nextIdx = triangle[i][j] + t[j+1];
+                t[j] = min(sameIdx, nextIdx);
             }
         }
-        return t[0][0] ;
+        return t[0];
     }
 };
