@@ -1,22 +1,26 @@
 class Solution {
 public:
-    vector<int> encode(string& s){
-        unordered_map<char, int> mp;
-        vector<int> pattern;
-        int idx = 0;
-        
-        for(char c : s){
-            if(mp.find(c) == mp.end()){
-                mp[c] = idx;
-                idx++;
+    bool isIsomorphic(string s, string t) {
+        int n = s.length();
+
+        unordered_map<char, char> st;
+        unordered_map<char, char> ts;
+
+        for(int i=0; i<n; i++){
+            char ch1 = s[i];
+            char ch2 = t[i];
+
+            if(st.find(ch1) != st.end() && st[ch1] != ch2 ||
+               ts.find(ch2) != ts.end() && ts[ch2] != ch1 ) 
+            {
+                return false;
             }
 
-            pattern.push_back(mp[c]);
+            st[ch1] = ch2;
+            ts[ch2] = ch1;
         }
 
-        return pattern;
-    }
-    bool isIsomorphic(string s, string t) {
-        return encode(s) == encode(t);
+        return true;
+
     }
 };
