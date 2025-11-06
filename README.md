@@ -256,6 +256,7 @@
 | [3791-fruits-into-baskets-iii](https://github.com/Adityaingale333/DSA/tree/master/3791-fruits-into-baskets-iii) |
 | [3797-design-spreadsheet](https://github.com/Adityaingale333/DSA/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/Adityaingale333/DSA/tree/master/3827-implement-router) |
+| [3863-power-grid-maintenance](https://github.com/Adityaingale333/DSA/tree/master/3863-power-grid-maintenance) |
 ## Math
 |  |
 | ------- |
@@ -471,6 +472,7 @@
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Adityaingale333/DSA/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3797-design-spreadsheet](https://github.com/Adityaingale333/DSA/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/Adityaingale333/DSA/tree/master/3827-implement-router) |
+| [3863-power-grid-maintenance](https://github.com/Adityaingale333/DSA/tree/master/3863-power-grid-maintenance) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Adityaingale333/DSA/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Binary Search
 |  |
@@ -1057,6 +1059,7 @@
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Adityaingale333/DSA/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3647-zero-array-transformation-iii](https://github.com/Adityaingale333/DSA/tree/master/3647-zero-array-transformation-iii) |
 | [3678-design-task-manager](https://github.com/Adityaingale333/DSA/tree/master/3678-design-task-manager) |
+| [3863-power-grid-maintenance](https://github.com/Adityaingale333/DSA/tree/master/3863-power-grid-maintenance) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -1331,6 +1334,7 @@
 | [3790-fruits-into-baskets-ii](https://github.com/Adityaingale333/DSA/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/Adityaingale333/DSA/tree/master/3791-fruits-into-baskets-iii) |
 | [3827-implement-router](https://github.com/Adityaingale333/DSA/tree/master/3827-implement-router) |
+| [3863-power-grid-maintenance](https://github.com/Adityaingale333/DSA/tree/master/3863-power-grid-maintenance) |
 ## Combinatorics
 |  |
 | ------- |
@@ -1391,6 +1395,7 @@
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Adityaingale333/DSA/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Adityaingale333/DSA/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/Adityaingale333/DSA/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
+| [3863-power-grid-maintenance](https://github.com/Adityaingale333/DSA/tree/master/3863-power-grid-maintenance) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -1433,6 +1438,7 @@
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Adityaingale333/DSA/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Adityaingale333/DSA/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/Adityaingale333/DSA/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
+| [3863-power-grid-maintenance](https://github.com/Adityaingale333/DSA/tree/master/3863-power-grid-maintenance) |
 ## Graph
 |  |
 | ------- |
@@ -1451,6 +1457,7 @@
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Adityaingale333/DSA/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/Adityaingale333/DSA/tree/master/2438-find-closest-node-to-given-two-nodes) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Adityaingale333/DSA/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3863-power-grid-maintenance](https://github.com/Adityaingale333/DSA/tree/master/3863-power-grid-maintenance) |
 | [3881-minimize-maximum-component-cost](https://github.com/Adityaingale333/DSA/tree/master/3881-minimize-maximum-component-cost) |
 ## Binary Indexed Tree
 |  |
@@ -1475,6 +1482,7 @@
 | [1073-number-of-enclaves](https://github.com/Adityaingale333/DSA/tree/master/1073-number-of-enclaves) |
 | [1753-path-with-minimum-effort](https://github.com/Adityaingale333/DSA/tree/master/1753-path-with-minimum-effort) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Adityaingale333/DSA/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
+| [3863-power-grid-maintenance](https://github.com/Adityaingale333/DSA/tree/master/3863-power-grid-maintenance) |
 | [3881-minimize-maximum-component-cost](https://github.com/Adityaingale333/DSA/tree/master/3881-minimize-maximum-component-cost) |
 ## Shortest Path
 |  |
