@@ -301,6 +301,7 @@
 | [2202-sum-of-k-mirror-numbers](https://github.com/Adityaingale333/DSA/tree/master/2202-sum-of-k-mirror-numbers) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/Adityaingale333/DSA/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2284-smallest-value-of-the-rearranged-number](https://github.com/Adityaingale333/DSA/tree/master/2284-smallest-value-of-the-rearranged-number) |
+| [2288-count-operations-to-obtain-zero](https://github.com/Adityaingale333/DSA/tree/master/2288-count-operations-to-obtain-zero) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Adityaingale333/DSA/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/Adityaingale333/DSA/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2610-closest-prime-numbers-in-range](https://github.com/Adityaingale333/DSA/tree/master/2610-closest-prime-numbers-in-range) |
@@ -792,6 +793,7 @@
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/Adityaingale333/DSA/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Adityaingale333/DSA/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Adityaingale333/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2288-count-operations-to-obtain-zero](https://github.com/Adityaingale333/DSA/tree/master/2288-count-operations-to-obtain-zero) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Adityaingale333/DSA/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Adityaingale333/DSA/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/Adityaingale333/DSA/tree/master/2408-number-of-people-aware-of-a-secret) |
