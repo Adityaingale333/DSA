@@ -256,6 +256,7 @@
 | [3791-fruits-into-baskets-iii](https://github.com/Adityaingale333/DSA/tree/master/3791-fruits-into-baskets-iii) |
 | [3797-design-spreadsheet](https://github.com/Adityaingale333/DSA/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/Adityaingale333/DSA/tree/master/3827-implement-router) |
+| [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Adityaingale333/DSA/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3863-power-grid-maintenance](https://github.com/Adityaingale333/DSA/tree/master/3863-power-grid-maintenance) |
 ## Math
 |  |
@@ -473,6 +474,7 @@
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Adityaingale333/DSA/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3797-design-spreadsheet](https://github.com/Adityaingale333/DSA/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/Adityaingale333/DSA/tree/master/3827-implement-router) |
+| [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Adityaingale333/DSA/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3863-power-grid-maintenance](https://github.com/Adityaingale333/DSA/tree/master/3863-power-grid-maintenance) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Adityaingale333/DSA/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Binary Search
@@ -691,6 +693,7 @@
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/Adityaingale333/DSA/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3647-zero-array-transformation-iii](https://github.com/Adityaingale333/DSA/tree/master/3647-zero-array-transformation-iii) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/Adityaingale333/DSA/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
+| [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Adityaingale333/DSA/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -970,6 +973,7 @@
 | [2470-removing-stars-from-a-string](https://github.com/Adityaingale333/DSA/tree/master/2470-removing-stars-from-a-string) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Adityaingale333/DSA/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Adityaingale333/DSA/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
+| [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Adityaingale333/DSA/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Trie
 |  |
 | ------- |
@@ -1205,6 +1209,7 @@
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Adityaingale333/DSA/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Adityaingale333/DSA/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [2227-sum-of-subarray-ranges](https://github.com/Adityaingale333/DSA/tree/master/2227-sum-of-subarray-ranges) |
+| [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Adityaingale333/DSA/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Queue
 |  |
 | ------- |
