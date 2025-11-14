@@ -201,6 +201,7 @@
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Adityaingale333/DSA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/Adityaingale333/DSA/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Adityaingale333/DSA/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [2625-increment-submatrices-by-one](https://github.com/Adityaingale333/DSA/tree/master/2625-increment-submatrices-by-one) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Adityaingale333/DSA/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Adityaingale333/DSA/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2665-minimum-time-to-repair-cars](https://github.com/Adityaingale333/DSA/tree/master/2665-minimum-time-to-repair-cars) |
@@ -639,6 +640,7 @@
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/Adityaingale333/DSA/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Adityaingale333/DSA/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2411-spiral-matrix-iv](https://github.com/Adityaingale333/DSA/tree/master/2411-spiral-matrix-iv) |
+| [2625-increment-submatrices-by-one](https://github.com/Adityaingale333/DSA/tree/master/2625-increment-submatrices-by-one) |
 | [3227-find-missing-and-repeated-values](https://github.com/Adityaingale333/DSA/tree/master/3227-find-missing-and-repeated-values) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/Adityaingale333/DSA/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Adityaingale333/DSA/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
@@ -1101,6 +1103,7 @@
 | [2249-count-the-hidden-sequences](https://github.com/Adityaingale333/DSA/tree/master/2249-count-the-hidden-sequences) |
 | [2529-range-product-queries-of-powers](https://github.com/Adityaingale333/DSA/tree/master/2529-range-product-queries-of-powers) |
 | [2576-minimum-penalty-for-a-shop](https://github.com/Adityaingale333/DSA/tree/master/2576-minimum-penalty-for-a-shop) |
+| [2625-increment-submatrices-by-one](https://github.com/Adityaingale333/DSA/tree/master/2625-increment-submatrices-by-one) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/Adityaingale333/DSA/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/Adityaingale333/DSA/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/Adityaingale333/DSA/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
