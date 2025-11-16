@@ -10,14 +10,13 @@ public:
         for(auto& ch : s){
             if(ch == '1'){
                 count++;
+                ans = (ans + count) % M;
             }
             else{
-                ans = (ans + count * (count + 1)/2) % M;
                 count = 0;
             }
         }
 
-        ans = (ans + count * (count + 1)/2) % M;
         return ans;
     }
 };
