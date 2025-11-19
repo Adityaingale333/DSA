@@ -3,16 +3,14 @@ public:
     int findFinalValue(vector<int>& nums, int original) {
         int n = nums.size();
 
-        bool flag = true;
-        while(flag){
-            for(int i=0; i<n; i++){
-                if(nums[i] == original){
-                    original = original * 2;
-                    flag = false;
-                    break;
-                }
-            }
-            flag = !flag;
+        unordered_set<int> st;
+
+        for(int i=0; i<n; i++){
+            st.insert(nums[i]);
+        }
+
+        while(st.count(original)){
+            original = original * 2;
         }
 
         return original;
