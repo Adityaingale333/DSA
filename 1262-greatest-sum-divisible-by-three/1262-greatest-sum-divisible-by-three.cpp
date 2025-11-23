@@ -1,51 +1,38 @@
 class Solution {
 public:
+    // int solve(int i, int rem, vector<int>& nums, vector<vector<int>>& t){
+    //     if(i >= nums.size()){
+    //         if(rem == 0) return 0;
+    //         return INT_MIN;
+    //     }
+        
+    //     if(t[i][rem] != -1){
+    //         return t[i][rem];
+    //     }
+
+    //     int take = nums[i] + solve(i+1, (rem+nums[i]) % 3, nums, t);
+    //     int notTake = solve(i+1, rem, nums, t);
+
+    //     return max(take, notTake);
+    // }
     int maxSumDivThree(vector<int>& nums) {
         int n = nums.size();
 
-        int total = 0;
-        vector<int> r1;
-        vector<int> r2;
+        vector<vector<int>> t(n+1, vector<int>(3, 0));
 
-        for(int i=0; i<n; i++){
-            total += nums[i];
-            if(nums[i] % 3 == 1){
-                r1.push_back(nums[i]);
-            }
-            else if(nums[i] % 3 == 2){
-                r2.push_back(nums[i]);
-            }
-        }
+        t[n][0] = 0;
+        t[n][1] = INT_MIN;
+        t[n][2] = INT_MIN;
 
-        if(total % 3 == 0){
-            return total;
-        }
+        for(int i=n-1; i>=0; i--){
+            for(int rem=0; rem<3; rem++){
+                int take = nums[i] + t[i+1][(rem+nums[i]) % 3];
+                int notTake = t[i+1][rem];
 
-        sort(r1.begin(), r1.end());
-        sort(r2.begin(), r2.end());
-
-        int remove1 = INT_MAX;
-        int remove2 = INT_MAX;
-
-        if(total % 3 == 1){
-            if(!r1.empty()){
-                remove1 = r1[0];
-            }
-            if(r2.size() >= 2){
-                remove2 = r2[0] + r2[1];
-            }
-        }
-        else{
-            if(!r2.empty()){
-                remove1 = r2[0];
-            }
-            if(r1.size() >= 2){
-                remove2 = r1[0] + r1[1];
+                t[i][rem] = max(take, notTake);
             }
         }
 
-        if(min(remove1, remove2) == INT_MAX) return 0;
-
-        return total - min(remove1, remove2);
+        return t[0][0];
     }
 };
