@@ -123,6 +123,7 @@
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Adityaingale333/DSA/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Adityaingale333/DSA/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1253-sort-the-matrix-diagonally](https://github.com/Adityaingale333/DSA/tree/master/1253-sort-the-matrix-diagonally) |
+| [1262-greatest-sum-divisible-by-three](https://github.com/Adityaingale333/DSA/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1293-three-consecutive-odds](https://github.com/Adityaingale333/DSA/tree/master/1293-three-consecutive-odds) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Adityaingale333/DSA/tree/master/1333-sort-the-jumbled-numbers) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Adityaingale333/DSA/tree/master/1335-maximum-candies-allocated-to-k-children) |
@@ -588,6 +589,7 @@
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/Adityaingale333/DSA/tree/master/1129-longest-string-chain) |
 | [1253-sort-the-matrix-diagonally](https://github.com/Adityaingale333/DSA/tree/master/1253-sort-the-matrix-diagonally) |
+| [1262-greatest-sum-divisible-by-three](https://github.com/Adityaingale333/DSA/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Adityaingale333/DSA/tree/master/1333-sort-the-jumbled-numbers) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/Adityaingale333/DSA/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Adityaingale333/DSA/tree/master/1615-range-sum-of-sorted-subarray-sums) |
@@ -683,6 +685,7 @@
 | [0876-hand-of-straights](https://github.com/Adityaingale333/DSA/tree/master/0876-hand-of-straights) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Adityaingale333/DSA/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1018-largest-perimeter-triangle](https://github.com/Adityaingale333/DSA/tree/master/1018-largest-perimeter-triangle) |
+| [1262-greatest-sum-divisible-by-three](https://github.com/Adityaingale333/DSA/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1448-maximum-69-number](https://github.com/Adityaingale333/DSA/tree/master/1448-maximum-69-number) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/Adityaingale333/DSA/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1612-avoid-flood-in-the-city](https://github.com/Adityaingale333/DSA/tree/master/1612-avoid-flood-in-the-city) |
@@ -779,6 +782,7 @@
 | [1129-longest-string-chain](https://github.com/Adityaingale333/DSA/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/Adityaingale333/DSA/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/Adityaingale333/DSA/tree/master/1250-longest-common-subsequence) |
+| [1262-greatest-sum-divisible-by-three](https://github.com/Adityaingale333/DSA/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1394-minimum-path-cost-in-a-grid](https://github.com/Adityaingale333/DSA/tree/master/1394-minimum-path-cost-in-a-grid) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Adityaingale333/DSA/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Adityaingale333/DSA/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
