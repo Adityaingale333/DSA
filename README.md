@@ -1326,6 +1326,7 @@
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Adityaingale333/DSA/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Adityaingale333/DSA/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Adityaingale333/DSA/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
+| [2872-maximum-number-of-k-divisible-components](https://github.com/Adityaingale333/DSA/tree/master/2872-maximum-number-of-k-divisible-components) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/Adityaingale333/DSA/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Adityaingale333/DSA/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/Adityaingale333/DSA/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
@@ -1441,6 +1442,7 @@
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Adityaingale333/DSA/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/Adityaingale333/DSA/tree/master/2438-find-closest-node-to-given-two-nodes) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Adityaingale333/DSA/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
+| [2872-maximum-number-of-k-divisible-components](https://github.com/Adityaingale333/DSA/tree/master/2872-maximum-number-of-k-divisible-components) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Adityaingale333/DSA/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/Adityaingale333/DSA/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
 | [3863-power-grid-maintenance](https://github.com/Adityaingale333/DSA/tree/master/3863-power-grid-maintenance) |
