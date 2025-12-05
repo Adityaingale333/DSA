@@ -3,19 +3,11 @@ public:
     int countPartitions(vector<int>& nums) {
         int n = nums.size();
 
-        vector<int> prefix(n, 0);
-        prefix[0] = nums[0];
-
-        for(int i=1; i<n; i++){
-            prefix[i] = nums[i] + prefix[i-1];
+        int sum = 0;
+        for(int i=0; i<n; i++){
+            sum += nums[i];
         }
 
-        int ans = 0;
-        for(int i=0; i<n-1; i++){
-            if(abs(prefix[i] - (prefix[n-1] - prefix[i])) % 2 == 0){
-                ans++;
-            }
-        }
-        return ans;
+        return (sum%2 == 0) ? n-1 : 0;
     }
 };
