@@ -98,6 +98,7 @@
 | [0797-rabbits-in-forest](https://github.com/Adityaingale333/DSA/tree/master/0797-rabbits-in-forest) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/Adityaingale333/DSA/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0822-unique-morse-code-words](https://github.com/Adityaingale333/DSA/tree/master/0822-unique-morse-code-words) |
+| [0840-magic-squares-in-grid](https://github.com/Adityaingale333/DSA/tree/master/0840-magic-squares-in-grid) |
 | [0854-making-a-large-island](https://github.com/Adityaingale333/DSA/tree/master/0854-making-a-large-island) |
 | [0876-hand-of-straights](https://github.com/Adityaingale333/DSA/tree/master/0876-hand-of-straights) |
 | [0907-koko-eating-bananas](https://github.com/Adityaingale333/DSA/tree/master/0907-koko-eating-bananas) |
@@ -310,6 +311,7 @@
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Adityaingale333/DSA/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0564-find-the-closest-palindrome](https://github.com/Adityaingale333/DSA/tree/master/0564-find-the-closest-palindrome) |
 | [0797-rabbits-in-forest](https://github.com/Adityaingale333/DSA/tree/master/0797-rabbits-in-forest) |
+| [0840-magic-squares-in-grid](https://github.com/Adityaingale333/DSA/tree/master/0840-magic-squares-in-grid) |
 | [0900-reordered-power-of-2](https://github.com/Adityaingale333/DSA/tree/master/0900-reordered-power-of-2) |
 | [1013-fibonacci-number](https://github.com/Adityaingale333/DSA/tree/master/1013-fibonacci-number) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/Adityaingale333/DSA/tree/master/1015-smallest-integer-divisible-by-k) |
@@ -451,6 +453,7 @@
 | [0778-reorganize-string](https://github.com/Adityaingale333/DSA/tree/master/0778-reorganize-string) |
 | [0797-rabbits-in-forest](https://github.com/Adityaingale333/DSA/tree/master/0797-rabbits-in-forest) |
 | [0822-unique-morse-code-words](https://github.com/Adityaingale333/DSA/tree/master/0822-unique-morse-code-words) |
+| [0840-magic-squares-in-grid](https://github.com/Adityaingale333/DSA/tree/master/0840-magic-squares-in-grid) |
 | [0876-hand-of-straights](https://github.com/Adityaingale333/DSA/tree/master/0876-hand-of-straights) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0900-reordered-power-of-2](https://github.com/Adityaingale333/DSA/tree/master/0900-reordered-power-of-2) |
@@ -684,6 +687,7 @@
 | [0542-01-matrix](https://github.com/Adityaingale333/DSA/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Adityaingale333/DSA/tree/master/0733-flood-fill) |
 | [0794-swim-in-rising-water](https://github.com/Adityaingale333/DSA/tree/master/0794-swim-in-rising-water) |
+| [0840-magic-squares-in-grid](https://github.com/Adityaingale333/DSA/tree/master/0840-magic-squares-in-grid) |
 | [0854-making-a-large-island](https://github.com/Adityaingale333/DSA/tree/master/0854-making-a-large-island) |
 | [0921-spiral-matrix-iii](https://github.com/Adityaingale333/DSA/tree/master/0921-spiral-matrix-iii) |
 | [0945-snakes-and-ladders](https://github.com/Adityaingale333/DSA/tree/master/0945-snakes-and-ladders) |
