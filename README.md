@@ -110,6 +110,7 @@
 | [0952-word-subsets](https://github.com/Adityaingale333/DSA/tree/master/0952-word-subsets) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/Adityaingale333/DSA/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/Adityaingale333/DSA/tree/master/0960-delete-columns-to-make-sorted-iii) |
+| [0961-n-repeated-element-in-size-2n-array](https://github.com/Adityaingale333/DSA/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [0966-binary-subarrays-with-sum](https://github.com/Adityaingale333/DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/Adityaingale333/DSA/tree/master/0967-minimum-falling-path-sum) |
 | [1006-vowel-spellchecker](https://github.com/Adityaingale333/DSA/tree/master/1006-vowel-spellchecker) |
@@ -460,6 +461,7 @@
 | [0900-reordered-power-of-2](https://github.com/Adityaingale333/DSA/tree/master/0900-reordered-power-of-2) |
 | [0940-fruit-into-baskets](https://github.com/Adityaingale333/DSA/tree/master/0940-fruit-into-baskets) |
 | [0952-word-subsets](https://github.com/Adityaingale333/DSA/tree/master/0952-word-subsets) |
+| [0961-n-repeated-element-in-size-2n-array](https://github.com/Adityaingale333/DSA/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [0966-binary-subarrays-with-sum](https://github.com/Adityaingale333/DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Adityaingale333/DSA/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1006-vowel-spellchecker](https://github.com/Adityaingale333/DSA/tree/master/1006-vowel-spellchecker) |
