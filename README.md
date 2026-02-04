@@ -288,6 +288,7 @@
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/Adityaingale333/DSA/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Adityaingale333/DSA/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3639-zero-array-transformation-i](https://github.com/Adityaingale333/DSA/tree/master/3639-zero-array-transformation-i) |
+| [3640-trionic-array-ii](https://github.com/Adityaingale333/DSA/tree/master/3640-trionic-array-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/Adityaingale333/DSA/tree/master/3647-zero-array-transformation-iii) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Adityaingale333/DSA/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/Adityaingale333/DSA/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
@@ -902,6 +903,7 @@
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/Adityaingale333/DSA/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/Adityaingale333/DSA/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Adityaingale333/DSA/tree/master/3629-total-characters-in-string-after-transformations-i) |
+| [3640-trionic-array-ii](https://github.com/Adityaingale333/DSA/tree/master/3640-trionic-array-ii) |
 ## Simulation
 |  |
 | ------- |
