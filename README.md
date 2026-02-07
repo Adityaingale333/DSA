@@ -884,6 +884,7 @@
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Adityaingale333/DSA/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Adityaingale333/DSA/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Adityaingale333/DSA/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [1653-minimum-deletions-to-make-string-balanced](https://github.com/Adityaingale333/DSA/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Adityaingale333/DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Adityaingale333/DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [2022-maximum-alternating-subsequence-sum](https://github.com/Adityaingale333/DSA/tree/master/2022-maximum-alternating-subsequence-sum) |
@@ -1038,6 +1039,7 @@
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Adityaingale333/DSA/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Adityaingale333/DSA/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/Adityaingale333/DSA/tree/master/1636-number-of-substrings-with-only-1s) |
+| [1653-minimum-deletions-to-make-string-balanced](https://github.com/Adityaingale333/DSA/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Adityaingale333/DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Adityaingale333/DSA/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/Adityaingale333/DSA/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
@@ -1111,6 +1113,7 @@
 | [1078-remove-outermost-parentheses](https://github.com/Adityaingale333/DSA/tree/master/1078-remove-outermost-parentheses) |
 | [1197-parsing-a-boolean-expression](https://github.com/Adityaingale333/DSA/tree/master/1197-parsing-a-boolean-expression) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Adityaingale333/DSA/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [1653-minimum-deletions-to-make-string-balanced](https://github.com/Adityaingale333/DSA/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Adityaingale333/DSA/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Adityaingale333/DSA/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Adityaingale333/DSA/tree/master/2021-remove-all-occurrences-of-a-substring) |
