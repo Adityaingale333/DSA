@@ -11,11 +11,6 @@
  */
 class Solution {
 public:
-// so this height function which we generally use to find depth of the tree
-// we tweak it a little bit, and use it to return -1 if tree is not balanced
-// while calculating lh and rh of every node, we check if their abs diff is more than 1 or not
-// if more than 1, then we return -1
-// and also to exit early if any of the lh or rh comes to be -1, we return -1
     int height(TreeNode* root){
         if(root == NULL){
             return 0;
