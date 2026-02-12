@@ -547,6 +547,7 @@
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Adityaingale333/DSA/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Adityaingale333/DSA/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3678-design-task-manager](https://github.com/Adityaingale333/DSA/tree/master/3678-design-task-manager) |
+| [3713-longest-balanced-substring-i](https://github.com/Adityaingale333/DSA/tree/master/3713-longest-balanced-substring-i) |
 | [3719-longest-balanced-subarray-i](https://github.com/Adityaingale333/DSA/tree/master/3719-longest-balanced-subarray-i) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Adityaingale333/DSA/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Adityaingale333/DSA/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
@@ -967,6 +968,7 @@
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/Adityaingale333/DSA/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3583-count-special-triplets](https://github.com/Adityaingale333/DSA/tree/master/3583-count-special-triplets) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Adityaingale333/DSA/tree/master/3629-total-characters-in-string-after-transformations-i) |
+| [3713-longest-balanced-substring-i](https://github.com/Adityaingale333/DSA/tree/master/3713-longest-balanced-substring-i) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Adityaingale333/DSA/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Adityaingale333/DSA/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Adityaingale333/DSA/tree/master/3872-find-most-frequent-vowel-and-consonant) |
@@ -1090,6 +1092,7 @@
 | [3606-coupon-code-validator](https://github.com/Adityaingale333/DSA/tree/master/3606-coupon-code-validator) |
 | [3617-find-the-original-typed-string-i](https://github.com/Adityaingale333/DSA/tree/master/3617-find-the-original-typed-string-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Adityaingale333/DSA/tree/master/3629-total-characters-in-string-after-transformations-i) |
+| [3713-longest-balanced-substring-i](https://github.com/Adityaingale333/DSA/tree/master/3713-longest-balanced-substring-i) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Adityaingale333/DSA/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Adityaingale333/DSA/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Adityaingale333/DSA/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
@@ -1358,6 +1361,7 @@
 | [3201-distribute-candies-among-children-ii](https://github.com/Adityaingale333/DSA/tree/master/3201-distribute-candies-among-children-ii) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/Adityaingale333/DSA/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/Adityaingale333/DSA/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
+| [3713-longest-balanced-substring-i](https://github.com/Adityaingale333/DSA/tree/master/3713-longest-balanced-substring-i) |
 ## Number Theory
 |  |
 | ------- |
