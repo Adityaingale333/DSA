@@ -612,6 +612,7 @@
 | [0231-power-of-two](https://github.com/Adityaingale333/DSA/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Adityaingale333/DSA/tree/master/0268-missing-number) |
 | [0342-power-of-four](https://github.com/Adityaingale333/DSA/tree/master/0342-power-of-four) |
+| [0401-binary-watch](https://github.com/Adityaingale333/DSA/tree/master/0401-binary-watch) |
 | [0756-pyramid-transition-matrix](https://github.com/Adityaingale333/DSA/tree/master/0756-pyramid-transition-matrix) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/Adityaingale333/DSA/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Adityaingale333/DSA/tree/master/1435-xor-queries-of-a-subarray) |
@@ -1340,6 +1341,7 @@
 | [0131-palindrome-partitioning](https://github.com/Adityaingale333/DSA/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/Adityaingale333/DSA/tree/master/0216-combination-sum-iii) |
 | [0257-binary-tree-paths](https://github.com/Adityaingale333/DSA/tree/master/0257-binary-tree-paths) |
+| [0401-binary-watch](https://github.com/Adityaingale333/DSA/tree/master/0401-binary-watch) |
 | [0494-target-sum](https://github.com/Adityaingale333/DSA/tree/master/0494-target-sum) |
 | [0756-pyramid-transition-matrix](https://github.com/Adityaingale333/DSA/tree/master/0756-pyramid-transition-matrix) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/Adityaingale333/DSA/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
