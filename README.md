@@ -614,6 +614,7 @@
 | [0342-power-of-four](https://github.com/Adityaingale333/DSA/tree/master/0342-power-of-four) |
 | [0401-binary-watch](https://github.com/Adityaingale333/DSA/tree/master/0401-binary-watch) |
 | [0756-pyramid-transition-matrix](https://github.com/Adityaingale333/DSA/tree/master/0756-pyramid-transition-matrix) |
+| [0868-binary-gap](https://github.com/Adityaingale333/DSA/tree/master/0868-binary-gap) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/Adityaingale333/DSA/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Adityaingale333/DSA/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Adityaingale333/DSA/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
