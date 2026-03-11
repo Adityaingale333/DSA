@@ -617,6 +617,7 @@
 | [0401-binary-watch](https://github.com/Adityaingale333/DSA/tree/master/0401-binary-watch) |
 | [0756-pyramid-transition-matrix](https://github.com/Adityaingale333/DSA/tree/master/0756-pyramid-transition-matrix) |
 | [0868-binary-gap](https://github.com/Adityaingale333/DSA/tree/master/0868-binary-gap) |
+| [1009-complement-of-base-10-integer](https://github.com/Adityaingale333/DSA/tree/master/1009-complement-of-base-10-integer) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/Adityaingale333/DSA/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Adityaingale333/DSA/tree/master/1435-xor-queries-of-a-subarray) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Adityaingale333/DSA/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
