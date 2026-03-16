@@ -171,6 +171,7 @@
 | [1834-minimum-number-of-people-to-teach](https://github.com/Adityaingale333/DSA/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/Adityaingale333/DSA/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Adityaingale333/DSA/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/Adityaingale333/DSA/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Adityaingale333/DSA/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1895-largest-magic-square](https://github.com/Adityaingale333/DSA/tree/master/1895-largest-magic-square) |
 | [1917-maximum-average-pass-ratio](https://github.com/Adityaingale333/DSA/tree/master/1917-maximum-average-pass-ratio) |
@@ -348,6 +349,7 @@
 | [1636-number-of-substrings-with-only-1s](https://github.com/Adityaingale333/DSA/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1642-water-bottles](https://github.com/Adityaingale333/DSA/tree/master/1642-water-bottles) |
 | [1817-calculate-money-in-leetcode-bank](https://github.com/Adityaingale333/DSA/tree/master/1817-calculate-money-in-leetcode-bank) |
+| [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/Adityaingale333/DSA/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [1925-count-square-sum-triples](https://github.com/Adityaingale333/DSA/tree/master/1925-count-square-sum-triples) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Adityaingale333/DSA/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2032-largest-odd-number-in-string](https://github.com/Adityaingale333/DSA/tree/master/2032-largest-odd-number-in-string) |
@@ -676,6 +678,7 @@
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Adityaingale333/DSA/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Adityaingale333/DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/Adityaingale333/DSA/tree/master/1877-minimize-maximum-pair-sum-in-array) |
+| [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/Adityaingale333/DSA/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [1962-single-threaded-cpu](https://github.com/Adityaingale333/DSA/tree/master/1962-single-threaded-cpu) |
 | [2092-find-all-people-with-secret](https://github.com/Adityaingale333/DSA/tree/master/2092-find-all-people-with-secret) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/Adityaingale333/DSA/tree/master/2141-maximum-running-time-of-n-computers) |
@@ -742,6 +745,7 @@
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Adityaingale333/DSA/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Adityaingale333/DSA/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1753-path-with-minimum-effort](https://github.com/Adityaingale333/DSA/tree/master/1753-path-with-minimum-effort) |
+| [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/Adityaingale333/DSA/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [1895-largest-magic-square](https://github.com/Adityaingale333/DSA/tree/master/1895-largest-magic-square) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/Adityaingale333/DSA/tree/master/1970-last-day-where-you-can-still-cross) |
 | [1972-rotating-the-box](https://github.com/Adityaingale333/DSA/tree/master/1972-rotating-the-box) |
@@ -1223,6 +1227,7 @@
 | [1127-last-stone-weight](https://github.com/Adityaingale333/DSA/tree/master/1127-last-stone-weight) |
 | [1612-avoid-flood-in-the-city](https://github.com/Adityaingale333/DSA/tree/master/1612-avoid-flood-in-the-city) |
 | [1753-path-with-minimum-effort](https://github.com/Adityaingale333/DSA/tree/master/1753-path-with-minimum-effort) |
+| [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/Adityaingale333/DSA/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [1917-maximum-average-pass-ratio](https://github.com/Adityaingale333/DSA/tree/master/1917-maximum-average-pass-ratio) |
 | [1962-single-threaded-cpu](https://github.com/Adityaingale333/DSA/tree/master/1962-single-threaded-cpu) |
 | [2023-design-movie-rental-system](https://github.com/Adityaingale333/DSA/tree/master/2023-design-movie-rental-system) |
@@ -1264,6 +1269,7 @@
 | [1590-make-sum-divisible-by-p](https://github.com/Adityaingale333/DSA/tree/master/1590-make-sum-divisible-by-p) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Adityaingale333/DSA/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/Adityaingale333/DSA/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
+| [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/Adityaingale333/DSA/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Adityaingale333/DSA/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1895-largest-magic-square](https://github.com/Adityaingale333/DSA/tree/master/1895-largest-magic-square) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Adityaingale333/DSA/tree/master/2059-unique-length-3-palindromic-subsequences) |
