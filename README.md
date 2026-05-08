@@ -295,6 +295,7 @@
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/Adityaingale333/DSA/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/Adityaingale333/DSA/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Adityaingale333/DSA/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Adityaingale333/DSA/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3639-zero-array-transformation-i](https://github.com/Adityaingale333/DSA/tree/master/3639-zero-array-transformation-i) |
 | [3640-trionic-array-ii](https://github.com/Adityaingale333/DSA/tree/master/3640-trionic-array-ii) |
 | [3643-flip-square-submatrix-vertically](https://github.com/Adityaingale333/DSA/tree/master/3643-flip-square-submatrix-vertically) |
@@ -394,6 +395,7 @@
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/Adityaingale333/DSA/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/Adityaingale333/DSA/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Adityaingale333/DSA/tree/master/3629-total-characters-in-string-after-transformations-i) |
+| [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Adityaingale333/DSA/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/Adityaingale333/DSA/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Adityaingale333/DSA/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Adityaingale333/DSA/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
@@ -560,6 +562,7 @@
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Adityaingale333/DSA/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/Adityaingale333/DSA/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Adityaingale333/DSA/tree/master/3629-total-characters-in-string-after-transformations-i) |
+| [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Adityaingale333/DSA/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Adityaingale333/DSA/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3678-design-task-manager](https://github.com/Adityaingale333/DSA/tree/master/3678-design-task-manager) |
 | [3713-longest-balanced-substring-i](https://github.com/Adityaingale333/DSA/tree/master/3713-longest-balanced-substring-i) |
@@ -1412,6 +1415,7 @@
 | [0204-count-primes](https://github.com/Adityaingale333/DSA/tree/master/0204-count-primes) |
 | [2610-closest-prime-numbers-in-range](https://github.com/Adityaingale333/DSA/tree/master/2610-closest-prime-numbers-in-range) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/Adityaingale333/DSA/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
+| [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Adityaingale333/DSA/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Adityaingale333/DSA/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Monotonic Stack
 |  |
@@ -1681,6 +1685,7 @@
 | [2092-find-all-people-with-secret](https://github.com/Adityaingale333/DSA/tree/master/2092-find-all-people-with-secret) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Adityaingale333/DSA/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Adityaingale333/DSA/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
+| [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Adityaingale333/DSA/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Adityaingale333/DSA/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/Adityaingale333/DSA/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
 | [3863-power-grid-maintenance](https://github.com/Adityaingale333/DSA/tree/master/3863-power-grid-maintenance) |
