@@ -228,6 +228,7 @@
 | [2551-apply-operations-to-an-array](https://github.com/Adityaingale333/DSA/tree/master/2551-apply-operations-to-an-array) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Adityaingale333/DSA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/Adityaingale333/DSA/tree/master/2553-total-cost-to-hire-k-workers) |
+| [2553-separate-the-digits-in-an-array](https://github.com/Adityaingale333/DSA/tree/master/2553-separate-the-digits-in-an-array) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Adityaingale333/DSA/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2625-increment-submatrices-by-one](https://github.com/Adityaingale333/DSA/tree/master/2625-increment-submatrices-by-one) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Adityaingale333/DSA/tree/master/2626-count-the-number-of-good-subarrays) |
@@ -974,6 +975,7 @@
 | [2470-removing-stars-from-a-string](https://github.com/Adityaingale333/DSA/tree/master/2470-removing-stars-from-a-string) |
 | [2551-apply-operations-to-an-array](https://github.com/Adityaingale333/DSA/tree/master/2551-apply-operations-to-an-array) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/Adityaingale333/DSA/tree/master/2553-total-cost-to-hire-k-workers) |
+| [2553-separate-the-digits-in-an-array](https://github.com/Adityaingale333/DSA/tree/master/2553-separate-the-digits-in-an-array) |
 | [3336-water-bottles-ii](https://github.com/Adityaingale333/DSA/tree/master/3336-water-bottles-ii) |
 | [3379-transformed-array](https://github.com/Adityaingale333/DSA/tree/master/3379-transformed-array) |
 | [3433-count-mentions-per-user](https://github.com/Adityaingale333/DSA/tree/master/3433-count-mentions-per-user) |
