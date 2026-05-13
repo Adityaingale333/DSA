@@ -163,6 +163,7 @@
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Adityaingale333/DSA/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1656-count-good-triplets](https://github.com/Adityaingale333/DSA/tree/master/1656-count-good-triplets) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Adityaingale333/DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [1674-minimum-moves-to-make-array-complementary](https://github.com/Adityaingale333/DSA/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Adityaingale333/DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Adityaingale333/DSA/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1753-path-with-minimum-effort](https://github.com/Adityaingale333/DSA/tree/master/1753-path-with-minimum-effort) |
@@ -518,6 +519,7 @@
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Adityaingale333/DSA/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1590-make-sum-divisible-by-p](https://github.com/Adityaingale333/DSA/tree/master/1590-make-sum-divisible-by-p) |
 | [1612-avoid-flood-in-the-city](https://github.com/Adityaingale333/DSA/tree/master/1612-avoid-flood-in-the-city) |
+| [1674-minimum-moves-to-make-array-complementary](https://github.com/Adityaingale333/DSA/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/Adityaingale333/DSA/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1813-maximum-erasure-value](https://github.com/Adityaingale333/DSA/tree/master/1813-maximum-erasure-value) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/Adityaingale333/DSA/tree/master/1834-minimum-number-of-people-to-teach) |
@@ -1290,6 +1292,7 @@
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Adityaingale333/DSA/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1590-make-sum-divisible-by-p](https://github.com/Adityaingale333/DSA/tree/master/1590-make-sum-divisible-by-p) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Adityaingale333/DSA/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1674-minimum-moves-to-make-array-complementary](https://github.com/Adityaingale333/DSA/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/Adityaingale333/DSA/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/Adityaingale333/DSA/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Adityaingale333/DSA/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
