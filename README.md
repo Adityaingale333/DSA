@@ -931,6 +931,7 @@
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/Adityaingale333/DSA/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Adityaingale333/DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Adityaingale333/DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
+| [1871-jump-game-vii](https://github.com/Adityaingale333/DSA/tree/master/1871-jump-game-vii) |
 | [2022-maximum-alternating-subsequence-sum](https://github.com/Adityaingale333/DSA/tree/master/2022-maximum-alternating-subsequence-sum) |
 | [2061-painting-a-grid-with-three-different-colors](https://github.com/Adityaingale333/DSA/tree/master/2061-painting-a-grid-with-three-different-colors) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Adityaingale333/DSA/tree/master/2090-number-of-ways-to-arrive-at-destination) |
@@ -1093,6 +1094,7 @@
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Adityaingale333/DSA/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/Adityaingale333/DSA/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Adityaingale333/DSA/tree/master/1818-maximum-score-from-removing-substrings) |
+| [1871-jump-game-vii](https://github.com/Adityaingale333/DSA/tree/master/1871-jump-game-vii) |
 | [1873-longest-nice-substring](https://github.com/Adityaingale333/DSA/tree/master/1873-longest-nice-substring) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Adityaingale333/DSA/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Adityaingale333/DSA/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -1206,6 +1208,7 @@
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Adityaingale333/DSA/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/Adityaingale333/DSA/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1813-maximum-erasure-value](https://github.com/Adityaingale333/DSA/tree/master/1813-maximum-erasure-value) |
+| [1871-jump-game-vii](https://github.com/Adityaingale333/DSA/tree/master/1871-jump-game-vii) |
 | [1873-longest-nice-substring](https://github.com/Adityaingale333/DSA/tree/master/1873-longest-nice-substring) |
 | [1967-longest-substring-of-all-vowels-in-order](https://github.com/Adityaingale333/DSA/tree/master/1967-longest-substring-of-all-vowels-in-order) |
 | [2134-maximize-the-confusion-of-an-exam](https://github.com/Adityaingale333/DSA/tree/master/2134-maximize-the-confusion-of-an-exam) |
@@ -1294,6 +1297,7 @@
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Adityaingale333/DSA/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/Adityaingale333/DSA/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/Adityaingale333/DSA/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
+| [1871-jump-game-vii](https://github.com/Adityaingale333/DSA/tree/master/1871-jump-game-vii) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/Adityaingale333/DSA/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Adityaingale333/DSA/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1895-largest-magic-square](https://github.com/Adityaingale333/DSA/tree/master/1895-largest-magic-square) |
