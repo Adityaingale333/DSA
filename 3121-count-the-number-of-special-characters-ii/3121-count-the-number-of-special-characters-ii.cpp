@@ -9,10 +9,6 @@ public:
             mp[word[i]].push_back(i);
         }
 
-        for(auto& it : mp){
-            sort(it.second.begin(), it.second.end());
-        }
-
         unordered_set<char> st;
 
         for(int i=0; i<n; i++){
