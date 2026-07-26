@@ -84,6 +84,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/Adityaingale333/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0611-valid-triangle-number](https://github.com/Adityaingale333/DSA/tree/master/0611-valid-triangle-number) |
 | [0624-maximum-distance-in-arrays](https://github.com/Adityaingale333/DSA/tree/master/0624-maximum-distance-in-arrays) |
+| [0628-maximum-product-of-three-numbers](https://github.com/Adityaingale333/DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Adityaingale333/DSA/tree/master/0646-maximum-length-of-pair-chain) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Adityaingale333/DSA/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Adityaingale333/DSA/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
@@ -342,6 +343,7 @@
 | [0368-largest-divisible-subset](https://github.com/Adityaingale333/DSA/tree/master/0368-largest-divisible-subset) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Adityaingale333/DSA/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0564-find-the-closest-palindrome](https://github.com/Adityaingale333/DSA/tree/master/0564-find-the-closest-palindrome) |
+| [0628-maximum-product-of-three-numbers](https://github.com/Adityaingale333/DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [0788-rotated-digits](https://github.com/Adityaingale333/DSA/tree/master/0788-rotated-digits) |
 | [0797-rabbits-in-forest](https://github.com/Adityaingale333/DSA/tree/master/0797-rabbits-in-forest) |
 | [0840-magic-squares-in-grid](https://github.com/Adityaingale333/DSA/tree/master/0840-magic-squares-in-grid) |
@@ -685,6 +687,7 @@
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Adityaingale333/DSA/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0502-ipo](https://github.com/Adityaingale333/DSA/tree/master/0502-ipo) |
 | [0611-valid-triangle-number](https://github.com/Adityaingale333/DSA/tree/master/0611-valid-triangle-number) |
+| [0628-maximum-product-of-three-numbers](https://github.com/Adityaingale333/DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Adityaingale333/DSA/tree/master/0646-maximum-length-of-pair-chain) |
 | [0759-set-intersection-size-at-least-two](https://github.com/Adityaingale333/DSA/tree/master/0759-set-intersection-size-at-least-two) |
 | [0778-reorganize-string](https://github.com/Adityaingale333/DSA/tree/master/0778-reorganize-string) |
