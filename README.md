@@ -734,6 +734,7 @@
 | [3430-count-days-without-meetings](https://github.com/Adityaingale333/DSA/tree/master/3430-count-days-without-meetings) |
 | [3433-count-mentions-per-user](https://github.com/Adityaingale333/DSA/tree/master/3433-count-mentions-per-user) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/Adityaingale333/DSA/tree/master/3437-maximum-total-damage-with-spell-casting) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/Adityaingale333/DSA/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3531-count-covered-buildings](https://github.com/Adityaingale333/DSA/tree/master/3531-count-covered-buildings) |
 | [3536-maximum-product-of-two-digits](https://github.com/Adityaingale333/DSA/tree/master/3536-maximum-product-of-two-digits) |
 | [3606-coupon-code-validator](https://github.com/Adityaingale333/DSA/tree/master/3606-coupon-code-validator) |
@@ -1151,6 +1152,7 @@
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Adityaingale333/DSA/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/Adityaingale333/DSA/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/Adityaingale333/DSA/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/Adityaingale333/DSA/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Adityaingale333/DSA/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3606-coupon-code-validator](https://github.com/Adityaingale333/DSA/tree/master/3606-coupon-code-validator) |
 | [3617-find-the-original-typed-string-i](https://github.com/Adityaingale333/DSA/tree/master/3617-find-the-original-typed-string-i) |
@@ -1616,6 +1618,7 @@
 ## Counting Sort
 |  |
 | ------- |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/Adityaingale333/DSA/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3812-smallest-palindromic-rearrangement-i](https://github.com/Adityaingale333/DSA/tree/master/3812-smallest-palindromic-rearrangement-i) |
 ## Depth-First Search
 |  |
