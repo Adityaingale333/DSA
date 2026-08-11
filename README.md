@@ -250,6 +250,7 @@
 | [2906-construct-product-matrix](https://github.com/Adityaingale333/DSA/tree/master/2906-construct-product-matrix) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/Adityaingale333/DSA/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/Adityaingale333/DSA/tree/master/2976-minimum-cost-to-convert-string-i) |
+| [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Adityaingale333/DSA/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Adityaingale333/DSA/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/Adityaingale333/DSA/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3074-apple-redistribution-into-boxes](https://github.com/Adityaingale333/DSA/tree/master/3074-apple-redistribution-into-boxes) |
@@ -558,6 +559,7 @@
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Adityaingale333/DSA/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Adityaingale333/DSA/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/Adityaingale333/DSA/tree/master/2856-count-complete-subarrays-in-an-array) |
+| [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Adityaingale333/DSA/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Adityaingale333/DSA/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/Adityaingale333/DSA/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/Adityaingale333/DSA/tree/master/3121-count-the-number-of-special-characters-ii) |
@@ -729,6 +731,7 @@
 | [2699-count-the-number-of-fair-pairs](https://github.com/Adityaingale333/DSA/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2887-sort-vowels-in-a-string](https://github.com/Adityaingale333/DSA/tree/master/2887-sort-vowels-in-a-string) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/Adityaingale333/DSA/tree/master/2943-maximize-area-of-square-hole-in-grid) |
+| [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Adityaingale333/DSA/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3074-apple-redistribution-into-boxes](https://github.com/Adityaingale333/DSA/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/Adityaingale333/DSA/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/Adityaingale333/DSA/tree/master/3241-divide-array-into-arrays-with-max-difference) |
