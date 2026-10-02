@@ -1842,4 +1842,8 @@
 |  |
 | ------- |
 | [1510-stone-game-iv](https://github.com/Adityaingale333/DSA/tree/master/1510-stone-game-iv) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/Adityaingale333/DSA/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
