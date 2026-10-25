@@ -131,6 +131,7 @@
 | [1171-shortest-path-in-binary-matrix](https://github.com/Adityaingale333/DSA/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1200-minimum-absolute-difference](https://github.com/Adityaingale333/DSA/tree/master/1200-minimum-absolute-difference) |
 | [1253-sort-the-matrix-diagonally](https://github.com/Adityaingale333/DSA/tree/master/1253-sort-the-matrix-diagonally) |
+| [1254-number-of-closed-islands](https://github.com/Adityaingale333/DSA/tree/master/1254-number-of-closed-islands) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/Adityaingale333/DSA/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1293-three-consecutive-odds](https://github.com/Adityaingale333/DSA/tree/master/1293-three-consecutive-odds) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Adityaingale333/DSA/tree/master/1333-sort-the-jumbled-numbers) |
@@ -785,6 +786,7 @@
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Adityaingale333/DSA/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Adityaingale333/DSA/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1253-sort-the-matrix-diagonally](https://github.com/Adityaingale333/DSA/tree/master/1253-sort-the-matrix-diagonally) |
+| [1254-number-of-closed-islands](https://github.com/Adityaingale333/DSA/tree/master/1254-number-of-closed-islands) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Adityaingale333/DSA/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1394-minimum-path-cost-in-a-grid](https://github.com/Adityaingale333/DSA/tree/master/1394-minimum-path-cost-in-a-grid) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Adityaingale333/DSA/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -1678,6 +1680,7 @@
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/Adityaingale333/DSA/tree/master/1073-number-of-enclaves) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
+| [1254-number-of-closed-islands](https://github.com/Adityaingale333/DSA/tree/master/1254-number-of-closed-islands) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Adityaingale333/DSA/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1382-balance-a-binary-search-tree](https://github.com/Adityaingale333/DSA/tree/master/1382-balance-a-binary-search-tree) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Adityaingale333/DSA/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
@@ -1729,6 +1732,7 @@
 | [1073-number-of-enclaves](https://github.com/Adityaingale333/DSA/tree/master/1073-number-of-enclaves) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Adityaingale333/DSA/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Adityaingale333/DSA/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1254-number-of-closed-islands](https://github.com/Adityaingale333/DSA/tree/master/1254-number-of-closed-islands) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/Adityaingale333/DSA/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Adityaingale333/DSA/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/Adityaingale333/DSA/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
@@ -1855,4 +1859,8 @@
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Adityaingale333/DSA/tree/master/0022-generate-parentheses) |
+## Union-Find
+|  |
+| ------- |
+| [1254-number-of-closed-islands](https://github.com/Adityaingale333/DSA/tree/master/1254-number-of-closed-islands) |
 <!---LeetCode Topics End-->
