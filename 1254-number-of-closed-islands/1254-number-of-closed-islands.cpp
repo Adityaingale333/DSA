@@ -1,32 +1,25 @@
 class Solution {
 public:
-    bool bfs(int i, int j, int m, int n, vector<vector<bool>>& visit, vector<vector<int>>& grid){
-        visit[i][j] = true;
+    bool dfs(int row, int col, int m, int n, vector<vector<bool>>& visit, vector<vector<int>>& grid){
+        if(row < 0 || row >= m || col < 0 || col >= n){
+            return false;
+        }
 
-        queue<pair<int, int>> q;
-        q.push({i, j});
+        if(grid[row][col] == 1 || visit[row][col]){
+            return true;
+        }
 
+        visit[row][col] = true;
         bool isClosed = true;
+        vector<int> drow = {-1, 0, 1, 0};
+        vector<int> dcol = {0, 1, 0, -1};
 
-        vector<int> dRow{-1, 0, 1, 0};
-        vector<int> dCol{0, 1, 0, -1};
+        for(int i=0; i<4; i++){
+            int nrow = row + drow[i];
+            int ncol = col + dcol[i];
 
-        while(!q.empty()){
-            int row = q.front().first;
-            int col = q.front().second;
-            q.pop();
-
-            for(int i=0; i<4; i++){
-                int nrow = row + dRow[i];
-                int ncol = col + dCol[i];
-
-                if(nrow < 0 || nrow >= m || ncol < 0 || ncol >= n){
-                    isClosed = false;
-                }
-                else if(grid[nrow][ncol] == 0 && !visit[nrow][ncol]){
-                    q.push({nrow, ncol});
-                    visit[nrow][ncol] = true;
-                }
+            if(!dfs(nrow, ncol, m, n, visit, grid)){
+                isClosed = false;
             }
         }
 
@@ -41,7 +34,7 @@ public:
 
         for(int i=0; i<m; i++){
             for(int j=0; j<n; j++){
-                if(grid[i][j] == 0 && !visit[i][j] && bfs(i, j, m, n, visit, grid)){
+                if(grid[i][j] == 0 && !visit[i][j] && dfs(i, j, m, n, visit, grid)){
                     count++;
                 }
             }
